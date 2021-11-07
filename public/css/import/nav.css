@@ -1,0 +1,319 @@
+/* estilo para la cabecera */
+header{
+	clear: both;
+	width: 100%;
+}
+
+/* estilos para los iconos de font-awesone */
+.nav-one ul li:not(.center) svg, .nav-one ul li a svg, .nav-one ul li i, .nav-one ul li a i{
+  	margin-right: 5px;
+}
+
+/* estilos para las a */
+.nav-one ul li a, .nav-one .nav-header div a{
+	/*color: rgb(117,117,117);*/
+	color: black;
+  	cursor: pointer;
+  	display: block;
+}
+
+/* estilos para las a cuando se haga hover */
+.nav-one ul li a:hover{
+	/*color: rgb(85,172,238);*/
+	color: red;
+}
+
+/* estilos para los button del nav */
+.nav-one ul li > button {
+	background: rgba(16,160,162 ,1);
+  	border: 0;
+  	border-radius: 0;
+  	color: white;
+  	cursor: pointer;
+  	font-size: 0.8em;
+  	min-width: 70px;
+	outline: none;
+  	padding: 5px 0;
+}
+
+/* estilos para el form del nav */
+.nav-one ul li form{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+/* estilos para los botones del form cuando se haga hover */
+.nav-one ul li form > button:hover{
+	color: rgba(16,16,162 ,1);
+}
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+	
+	/* Estilos para el primer navigator (nav-one) */
+		/* estilos para que el header sea flex */
+		header{
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			width: 100%;
+		}
+		
+		/* estilos para el nav */
+		.nav-one{
+			background-color: transparent;
+			box-shadow: none;
+			width: 100%;
+			z-index: 99999;
+		}
+
+		/* estilos para la subcabecera osea nav-header */
+		.nav-one .nav-header{
+			-ms-align-items: center;
+			align-items: center;
+			background-color: rgb(16, 16, 162);
+			box-shadow: -2px 1px 1px 1px #333;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			position: relative;
+			height: 10vh;
+			width: 100%;
+		}
+
+		
+
+
+
+        
+		/* estilos para el div que contiene el icono de la subcabecera */
+		.nav-one .nav-header div.center{
+			margin-left: auto;
+		  	margin-right: auto;
+			padding-left: 20px;
+		}
+
+		/* estilos para los iconos de font-awesone de la subcabecera */
+		.nav-one .nav-header div.center svg, .nav-one .nav-header div.center i{
+			font-size: 60px;
+		}
+
+		/* estilo para el iciono de barras para la subcabecera */
+		.nav-one .nav-header div.bars a{
+			font-size: 22px;
+			padding-right: 15px;
+		}
+		
+		/* estilos para el contenedor del menu */
+		.nav-one ul{
+			background-color: rgb(16, 16, 162);
+			box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 10px 0 15px -4px rgba(0, 0, 0, 0.4), -10px 0 15px -4px rgba(0, 0, 0, 0.4);
+			list-style: none;
+			height: 100vh;
+			margin-left: -385px;
+			max-width: 370px;
+			position: fixed;
+			padding: 0;
+			padding-top: 15vh;
+			top: 0;
+			transition-duration: 1.5s;
+			width: 100%;
+		}
+
+		/* estilo personalizado para cuando sea redondo y en cuadro */
+		.nav-one ul.square-radius{
+			padding: 0;
+			border: 1px solid white;
+			color: rgba(117,117,117 ,1);
+		}
+		
+		/* estilos para cada subindice de la lista desordanda (ul) */
+		.nav-one ul li{
+			align-items: center;
+			border-bottom: none;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			height: 10vh;
+			padding: 5px;
+		}
+
+		/* estilo para el subindice que va en el centro */
+		.nav-one ul li.center{
+			background: white;
+		
+			left: 0;
+			height: 15vh;
+			font-size: 60px;
+			padding: 0;
+		  	position: absolute;
+		  	top: 0px;
+		  	width: 100%;
+		}
+
+		/* estilo para el hypervinculo que esta en el subindice centrado */
+		.nav-one ul li.center a{
+			
+
+			color: white;
+			display: block;
+			height: 15vh;
+			line-height: 15vh;
+			text-align: center;
+			width: 100%;
+		}
+
+		/* estilo para todos los subindices que no sea el ultimo y el del centro */
+		.nav-one ul li:not(:last-child):not(.center) {
+		  	margin-right: 0px;
+		}
+		
+		/* estilos para los hypervinculos de todos los subindices */
+		.nav-one ul li a{
+			align-items: center;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			height: 10vh;
+			width: 100%;
+		}
+		
+		/* estilos para los input de un formulario */
+		.nav-one ul li form > input{
+			
+			border-radius: 0;
+			padding: 5px;
+			outline-color: rgba(85,172,238 ,1);
+		}
+
+		/* estilos para los botones de un formuladio */
+		.nav-one ul li form > button{
+			background: transparent;
+			color: rgba(117,117,117 ,1);
+			cursor: pointer;
+			outline: none;
+			padding: 5px;
+			min-width: 30px;
+		}
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+
+	/* Estilos para el primer navigator (nav-one) */
+		/* estilos para el nav */
+		.nav-one{
+			background-color: rgb(255, 102, 0);
+			box-shadow: -2px 1px 1px 1px #333;
+			display: block;
+			max-width: 2000px;
+			width: 100%;
+		}
+		
+		/* estilos para la subcabecera osea nav-header */
+		.nav-one .nav-header{
+			display: none;
+		}
+		
+		/* estilos para el contenedor del menu */
+		.nav-one ul{
+			align-items: center;
+			background-color: transparent;
+	
+			box-shadow: none;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			list-style: none;
+			height: 10vh;
+			max-width: 1024px;
+			margin-left: auto;
+		  	margin-right: auto;
+			padding: 0px;
+		  	position: relative;
+			width: 100%;
+		}
+		
+		/* estilo personalizado para cuando sea redondo y en cuadro */
+		.nav-one ul.square-radius{
+			padding: 0 10px;
+			
+			border-radius: 0;
+			color: rgba(117,117,117 ,1);
+			box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+		}
+		
+		/* estilos para cada subindice de la lista desordanda (ul) */
+		.nav-one ul li{
+			border: none;
+		}
+		
+		/* estilo para el subindice que va en el centro */
+		.nav-one ul li.center{
+			background: transparent;
+			border: none;
+			height: 10vh;
+			font-size: 60px;
+			margin-left: auto;
+		  	margin-right: auto;
+			padding: 0;
+		  	position: relative;
+		  	width: auto;
+		}
+
+		/* estilo para el hypervinculo que esta en el subindice centrado */
+		.nav-one ul li.center a{
+			color: rgb(255, 255, 255);
+		}
+		
+		/* estilo para todos los subindices que no sea el ultimo y el del centro */
+		.nav-one ul li:not(:last-child):not(.center) {
+		  	margin-right: 10px;
+		}
+		
+		/* estilos para los input de un formulario */
+		.nav-one ul li form > input{
+			border: 1px solid white;
+			border-radius: 0;
+			padding: 5px;
+			outline-color: rgba(85,172,238 ,1);
+		}
+
+		/* estilos para los botones de un formuladio */
+		.nav-one ul li form > button{
+			color: rgba(117,117,117 ,1);
+			cursor: pointer;
+			outline: none;
+			padding: 5px;
+		}
+
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+}
+
+.xd{
+	background-color: white;
+	padding: 10px;
+	border-color: white;
+}

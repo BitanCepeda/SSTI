@@ -1,0 +1,169 @@
+.font-size-6, .font-size-6-h:hover, .font-size-6-a:active { font-size: 6px; }
+.font-size-8, .font-size-8-h:hover, .font-size-8-a:active { font-size: 8px; }
+.font-size-10, .font-size-10-h:hover, .font-size-10-a:active { font-size: 10px; }
+.font-size-12, .font-size-12-h:hover, .font-size-12-a:active { font-size: 12px; }
+.font-size-14, .font-size-14-h:hover, .font-size-14-a:active { font-size: 14px; }
+.font-size-16, .font-size-16-h:hover, .font-size-16-a:active { font-size: 16px; }
+.font-size-18, .font-size-18-h:hover, .font-size-18-a:active { font-size: 18px; }
+.font-size-20, .font-size-20-h:hover, .font-size-20-a:active { font-size: 20px; }
+.font-size-22, .font-size-22-h:hover, .font-size-22-a:active { font-size: 22px; }
+.font-size-24, .font-size-24-h:hover, .font-size-24-a:active { font-size: 24px; }
+.font-size-26, .font-size-26-h:hover, .font-size-26-a:active { font-size: 26px; }
+.font-size-26, .font-size-26-h:hover, .font-size-26-a:active { font-size: 26px; }
+.font-size-30, .font-size-30-h:hover, .font-size-30-a:active { font-size: 30px; }
+.font-size-32, .font-size-32-h:hover, .font-size-32-a:active { font-size: 32px; }
+.font-size-34, .font-size-34-h:hover, .font-size-34-a:active { font-size: 34px; }
+.font-size-36, .font-size-36-h:hover, .font-size-36-a:active { font-size: 36px; }
+.font-size-38, .font-size-38-h:hover, .font-size-38-a:active { font-size: 38px; }
+.font-size-40, .font-size-40-h:hover, .font-size-40-a:active { font-size: 40px; }
+.font-size-42, .font-size-42-h:hover, .font-size-42-a:active { font-size: 42px; }
+.font-size-44, .font-size-44-h:hover, .font-size-44-a:active { font-size: 44px; }
+.font-size-46, .font-size-46-h:hover, .font-size-46-a:active { font-size: 46px; }
+.font-size-48, .font-size-48-h:hover, .font-size-48-a:active { font-size: 48px; }
+.font-size-50, .font-size-50-h:hover, .font-size-50-a:active { font-size: 50px; }
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+		
+	.font-size-xs-6, .font-size-xs-6-h:hover, .font-size-xs-6-a:active { font-size-xs: 6px; }
+	.font-size-xs-8, .font-size-xs-8-h:hover, .font-size-xs-8-a:active { font-size-xs: 8px; }
+	.font-size-xs-10, .font-size-xs-10-h:hover, .font-size-xs-10-a:active { font-size-xs: 10px; }
+	.font-size-xs-12, .font-size-xs-12-h:hover, .font-size-xs-12-a:active { font-size-xs: 12px; }
+	.font-size-xs-14, .font-size-xs-14-h:hover, .font-size-xs-14-a:active { font-size-xs: 14px; }
+	.font-size-xs-16, .font-size-xs-16-h:hover, .font-size-xs-16-a:active { font-size-xs: 16px; }
+	.font-size-xs-18, .font-size-xs-18-h:hover, .font-size-xs-18-a:active { font-size-xs: 18px; }
+	.font-size-xs-20, .font-size-xs-20-h:hover, .font-size-xs-20-a:active { font-size-xs: 20px; }
+	.font-size-xs-22, .font-size-xs-22-h:hover, .font-size-xs-22-a:active { font-size-xs: 22px; }
+	.font-size-xs-24, .font-size-xs-24-h:hover, .font-size-xs-24-a:active { font-size-xs: 24px; }
+	.font-size-xs-26, .font-size-xs-26-h:hover, .font-size-xs-26-a:active { font-size-xs: 26px; }
+	.font-size-xs-26, .font-size-xs-26-h:hover, .font-size-xs-26-a:active { font-size-xs: 26px; }
+	.font-size-xs-30, .font-size-xs-30-h:hover, .font-size-xs-30-a:active { font-size-xs: 30px; }
+	.font-size-xs-32, .font-size-xs-32-h:hover, .font-size-xs-32-a:active { font-size-xs: 32px; }
+	.font-size-xs-34, .font-size-xs-34-h:hover, .font-size-xs-34-a:active { font-size-xs: 34px; }
+	.font-size-xs-36, .font-size-xs-36-h:hover, .font-size-xs-36-a:active { font-size-xs: 36px; }
+	.font-size-xs-38, .font-size-xs-38-h:hover, .font-size-xs-38-a:active { font-size-xs: 38px; }
+	.font-size-xs-40, .font-size-xs-40-h:hover, .font-size-xs-40-a:active { font-size-xs: 40px; }
+	.font-size-xs-42, .font-size-xs-42-h:hover, .font-size-xs-42-a:active { font-size-xs: 42px; }
+	.font-size-xs-44, .font-size-xs-44-h:hover, .font-size-xs-44-a:active { font-size-xs: 44px; }
+	.font-size-xs-46, .font-size-xs-46-h:hover, .font-size-xs-46-a:active { font-size-xs: 46px; }
+	.font-size-xs-48, .font-size-xs-48-h:hover, .font-size-xs-48-a:active { font-size-xs: 48px; }
+	.font-size-xs-50, .font-size-xs-50-h:hover, .font-size-xs-50-a:active { font-size-xs: 50px; }
+	
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	
+	.font-size-sm-6, .font-size-sm-6-h:hover, .font-size-sm-6-a:active { font-size-sm: 6px; }
+	.font-size-sm-8, .font-size-sm-8-h:hover, .font-size-sm-8-a:active { font-size-sm: 8px; }
+	.font-size-sm-10, .font-size-sm-10-h:hover, .font-size-sm-10-a:active { font-size-sm: 10px; }
+	.font-size-sm-12, .font-size-sm-12-h:hover, .font-size-sm-12-a:active { font-size-sm: 12px; }
+	.font-size-sm-14, .font-size-sm-14-h:hover, .font-size-sm-14-a:active { font-size-sm: 14px; }
+	.font-size-sm-16, .font-size-sm-16-h:hover, .font-size-sm-16-a:active { font-size-sm: 16px; }
+	.font-size-sm-18, .font-size-sm-18-h:hover, .font-size-sm-18-a:active { font-size-sm: 18px; }
+	.font-size-sm-20, .font-size-sm-20-h:hover, .font-size-sm-20-a:active { font-size-sm: 20px; }
+	.font-size-sm-22, .font-size-sm-22-h:hover, .font-size-sm-22-a:active { font-size-sm: 22px; }
+	.font-size-sm-24, .font-size-sm-24-h:hover, .font-size-sm-24-a:active { font-size-sm: 24px; }
+	.font-size-sm-26, .font-size-sm-26-h:hover, .font-size-sm-26-a:active { font-size-sm: 26px; }
+	.font-size-sm-26, .font-size-sm-26-h:hover, .font-size-sm-26-a:active { font-size-sm: 26px; }
+	.font-size-sm-30, .font-size-sm-30-h:hover, .font-size-sm-30-a:active { font-size-sm: 30px; }
+	.font-size-sm-32, .font-size-sm-32-h:hover, .font-size-sm-32-a:active { font-size-sm: 32px; }
+	.font-size-sm-34, .font-size-sm-34-h:hover, .font-size-sm-34-a:active { font-size-sm: 34px; }
+	.font-size-sm-36, .font-size-sm-36-h:hover, .font-size-sm-36-a:active { font-size-sm: 36px; }
+	.font-size-sm-38, .font-size-sm-38-h:hover, .font-size-sm-38-a:active { font-size-sm: 38px; }
+	.font-size-sm-40, .font-size-sm-40-h:hover, .font-size-sm-40-a:active { font-size-sm: 40px; }
+	.font-size-sm-42, .font-size-sm-42-h:hover, .font-size-sm-42-a:active { font-size-sm: 42px; }
+	.font-size-sm-44, .font-size-sm-44-h:hover, .font-size-sm-44-a:active { font-size-sm: 44px; }
+	.font-size-sm-46, .font-size-sm-46-h:hover, .font-size-sm-46-a:active { font-size-sm: 46px; }
+	.font-size-sm-48, .font-size-sm-48-h:hover, .font-size-sm-48-a:active { font-size-sm: 48px; }
+	.font-size-sm-50, .font-size-sm-50-h:hover, .font-size-sm-50-a:active { font-size-sm: 50px; }
+
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+
+	.font-size-md-6, .font-size-md-6-h:hover, .font-size-md-6-a:active { font-size-md: 6px; }
+	.font-size-md-8, .font-size-md-8-h:hover, .font-size-md-8-a:active { font-size-md: 8px; }
+	.font-size-md-10, .font-size-md-10-h:hover, .font-size-md-10-a:active { font-size-md: 10px; }
+	.font-size-md-12, .font-size-md-12-h:hover, .font-size-md-12-a:active { font-size-md: 12px; }
+	.font-size-md-14, .font-size-md-14-h:hover, .font-size-md-14-a:active { font-size-md: 14px; }
+	.font-size-md-16, .font-size-md-16-h:hover, .font-size-md-16-a:active { font-size-md: 16px; }
+	.font-size-md-18, .font-size-md-18-h:hover, .font-size-md-18-a:active { font-size-md: 18px; }
+	.font-size-md-20, .font-size-md-20-h:hover, .font-size-md-20-a:active { font-size-md: 20px; }
+	.font-size-md-22, .font-size-md-22-h:hover, .font-size-md-22-a:active { font-size-md: 22px; }
+	.font-size-md-24, .font-size-md-24-h:hover, .font-size-md-24-a:active { font-size-md: 24px; }
+	.font-size-md-26, .font-size-md-26-h:hover, .font-size-md-26-a:active { font-size-md: 26px; }
+	.font-size-md-26, .font-size-md-26-h:hover, .font-size-md-26-a:active { font-size-md: 26px; }
+	.font-size-md-30, .font-size-md-30-h:hover, .font-size-md-30-a:active { font-size-md: 30px; }
+	.font-size-md-32, .font-size-md-32-h:hover, .font-size-md-32-a:active { font-size-md: 32px; }
+	.font-size-md-34, .font-size-md-34-h:hover, .font-size-md-34-a:active { font-size-md: 34px; }
+	.font-size-md-36, .font-size-md-36-h:hover, .font-size-md-36-a:active { font-size-md: 36px; }
+	.font-size-md-38, .font-size-md-38-h:hover, .font-size-md-38-a:active { font-size-md: 38px; }
+	.font-size-md-40, .font-size-md-40-h:hover, .font-size-md-40-a:active { font-size-md: 40px; }
+	.font-size-md-42, .font-size-md-42-h:hover, .font-size-md-42-a:active { font-size-md: 42px; }
+	.font-size-md-44, .font-size-md-44-h:hover, .font-size-md-44-a:active { font-size-md: 44px; }
+	.font-size-md-46, .font-size-md-46-h:hover, .font-size-md-46-a:active { font-size-md: 46px; }
+	.font-size-md-48, .font-size-md-48-h:hover, .font-size-md-48-a:active { font-size-md: 48px; }
+	.font-size-md-50, .font-size-md-50-h:hover, .font-size-md-50-a:active { font-size-md: 50px; }
+
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	
+	.font-size-lg-6, .font-size-lg-6-h:hover, .font-size-lg-6-a:active { font-size-lg: 6px; }
+	.font-size-lg-8, .font-size-lg-8-h:hover, .font-size-lg-8-a:active { font-size-lg: 8px; }
+	.font-size-lg-10, .font-size-lg-10-h:hover, .font-size-lg-10-a:active { font-size-lg: 10px; }
+	.font-size-lg-12, .font-size-lg-12-h:hover, .font-size-lg-12-a:active { font-size-lg: 12px; }
+	.font-size-lg-14, .font-size-lg-14-h:hover, .font-size-lg-14-a:active { font-size-lg: 14px; }
+	.font-size-lg-16, .font-size-lg-16-h:hover, .font-size-lg-16-a:active { font-size-lg: 16px; }
+	.font-size-lg-18, .font-size-lg-18-h:hover, .font-size-lg-18-a:active { font-size-lg: 18px; }
+	.font-size-lg-20, .font-size-lg-20-h:hover, .font-size-lg-20-a:active { font-size-lg: 20px; }
+	.font-size-lg-22, .font-size-lg-22-h:hover, .font-size-lg-22-a:active { font-size-lg: 22px; }
+	.font-size-lg-24, .font-size-lg-24-h:hover, .font-size-lg-24-a:active { font-size-lg: 24px; }
+	.font-size-lg-26, .font-size-lg-26-h:hover, .font-size-lg-26-a:active { font-size-lg: 26px; }
+	.font-size-lg-26, .font-size-lg-26-h:hover, .font-size-lg-26-a:active { font-size-lg: 26px; }
+	.font-size-lg-30, .font-size-lg-30-h:hover, .font-size-lg-30-a:active { font-size-lg: 30px; }
+	.font-size-lg-32, .font-size-lg-32-h:hover, .font-size-lg-32-a:active { font-size-lg: 32px; }
+	.font-size-lg-34, .font-size-lg-34-h:hover, .font-size-lg-34-a:active { font-size-lg: 34px; }
+	.font-size-lg-36, .font-size-lg-36-h:hover, .font-size-lg-36-a:active { font-size-lg: 36px; }
+	.font-size-lg-38, .font-size-lg-38-h:hover, .font-size-lg-38-a:active { font-size-lg: 38px; }
+	.font-size-lg-40, .font-size-lg-40-h:hover, .font-size-lg-40-a:active { font-size-lg: 40px; }
+	.font-size-lg-42, .font-size-lg-42-h:hover, .font-size-lg-42-a:active { font-size-lg: 42px; }
+	.font-size-lg-44, .font-size-lg-44-h:hover, .font-size-lg-44-a:active { font-size-lg: 44px; }
+	.font-size-lg-46, .font-size-lg-46-h:hover, .font-size-lg-46-a:active { font-size-lg: 46px; }
+	.font-size-lg-48, .font-size-lg-48-h:hover, .font-size-lg-48-a:active { font-size-lg: 48px; }
+	.font-size-lg-50, .font-size-lg-50-h:hover, .font-size-lg-50-a:active { font-size-lg: 50px; }
+
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+	.font-size-xl-6, .font-size-xl-6-h:hover, .font-size-xl-6-a:active { font-size-xl: 6px; }
+	.font-size-xl-8, .font-size-xl-8-h:hover, .font-size-xl-8-a:active { font-size-xl: 8px; }
+	.font-size-xl-10, .font-size-xl-10-h:hover, .font-size-xl-10-a:active { font-size-xl: 10px; }
+	.font-size-xl-12, .font-size-xl-12-h:hover, .font-size-xl-12-a:active { font-size-xl: 12px; }
+	.font-size-xl-14, .font-size-xl-14-h:hover, .font-size-xl-14-a:active { font-size-xl: 14px; }
+	.font-size-xl-16, .font-size-xl-16-h:hover, .font-size-xl-16-a:active { font-size-xl: 16px; }
+	.font-size-xl-18, .font-size-xl-18-h:hover, .font-size-xl-18-a:active { font-size-xl: 18px; }
+	.font-size-xl-20, .font-size-xl-20-h:hover, .font-size-xl-20-a:active { font-size-xl: 20px; }
+	.font-size-xl-22, .font-size-xl-22-h:hover, .font-size-xl-22-a:active { font-size-xl: 22px; }
+	.font-size-xl-24, .font-size-xl-24-h:hover, .font-size-xl-24-a:active { font-size-xl: 24px; }
+	.font-size-xl-26, .font-size-xl-26-h:hover, .font-size-xl-26-a:active { font-size-xl: 26px; }
+	.font-size-xl-26, .font-size-xl-26-h:hover, .font-size-xl-26-a:active { font-size-xl: 26px; }
+	.font-size-xl-30, .font-size-xl-30-h:hover, .font-size-xl-30-a:active { font-size-xl: 30px; }
+	.font-size-xl-32, .font-size-xl-32-h:hover, .font-size-xl-32-a:active { font-size-xl: 32px; }
+	.font-size-xl-34, .font-size-xl-34-h:hover, .font-size-xl-34-a:active { font-size-xl: 34px; }
+	.font-size-xl-36, .font-size-xl-36-h:hover, .font-size-xl-36-a:active { font-size-xl: 36px; }
+	.font-size-xl-38, .font-size-xl-38-h:hover, .font-size-xl-38-a:active { font-size-xl: 38px; }
+	.font-size-xl-40, .font-size-xl-40-h:hover, .font-size-xl-40-a:active { font-size-xl: 40px; }
+	.font-size-xl-42, .font-size-xl-42-h:hover, .font-size-xl-42-a:active { font-size-xl: 42px; }
+	.font-size-xl-44, .font-size-xl-44-h:hover, .font-size-xl-44-a:active { font-size-xl: 44px; }
+	.font-size-xl-46, .font-size-xl-46-h:hover, .font-size-xl-46-a:active { font-size-xl: 46px; }
+	.font-size-xl-48, .font-size-xl-48-h:hover, .font-size-xl-48-a:active { font-size-xl: 48px; }
+	.font-size-xl-50, .font-size-xl-50-h:hover, .font-size-xl-50-a:active { font-size-xl: 50px; }
+
+}

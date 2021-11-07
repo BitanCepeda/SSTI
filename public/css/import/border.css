@@ -1,0 +1,810 @@
+/* ningun borde */
+.border-none, .border-none-h:hover, .border-none-a:active { border: none; }
+.border-bottom-none, .border-bottom-none-h:hover, .border-bottom-none-a:active { border-bottom: none; }
+.border-left-none, .border-left-none-h:hover, .border-left-none-a:active { border-left: none; }
+.border-right-none, .border-right-none-h:hover, .border-right-none-a:active { border-right: none; }
+.border-top-none, .border-top-none-h:hover, .border-top-none-a:active { border-top: none; }
+
+/* estilo de la linea */
+.border-s-dashed, .border-s-dashed-h:hover, .border-s-dashed-a:active { border-style: dashed; }
+.border-s-dotted, .border-s-dotted-h:hover, .border-s-dotted-a:active { border-style: dotted; }
+.border-s-double, .border-s-double-h:hover, .border-s-double-a:active { border-style: double; }
+.border-s-solid, .border-s-solid-h:hover, .border-s-solid-a:active { border-style: solid; }
+
+/* ancho de la linea */
+.border-w-1, .border-w-1-h:hover, .border-w-1-a:active { border-width: 1px; }
+.border-w-2, .border-w-2-h:hover, .border-w-2-a:active { border-width: 2px; }
+.border-w-3, .border-w-3-h:hover, .border-w-3-a:active { border-width: 3px; }
+.border-w-4, .border-w-4-h:hover, .border-w-4-a:active { border-width: 4px; }
+.border-w-5, .border-w-5-h:hover, .border-w-5-a:active { border-width: 5px; }
+.border-w-6, .border-w-6-h:hover, .border-w-6-a:active { border-width: 6px; }
+.border-w-7, .border-w-7-h:hover, .border-w-7-a:active { border-width: 7px; }
+.border-w-8, .border-w-8-h:hover, .border-w-8-a:active { border-width: 8px; }
+.border-w-9, .border-w-9-h:hover, .border-w-9-a:active { border-width: 9px; }
+.border-w-10, .border-w-10-h:hover, .border-w-10-a:active { border-width: 10px; }
+.border-w-11, .border-w-11-h:hover, .border-w-11-a:active { border-width: 11px; }
+.border-w-12, .border-w-12-h:hover, .border-w-12-a:active { border-width: 12px; }
+.border-w-13, .border-w-13-h:hover, .border-w-13-a:active { border-width: 13px; }
+.border-w-14, .border-w-14-h:hover, .border-w-14-a:active { border-width: 14px; }
+.border-w-15, .border-w-15-h:hover, .border-w-15-a:active { border-width: 15px; }
+
+/* color de la linea */
+.border-c-negro, .border-c-negro-h:hover, .border-c-negro-a:active { border-color: rgb(0, 0, 0); }
+.border-c-90-negro, .border-c-90-negro-h:hover, .border-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+.border-c-80-negro, .border-c-80-negro-h:hover, .border-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+.border-c-70-negro, .border-c-70-negro-h:hover, .border-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+.border-c-60-negro, .border-c-60-negro-h:hover, .border-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+.border-c-50-negro, .border-c-50-negro-h:hover, .border-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+.border-c-40-negro, .border-c-40-negro-h:hover, .border-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+.border-c-30-negro, .border-c-30-negro-h:hover, .border-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+.border-c-20-negro, .border-c-20-negro-h:hover, .border-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+.border-c-10-negro, .border-c-10-negro-h:hover, .border-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+.border-c-blanco, .border-c-blanco-h:hover, .border-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+.border-c-azul, .border-c-azul-h:hover, .border-c-azul-a:active { border-color: rgb(0, 0, 255); }
+.border-c-cian, .border-c-cian-h:hover, .border-c-cian-a:active { border-color: rgb(0, 255, 255); }
+.border-c-verde, .border-c-verde-h:hover, .border-c-verde-a:active { border-color: rgb(0, 255, 0); }
+.border-c-amarillo, .border-c-amarillo-h:hover, .border-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+.border-c-rojo, .border-c-rojo-h:hover, .border-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+.border-c-magenta, .border-c-magenta-h:hover, .border-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+.border-c-morado, .border-c-morado-h:hover, .border-c-morado-a:active { border-color: rgb(153, 0, 204); }
+.border-c-naranja, .border-c-naranja-h:hover, .border-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+.border-c-rosa, .border-c-rosa-h:hover, .border-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+.border-c-marron-oscuro, .border-c-marron-oscuro-h:hover, .border-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+.border-c-malva,.border-c-malva-h:hover, .border-c-malva-a:active { border-color: rgb(204, 204, 255); }
+.border-c-azul-pastel, .border-c-azul-pastel-h:hover, .border-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+.border-c-azul-infantil, .border-c-azul-infantil-h:hover, .border-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+.border-c-azul-electrico, .border-c-azul-electrico-h:hover, .border-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+.border-c-azul-crepusculo, .border-c-azul-crepusculo-h:hover, .border-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+.border-c-azul-marino, .border-c-azul-marino-h:hover, .border-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+.border-c-azul-marino-oscuro, .border-c-azul-marino-oscuro-h:hover, .border-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+.border-c-azul-desierto, .border-c-azul-desierto-h:hover, .border-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+.border-c-azul-celeste, .border-c-azul-celeste-h:hover, .border-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+.border-c-azul-hielo, .border-c-azul-hielo-h:hover, .border-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+.border-c-verde-azulado-claro, .border-c-verde-azulado-claro-h:hover, .border-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+.border-c-verde-oceano, .border-c-verde-oceano-h:hover, .border-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+.border-c-verde-musgo, .border-c-verde-musgo-h:hover, .border-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+.border-c-verde-oscuro, .border-c-verde-oscuro-h:hover, .border-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+.border-c-verde-bosque, .border-c-verde-bosque-h:hover, .border-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+.border-c-verde-hierba, .border-c-verde-hierba-h:hover, .border-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+.border-c-verde-kentucky, .border-c-verde-kentucky-h:hover, .border-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+.border-c-verde-claro, .border-c-verde-claro-h:hover, .border-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+.border-c-verde-primavera, .border-c-verde-primavera-h:hover, .border-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+.border-c-turquesa, .border-c-turquesa-h:hover, .border-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+.border-c-verde-mar, .border-c-verde-mar-h:hover, .border-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+.border-c-verde-apagado, .border-c-verde-apagado-h:hover, .border-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+.border-c-verde-fantasma, .border-c-verde-fantasma-h:hover, .border-c-verde-fantasma-a:active { border-color: rgb(204, 255, 204); }
+.border-c-verde-menta, .border-c-verde-menta-h:hover, .border-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+.border-c-verde-ejercito, .border-c-verde-ejercito-h:hover, .border-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+.border-c-verde-aguacate, .border-c-verde-aguacate-h:hover, .border-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+.border-c-verde-marciano, .border-c-verde-marciano-h:hover, .border-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+.border-c-verde-opaco, .border-c-verde-opaco-h:hover, .border-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+.border-c-chartreuse, .border-c-chartreuse-h:hover, .border-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+.border-c-verde-luna, .border-c-verde-luna-h:hover, .border-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+.border-c-verde-lobrego, .border-c-verde-lobrego-h:hover, .border-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+.border-c-pardo-aceituna, .border-c-pardo-aceituna-h:hover, .border-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+.border-c-kaki, .border-c-kaki-h:hover, .border-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+.border-c-oliva, .border-c-oliva-h:hover, .border-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+.border-c-amarillo-platano, .border-c-amarillo-platano-h:hover, .border-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+.border-c-amarillo-claro, .border-c-amarillo-claro-h:hover, .border-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+.border-c-amarillo-verdosa, .border-c-amarillo-verdosa-h:hover, .border-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+.border-c-amarillo-palido, .border-c-amarillo-palido-h:hover, .border-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+.border-c-marron, .border-c-marron-h:hover, .border-c-marron-a:active { border-color: rgb(153, 102, 51); }
+.border-c-marron-rojiso, .border-c-marron-rojiso-h:hover, .border-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+.border-c-dorado, .border-c-dorado-h:hover, .border-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+.border-c-naranja-otonal, .border-c-naranja-otonal-h:hover, .border-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+.border-c-naranja-claro, .border-c-naranja-claro-h:hover, .border-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+.border-c-melocoton, .border-c-melocoton-h:hover, .border-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+.border-c-amarillo-fuerte, .border-c-amarillo-fuerte-h:hover, .border-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+.border-c-arena, .border-c-arena-h:hover, .border-c-arena-a:active { border-color: rgb(255, 204, 153); }
+.border-c-avellana, .border-c-avellana-h:hover, .border-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+.border-c-rojo-rubi, .border-c-rojo-rubi-h:hover, .border-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+.border-c-rojo-ladrillo, .border-c-rojo-ladrillo-h:hover, .border-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+.border-c-rosa-tropical, .border-c-rosa-tropical-h:hover, .border-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+.border-c-rosa-palido, .border-c-rosa-palido-h:hover, .border-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+.border-c-rosa-apagado, .border-c-rosa-apagado-h:hover, .border-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+.border-c-granate, .border-c-granate-h:hover, .border-c-granate-a:active { border-color: rgb(153, 51, 102); }
+.border-c-rojo-legal, .border-c-rojo-legal-h:hover, .border-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+.border-c-rojo-intenso, .border-c-rojo-intenso-h:hover, .border-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+.border-c-rojo-fluorecente, .border-c-rojo-fluorecente-h:hover, .border-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+.border-c-rosa-fuerte, .border-c-rosa-fuerte-h:hover, .border-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+.border-c-rosa-fresa, .border-c-rosa-fresa-h:hover, .border-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+.border-c-rosa-azulado, .border-c-rosa-azulado-h:hover, .border-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+.border-c-ciruela, .border-c-ciruela-h:hover, .border-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+.border-c-violeta-oscuro, .border-c-violeta-oscuro-h:hover, .border-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+.border-c-violeta-claro, .border-c-violeta-claro-h:hover, .border-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+.border-c-violeta, .border-c-violeta-h:hover, .border-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+.border-c-ciruela-azulado, .border-c-ciruela-azulado-h:hover, .border-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+.border-c-morado-palido, .border-c-morado-palido-h:hover, .border-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+.border-c-morado-majestic, .border-c-morado-majestic-h:hover, .border-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+.border-c-morado-fluorecente, .border-c-morado-fluorecente-h:hover, .border-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+.border-c-morado-claro, .border-c-morado-claro-h:hover, .border-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+.border-c-violeta-azulado, .border-c-violeta-azulado-h:hover, .border-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+.border-c-morado-pascua, .border-c-morado-pascua-h:hover, .border-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+.border-c-morado-fuerte, .border-c-morado-fuerte-h:hover, .border-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+.border-c-uva, .border-c-uva-h:hover, .border-c-uva-a:active { border-color: rgb(102, 51, 153); }
+.border-c-violeta-azul, .border-c-violeta-azul-h:hover, .border-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+.border-c-morado-azulado, .border-c-morado-azulado-h:hover, .border-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+.border-c-rio-intenso, .border-c-rio-intenso-h:hover, .border-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+.border-c-anil-intenso, .border-c-anil-intenso-h:hover, .border-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+.border-c-azul-tormenta, .border-c-azul-tormenta-h:hover, .border-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+.border-c-azul-intenso, .border-c-azul-intenso-h:hover, .border-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+		
+	/* ningun borde */
+	.border-xs-none, .border-xs-none-h:hover, .border-xs-none-a:active { border: none; }
+	.border-xs-bottom-none, .border-xs-bottom-none-h:hover, .border-xs-bottom-none-a:active { border-bottom: none; }
+	.border-xs-left-none, .border-xs-left-none-h:hover, .border-xs-left-none-a:active { border-left: none; }
+	.border-xs-right-none, .border-xs-right-none-h:hover, .border-xs-right-none-a:active { border-right: none; }
+	.border-xs-top-none, .border-xs-top-none-h:hover, .border-xs-top-none-a:active { border-top: none; }
+
+	/* estilo de la linea */
+	.border-xs-s-dashed, .border-xs-s-dashed-h:hover, .border-xs-s-dashed-a:active { border-style: dashed; }
+	.border-xs-s-dotted, .border-xs-s-dotted-h:hover, .border-xs-s-dotted-a:active { border-style: dotted; }
+	.border-xs-s-double, .border-xs-s-double-h:hover, .border-xs-s-double-a:active { border-style: double; }
+	.border-xs-s-solid, .border-xs-s-solid-h:hover, .border-xs-s-solid-a:active { border-style: solid; }
+
+	/* ancho de la linea */
+	.border-xs-w-1, .border-xs-w-1-h:hover, .border-xs-w-1-a:active { border-width: 1px; }
+	.border-xs-w-2, .border-xs-w-2-h:hover, .border-xs-w-2-a:active { border-width: 2px; }
+	.border-xs-w-3, .border-xs-w-3-h:hover, .border-xs-w-3-a:active { border-width: 3px; }
+	.border-xs-w-4, .border-xs-w-4-h:hover, .border-xs-w-4-a:active { border-width: 4px; }
+	.border-xs-w-5, .border-xs-w-5-h:hover, .border-xs-w-5-a:active { border-width: 5px; }
+	.border-xs-w-6, .border-xs-w-6-h:hover, .border-xs-w-6-a:active { border-width: 6px; }
+	.border-xs-w-7, .border-xs-w-7-h:hover, .border-xs-w-7-a:active { border-width: 7px; }
+	.border-xs-w-8, .border-xs-w-8-h:hover, .border-xs-w-8-a:active { border-width: 8px; }
+	.border-xs-w-9, .border-xs-w-9-h:hover, .border-xs-w-9-a:active { border-width: 9px; }
+	.border-xs-w-10, .border-xs-w-10-h:hover, .border-xs-w-10-a:active { border-width: 10px; }
+	.border-xs-w-11, .border-xs-w-11-h:hover, .border-xs-w-11-a:active { border-width: 11px; }
+	.border-xs-w-12, .border-xs-w-12-h:hover, .border-xs-w-12-a:active { border-width: 12px; }
+	.border-xs-w-13, .border-xs-w-13-h:hover, .border-xs-w-13-a:active { border-width: 13px; }
+	.border-xs-w-14, .border-xs-w-14-h:hover, .border-xs-w-14-a:active { border-width: 14px; }
+	.border-xs-w-15, .border-xs-w-15-h:hover, .border-xs-w-15-a:active { border-width: 15px; }
+
+	/* color de la linea */
+	.border-xs-c-negro, .border-xs-c-negro-h:hover, .border-xs-c-negro-a:active { border-color: rgb(0, 0, 0); }
+	.border-xs-c-90-negro, .border-xs-c-90-negro-h:hover, .border-xs-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+	.border-xs-c-80-negro, .border-xs-c-80-negro-h:hover, .border-xs-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+	.border-xs-c-70-negro, .border-xs-c-70-negro-h:hover, .border-xs-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+	.border-xs-c-60-negro, .border-xs-c-60-negro-h:hover, .border-xs-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+	.border-xs-c-50-negro, .border-xs-c-50-negro-h:hover, .border-xs-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+	.border-xs-c-40-negro, .border-xs-c-40-negro-h:hover, .border-xs-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+	.border-xs-c-30-negro, .border-xs-c-30-negro-h:hover, .border-xs-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+	.border-xs-c-20-negro, .border-xs-c-20-negro-h:hover, .border-xs-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+	.border-xs-c-10-negro, .border-xs-c-10-negro-h:hover, .border-xs-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+	.border-xs-c-blanco, .border-xs-c-blanco-h:hover, .border-xs-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+	.border-xs-c-azul, .border-xs-c-azul-h:hover, .border-xs-c-azul-a:active { border-color: rgb(0, 0, 255); }
+	.border-xs-c-cian, .border-xs-c-cian-h:hover, .border-xs-c-cian-a:active { border-color: rgb(0, 255, 255); }
+	.border-xs-c-verde, .border-xs-c-verde-h:hover, .border-xs-c-verde-a:active { border-color: rgb(0, 255, 0); }
+	.border-xs-c-amarillo, .border-xs-c-amarillo-h:hover, .border-xs-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+	.border-xs-c-rojo, .border-xs-c-rojo-h:hover, .border-xs-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+	.border-xs-c-magenta, .border-xs-c-magenta-h:hover, .border-xs-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+	.border-xs-c-morado, .border-xs-c-morado-h:hover, .border-xs-c-morado-a:active { border-color: rgb(153, 0, 204); }
+	.border-xs-c-naranja, .border-xs-c-naranja-h:hover, .border-xs-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+	.border-xs-c-rosa, .border-xs-c-rosa-h:hover, .border-xs-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+	.border-xs-c-marron-oscuro, .border-xs-c-marron-oscuro-h:hover, .border-xs-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+	.border-xs-c-malva,.border-xs-c-malva-h:hover, .border-xs-c-malva-a:active { border-color: rgb(204, 204, 255); }
+	.border-xs-c-azul-pastel, .border-xs-c-azul-pastel-h:hover, .border-xs-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+	.border-xs-c-azul-infantil, .border-xs-c-azul-infantil-h:hover, .border-xs-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+	.border-xs-c-azul-electrico, .border-xs-c-azul-electrico-h:hover, .border-xs-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+	.border-xs-c-azul-crepusculo, .border-xs-c-azul-crepusculo-h:hover, .border-xs-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+	.border-xs-c-azul-marino, .border-xs-c-azul-marino-h:hover, .border-xs-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+	.border-xs-c-azul-marino-oscuro, .border-xs-c-azul-marino-oscuro-h:hover, .border-xs-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+	.border-xs-c-azul-desierto, .border-xs-c-azul-desierto-h:hover, .border-xs-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+	.border-xs-c-azul-celeste, .border-xs-c-azul-celeste-h:hover, .border-xs-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+	.border-xs-c-azul-hielo, .border-xs-c-azul-hielo-h:hover, .border-xs-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+	.border-xs-c-verde-azulado-claro, .border-xs-c-verde-azulado-claro-h:hover, .border-xs-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+	.border-xs-c-verde-oceano, .border-xs-c-verde-oceano-h:hover, .border-xs-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+	.border-xs-c-verde-musgo, .border-xs-c-verde-musgo-h:hover, .border-xs-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+	.border-xs-c-verde-oscuro, .border-xs-c-verde-oscuro-h:hover, .border-xs-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+	.border-xs-c-verde-bosque, .border-xs-c-verde-bosque-h:hover, .border-xs-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+	.border-xs-c-verde-hierba, .border-xs-c-verde-hierba-h:hover, .border-xs-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+	.border-xs-c-verde-kentucky, .border-xs-c-verde-kentucky-h:hover, .border-xs-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+	.border-xs-c-verde-claro, .border-xs-c-verde-claro-h:hover, .border-xs-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+	.border-xs-c-verde-primavera, .border-xs-c-verde-primavera-h:hover, .border-xs-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+	.border-xs-c-turquesa, .border-xs-c-turquesa-h:hover, .border-xs-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+	.border-xs-c-verde-mar, .border-xs-c-verde-mar-h:hover, .border-xs-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+	.border-xs-c-verde-apagado, .border-xs-c-verde-apagado-h:hover, .border-xs-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+	.border-xs-c-verde-fantasma, .border-xs-c-verde-fantasma-h:hover, .border-xs-c-verde-fantasma-a:active { border-color: rgb(204, 255, 204); }
+	.border-xs-c-verde-menta, .border-xs-c-verde-menta-h:hover, .border-xs-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+	.border-xs-c-verde-ejercito, .border-xs-c-verde-ejercito-h:hover, .border-xs-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+	.border-xs-c-verde-aguacate, .border-xs-c-verde-aguacate-h:hover, .border-xs-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+	.border-xs-c-verde-marciano, .border-xs-c-verde-marciano-h:hover, .border-xs-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+	.border-xs-c-verde-opaco, .border-xs-c-verde-opaco-h:hover, .border-xs-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+	.border-xs-c-chartreuse, .border-xs-c-chartreuse-h:hover, .border-xs-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+	.border-xs-c-verde-luna, .border-xs-c-verde-luna-h:hover, .border-xs-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+	.border-xs-c-verde-lobrego, .border-xs-c-verde-lobrego-h:hover, .border-xs-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+	.border-xs-c-pardo-aceituna, .border-xs-c-pardo-aceituna-h:hover, .border-xs-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+	.border-xs-c-kaki, .border-xs-c-kaki-h:hover, .border-xs-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+	.border-xs-c-oliva, .border-xs-c-oliva-h:hover, .border-xs-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+	.border-xs-c-amarillo-platano, .border-xs-c-amarillo-platano-h:hover, .border-xs-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+	.border-xs-c-amarillo-claro, .border-xs-c-amarillo-claro-h:hover, .border-xs-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+	.border-xs-c-amarillo-verdosa, .border-xs-c-amarillo-verdosa-h:hover, .border-xs-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+	.border-xs-c-amarillo-palido, .border-xs-c-amarillo-palido-h:hover, .border-xs-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+	.border-xs-c-marron, .border-xs-c-marron-h:hover, .border-xs-c-marron-a:active { border-color: rgb(153, 102, 51); }
+	.border-xs-c-marron-rojiso, .border-xs-c-marron-rojiso-h:hover, .border-xs-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+	.border-xs-c-dorado, .border-xs-c-dorado-h:hover, .border-xs-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+	.border-xs-c-naranja-otonal, .border-xs-c-naranja-otonal-h:hover, .border-xs-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+	.border-xs-c-naranja-claro, .border-xs-c-naranja-claro-h:hover, .border-xs-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+	.border-xs-c-melocoton, .border-xs-c-melocoton-h:hover, .border-xs-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+	.border-xs-c-amarillo-fuerte, .border-xs-c-amarillo-fuerte-h:hover, .border-xs-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+	.border-xs-c-arena, .border-xs-c-arena-h:hover, .border-xs-c-arena-a:active { border-color: rgb(255, 204, 153); }
+	.border-xs-c-avellana, .border-xs-c-avellana-h:hover, .border-xs-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+	.border-xs-c-rojo-rubi, .border-xs-c-rojo-rubi-h:hover, .border-xs-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+	.border-xs-c-rojo-ladrillo, .border-xs-c-rojo-ladrillo-h:hover, .border-xs-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+	.border-xs-c-rosa-tropical, .border-xs-c-rosa-tropical-h:hover, .border-xs-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+	.border-xs-c-rosa-palido, .border-xs-c-rosa-palido-h:hover, .border-xs-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+	.border-xs-c-rosa-apagado, .border-xs-c-rosa-apagado-h:hover, .border-xs-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+	.border-xs-c-granate, .border-xs-c-granate-h:hover, .border-xs-c-granate-a:active { border-color: rgb(153, 51, 102); }
+	.border-xs-c-rojo-legal, .border-xs-c-rojo-legal-h:hover, .border-xs-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+	.border-xs-c-rojo-intenso, .border-xs-c-rojo-intenso-h:hover, .border-xs-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+	.border-xs-c-rojo-fluorecente, .border-xs-c-rojo-fluorecente-h:hover, .border-xs-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+	.border-xs-c-rosa-fuerte, .border-xs-c-rosa-fuerte-h:hover, .border-xs-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+	.border-xs-c-rosa-fresa, .border-xs-c-rosa-fresa-h:hover, .border-xs-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+	.border-xs-c-rosa-azulado, .border-xs-c-rosa-azulado-h:hover, .border-xs-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+	.border-xs-c-ciruela, .border-xs-c-ciruela-h:hover, .border-xs-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+	.border-xs-c-violeta-oscuro, .border-xs-c-violeta-oscuro-h:hover, .border-xs-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+	.border-xs-c-violeta-claro, .border-xs-c-violeta-claro-h:hover, .border-xs-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+	.border-xs-c-violeta, .border-xs-c-violeta-h:hover, .border-xs-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+	.border-xs-c-ciruela-azulado, .border-xs-c-ciruela-azulado-h:hover, .border-xs-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+	.border-xs-c-morado-palido, .border-xs-c-morado-palido-h:hover, .border-xs-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+	.border-xs-c-morado-majestic, .border-xs-c-morado-majestic-h:hover, .border-xs-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+	.border-xs-c-morado-fluorecente, .border-xs-c-morado-fluorecente-h:hover, .border-xs-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+	.border-xs-c-morado-claro, .border-xs-c-morado-claro-h:hover, .border-xs-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+	.border-xs-c-violeta-azulado, .border-xs-c-violeta-azulado-h:hover, .border-xs-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+	.border-xs-c-morado-pascua, .border-xs-c-morado-pascua-h:hover, .border-xs-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+	.border-xs-c-morado-fuerte, .border-xs-c-morado-fuerte-h:hover, .border-xs-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+	.border-xs-c-uva, .border-xs-c-uva-h:hover, .border-xs-c-uva-a:active { border-color: rgb(102, 51, 153); }
+	.border-xs-c-violeta-azul, .border-xs-c-violeta-azul-h:hover, .border-xs-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+	.border-xs-c-morado-azulado, .border-xs-c-morado-azulado-h:hover, .border-xs-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+	.border-xs-c-rio-intenso, .border-xs-c-rio-intenso-h:hover, .border-xs-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+	.border-xs-c-anil-intenso, .border-xs-c-anil-intenso-h:hover, .border-xs-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+	.border-xs-c-azul-tormenta, .border-xs-c-azul-tormenta-h:hover, .border-xs-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+	.border-xs-c-azul-intenso, .border-xs-c-azul-intenso-h:hover, .border-xs-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	
+	/* ningun borde */
+	.border-sm-none, .border-sm-none-h:hover, .border-sm-none-a:active { border: none; }
+	.border-sm-bottom-none, .border-sm-bottom-none-h:hover, .border-sm-bottom-none-a:active { border-bottom: none; }
+	.border-sm-left-none, .border-sm-left-none-h:hover, .border-sm-left-none-a:active { border-left: none; }
+	.border-sm-right-none, .border-sm-right-none-h:hover, .border-sm-right-none-a:active { border-right: none; }
+	.border-sm-top-none, .border-sm-top-none-h:hover, .border-sm-top-none-a:active { border-top: none; }
+
+	/* estilo de la linea */
+	.border-sm-s-dashed, .border-sm-s-dashed-h:hover, .border-sm-s-dashed-a:active { border-style: dashed; }
+	.border-sm-s-dotted, .border-sm-s-dotted-h:hover, .border-sm-s-dotted-a:active { border-style: dotted; }
+	.border-sm-s-double, .border-sm-s-double-h:hover, .border-sm-s-double-a:active { border-style: double; }
+	.border-sm-s-solid, .border-sm-s-solid-h:hover, .border-sm-s-solid-a:active { border-style: solid; }
+
+	/* ancho de la linea */
+	.border-sm-w-1, .border-sm-w-1-h:hover, .border-sm-w-1-a:active { border-width: 1px; }
+	.border-sm-w-2, .border-sm-w-2-h:hover, .border-sm-w-2-a:active { border-width: 2px; }
+	.border-sm-w-3, .border-sm-w-3-h:hover, .border-sm-w-3-a:active { border-width: 3px; }
+	.border-sm-w-4, .border-sm-w-4-h:hover, .border-sm-w-4-a:active { border-width: 4px; }
+	.border-sm-w-5, .border-sm-w-5-h:hover, .border-sm-w-5-a:active { border-width: 5px; }
+	.border-sm-w-6, .border-sm-w-6-h:hover, .border-sm-w-6-a:active { border-width: 6px; }
+	.border-sm-w-7, .border-sm-w-7-h:hover, .border-sm-w-7-a:active { border-width: 7px; }
+	.border-sm-w-8, .border-sm-w-8-h:hover, .border-sm-w-8-a:active { border-width: 8px; }
+	.border-sm-w-9, .border-sm-w-9-h:hover, .border-sm-w-9-a:active { border-width: 9px; }
+	.border-sm-w-10, .border-sm-w-10-h:hover, .border-sm-w-10-a:active { border-width: 10px; }
+	.border-sm-w-11, .border-sm-w-11-h:hover, .border-sm-w-11-a:active { border-width: 11px; }
+	.border-sm-w-12, .border-sm-w-12-h:hover, .border-sm-w-12-a:active { border-width: 12px; }
+	.border-sm-w-13, .border-sm-w-13-h:hover, .border-sm-w-13-a:active { border-width: 13px; }
+	.border-sm-w-14, .border-sm-w-14-h:hover, .border-sm-w-14-a:active { border-width: 14px; }
+	.border-sm-w-15, .border-sm-w-15-h:hover, .border-sm-w-15-a:active { border-width: 15px; }
+
+	/* color de la linea */
+	.border-sm-c-negro, .border-sm-c-negro-h:hover, .border-sm-c-negro-a:active { border-color: rgb(0, 0, 0); }
+	.border-sm-c-90-negro, .border-sm-c-90-negro-h:hover, .border-sm-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+	.border-sm-c-80-negro, .border-sm-c-80-negro-h:hover, .border-sm-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+	.border-sm-c-70-negro, .border-sm-c-70-negro-h:hover, .border-sm-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+	.border-sm-c-60-negro, .border-sm-c-60-negro-h:hover, .border-sm-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+	.border-sm-c-50-negro, .border-sm-c-50-negro-h:hover, .border-sm-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+	.border-sm-c-40-negro, .border-sm-c-40-negro-h:hover, .border-sm-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+	.border-sm-c-30-negro, .border-sm-c-30-negro-h:hover, .border-sm-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+	.border-sm-c-20-negro, .border-sm-c-20-negro-h:hover, .border-sm-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+	.border-sm-c-10-negro, .border-sm-c-10-negro-h:hover, .border-sm-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+	.border-sm-c-blanco, .border-sm-c-blanco-h:hover, .border-sm-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+	.border-sm-c-azul, .border-sm-c-azul-h:hover, .border-sm-c-azul-a:active { border-color: rgb(0, 0, 255); }
+	.border-sm-c-cian, .border-sm-c-cian-h:hover, .border-sm-c-cian-a:active { border-color: rgb(0, 255, 255); }
+	.border-sm-c-verde, .border-sm-c-verde-h:hover, .border-sm-c-verde-a:active { border-color: rgb(0, 255, 0); }
+	.border-sm-c-amarillo, .border-sm-c-amarillo-h:hover, .border-sm-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+	.border-sm-c-rojo, .border-sm-c-rojo-h:hover, .border-sm-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+	.border-sm-c-magenta, .border-sm-c-magenta-h:hover, .border-sm-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+	.border-sm-c-morado, .border-sm-c-morado-h:hover, .border-sm-c-morado-a:active { border-color: rgb(153, 0, 204); }
+	.border-sm-c-naranja, .border-sm-c-naranja-h:hover, .border-sm-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+	.border-sm-c-rosa, .border-sm-c-rosa-h:hover, .border-sm-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+	.border-sm-c-marron-oscuro, .border-sm-c-marron-oscuro-h:hover, .border-sm-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+	.border-sm-c-malva,.border-sm-c-malva-h:hover, .border-sm-c-malva-a:active { border-color: rgb(204, 204, 255); }
+	.border-sm-c-azul-pastel, .border-sm-c-azul-pastel-h:hover, .border-sm-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+	.border-sm-c-azul-infantil, .border-sm-c-azul-infantil-h:hover, .border-sm-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+	.border-sm-c-azul-electrico, .border-sm-c-azul-electrico-h:hover, .border-sm-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+	.border-sm-c-azul-crepusculo, .border-sm-c-azul-crepusculo-h:hover, .border-sm-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+	.border-sm-c-azul-marino, .border-sm-c-azul-marino-h:hover, .border-sm-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+	.border-sm-c-azul-marino-oscuro, .border-sm-c-azul-marino-oscuro-h:hover, .border-sm-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+	.border-sm-c-azul-desierto, .border-sm-c-azul-desierto-h:hover, .border-sm-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+	.border-sm-c-azul-celeste, .border-sm-c-azul-celeste-h:hover, .border-sm-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+	.border-sm-c-azul-hielo, .border-sm-c-azul-hielo-h:hover, .border-sm-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+	.border-sm-c-verde-azulado-claro, .border-sm-c-verde-azulado-claro-h:hover, .border-sm-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+	.border-sm-c-verde-oceano, .border-sm-c-verde-oceano-h:hover, .border-sm-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+	.border-sm-c-verde-musgo, .border-sm-c-verde-musgo-h:hover, .border-sm-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+	.border-sm-c-verde-oscuro, .border-sm-c-verde-oscuro-h:hover, .border-sm-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+	.border-sm-c-verde-bosque, .border-sm-c-verde-bosque-h:hover, .border-sm-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+	.border-sm-c-verde-hierba, .border-sm-c-verde-hierba-h:hover, .border-sm-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+	.border-sm-c-verde-kentucky, .border-sm-c-verde-kentucky-h:hover, .border-sm-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+	.border-sm-c-verde-claro, .border-sm-c-verde-claro-h:hover, .border-sm-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+	.border-sm-c-verde-primavera, .border-sm-c-verde-primavera-h:hover, .border-sm-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+	.border-sm-c-turquesa, .border-sm-c-turquesa-h:hover, .border-sm-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+	.border-sm-c-verde-mar, .border-sm-c-verde-mar-h:hover, .border-sm-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+	.border-sm-c-verde-apagado, .border-sm-c-verde-apagado-h:hover, .border-sm-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+	.border-sm-c-verde-fantasma, .border-sm-c-verde-fantasma-h:hover, .border-sm-c-verde-fantasma-a:active { border-color: rgb(204, 255, 204); }
+	.border-sm-c-verde-menta, .border-sm-c-verde-menta-h:hover, .border-sm-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+	.border-sm-c-verde-ejercito, .border-sm-c-verde-ejercito-h:hover, .border-sm-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+	.border-sm-c-verde-aguacate, .border-sm-c-verde-aguacate-h:hover, .border-sm-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+	.border-sm-c-verde-marciano, .border-sm-c-verde-marciano-h:hover, .border-sm-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+	.border-sm-c-verde-opaco, .border-sm-c-verde-opaco-h:hover, .border-sm-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+	.border-sm-c-chartreuse, .border-sm-c-chartreuse-h:hover, .border-sm-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+	.border-sm-c-verde-luna, .border-sm-c-verde-luna-h:hover, .border-sm-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+	.border-sm-c-verde-lobrego, .border-sm-c-verde-lobrego-h:hover, .border-sm-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+	.border-sm-c-pardo-aceituna, .border-sm-c-pardo-aceituna-h:hover, .border-sm-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+	.border-sm-c-kaki, .border-sm-c-kaki-h:hover, .border-sm-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+	.border-sm-c-oliva, .border-sm-c-oliva-h:hover, .border-sm-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+	.border-sm-c-amarillo-platano, .border-sm-c-amarillo-platano-h:hover, .border-sm-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+	.border-sm-c-amarillo-claro, .border-sm-c-amarillo-claro-h:hover, .border-sm-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+	.border-sm-c-amarillo-verdosa, .border-sm-c-amarillo-verdosa-h:hover, .border-sm-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+	.border-sm-c-amarillo-palido, .border-sm-c-amarillo-palido-h:hover, .border-sm-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+	.border-sm-c-marron, .border-sm-c-marron-h:hover, .border-sm-c-marron-a:active { border-color: rgb(153, 102, 51); }
+	.border-sm-c-marron-rojiso, .border-sm-c-marron-rojiso-h:hover, .border-sm-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+	.border-sm-c-dorado, .border-sm-c-dorado-h:hover, .border-sm-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+	.border-sm-c-naranja-otonal, .border-sm-c-naranja-otonal-h:hover, .border-sm-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+	.border-sm-c-naranja-claro, .border-sm-c-naranja-claro-h:hover, .border-sm-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+	.border-sm-c-melocoton, .border-sm-c-melocoton-h:hover, .border-sm-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+	.border-sm-c-amarillo-fuerte, .border-sm-c-amarillo-fuerte-h:hover, .border-sm-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+	.border-sm-c-arena, .border-sm-c-arena-h:hover, .border-sm-c-arena-a:active { border-color: rgb(255, 204, 153); }
+	.border-sm-c-avellana, .border-sm-c-avellana-h:hover, .border-sm-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+	.border-sm-c-rojo-rubi, .border-sm-c-rojo-rubi-h:hover, .border-sm-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+	.border-sm-c-rojo-ladrillo, .border-sm-c-rojo-ladrillo-h:hover, .border-sm-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+	.border-sm-c-rosa-tropical, .border-sm-c-rosa-tropical-h:hover, .border-sm-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+	.border-sm-c-rosa-palido, .border-sm-c-rosa-palido-h:hover, .border-sm-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+	.border-sm-c-rosa-apagado, .border-sm-c-rosa-apagado-h:hover, .border-sm-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+	.border-sm-c-granate, .border-sm-c-granate-h:hover, .border-sm-c-granate-a:active { border-color: rgb(153, 51, 102); }
+	.border-sm-c-rojo-legal, .border-sm-c-rojo-legal-h:hover, .border-sm-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+	.border-sm-c-rojo-intenso, .border-sm-c-rojo-intenso-h:hover, .border-sm-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+	.border-sm-c-rojo-fluorecente, .border-sm-c-rojo-fluorecente-h:hover, .border-sm-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+	.border-sm-c-rosa-fuerte, .border-sm-c-rosa-fuerte-h:hover, .border-sm-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+	.border-sm-c-rosa-fresa, .border-sm-c-rosa-fresa-h:hover, .border-sm-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+	.border-sm-c-rosa-azulado, .border-sm-c-rosa-azulado-h:hover, .border-sm-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+	.border-sm-c-ciruela, .border-sm-c-ciruela-h:hover, .border-sm-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+	.border-sm-c-violeta-oscuro, .border-sm-c-violeta-oscuro-h:hover, .border-sm-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+	.border-sm-c-violeta-claro, .border-sm-c-violeta-claro-h:hover, .border-sm-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+	.border-sm-c-violeta, .border-sm-c-violeta-h:hover, .border-sm-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+	.border-sm-c-ciruela-azulado, .border-sm-c-ciruela-azulado-h:hover, .border-sm-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+	.border-sm-c-morado-palido, .border-sm-c-morado-palido-h:hover, .border-sm-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+	.border-sm-c-morado-majestic, .border-sm-c-morado-majestic-h:hover, .border-sm-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+	.border-sm-c-morado-fluorecente, .border-sm-c-morado-fluorecente-h:hover, .border-sm-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+	.border-sm-c-morado-claro, .border-sm-c-morado-claro-h:hover, .border-sm-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+	.border-sm-c-violeta-azulado, .border-sm-c-violeta-azulado-h:hover, .border-sm-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+	.border-sm-c-morado-pascua, .border-sm-c-morado-pascua-h:hover, .border-sm-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+	.border-sm-c-morado-fuerte, .border-sm-c-morado-fuerte-h:hover, .border-sm-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+	.border-sm-c-uva, .border-sm-c-uva-h:hover, .border-sm-c-uva-a:active { border-color: rgb(102, 51, 153); }
+	.border-sm-c-violeta-azul, .border-sm-c-violeta-azul-h:hover, .border-sm-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+	.border-sm-c-morado-azulado, .border-sm-c-morado-azulado-h:hover, .border-sm-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+	.border-sm-c-rio-intenso, .border-sm-c-rio-intenso-h:hover, .border-sm-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+	.border-sm-c-anil-intenso, .border-sm-c-anil-intenso-h:hover, .border-sm-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+	.border-sm-c-azul-tormenta, .border-sm-c-azul-tormenta-h:hover, .border-sm-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+	.border-sm-c-azul-intenso, .border-sm-c-azul-intenso-h:hover, .border-sm-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+
+	/* ningun borde */
+	.border-md-none, .border-md-none-h:hover, .border-md-none-a:active { border: none; }
+	.border-md-bottom-none, .border-md-bottom-none-h:hover, .border-md-bottom-none-a:active { border-bottom: none; }
+	.border-md-left-none, .border-md-left-none-h:hover, .border-md-left-none-a:active { border-left: none; }
+	.border-md-right-none, .border-md-right-none-h:hover, .border-md-right-none-a:active { border-right: none; }
+	.border-md-top-none, .border-md-top-none-h:hover, .border-md-top-none-a:active { border-top: none; }
+
+	/* estilo de la linea */
+	.border-md-s-dashed, .border-md-s-dashed-h:hover, .border-md-s-dashed-a:active { border-style: dashed; }
+	.border-md-s-dotted, .border-md-s-dotted-h:hover, .border-md-s-dotted-a:active { border-style: dotted; }
+	.border-md-s-double, .border-md-s-double-h:hover, .border-md-s-double-a:active { border-style: double; }
+	.border-md-s-solid, .border-md-s-solid-h:hover, .border-md-s-solid-a:active { border-style: solid; }
+
+	/* ancho de la linea */
+	.border-md-w-1, .border-md-w-1-h:hover, .border-md-w-1-a:active { border-width: 1px; }
+	.border-md-w-2, .border-md-w-2-h:hover, .border-md-w-2-a:active { border-width: 2px; }
+	.border-md-w-3, .border-md-w-3-h:hover, .border-md-w-3-a:active { border-width: 3px; }
+	.border-md-w-4, .border-md-w-4-h:hover, .border-md-w-4-a:active { border-width: 4px; }
+	.border-md-w-5, .border-md-w-5-h:hover, .border-md-w-5-a:active { border-width: 5px; }
+	.border-md-w-6, .border-md-w-6-h:hover, .border-md-w-6-a:active { border-width: 6px; }
+	.border-md-w-7, .border-md-w-7-h:hover, .border-md-w-7-a:active { border-width: 7px; }
+	.border-md-w-8, .border-md-w-8-h:hover, .border-md-w-8-a:active { border-width: 8px; }
+	.border-md-w-9, .border-md-w-9-h:hover, .border-md-w-9-a:active { border-width: 9px; }
+	.border-md-w-10, .border-md-w-10-h:hover, .border-md-w-10-a:active { border-width: 10px; }
+	.border-md-w-11, .border-md-w-11-h:hover, .border-md-w-11-a:active { border-width: 11px; }
+	.border-md-w-12, .border-md-w-12-h:hover, .border-md-w-12-a:active { border-width: 12px; }
+	.border-md-w-13, .border-md-w-13-h:hover, .border-md-w-13-a:active { border-width: 13px; }
+	.border-md-w-14, .border-md-w-14-h:hover, .border-md-w-14-a:active { border-width: 14px; }
+	.border-md-w-15, .border-md-w-15-h:hover, .border-md-w-15-a:active { border-width: 15px; }
+
+	/* color de la linea */
+	.border-md-c-negro, .border-md-c-negro-h:hover, .border-md-c-negro-a:active { border-color: rgb(0, 0, 0); }
+	.border-md-c-90-negro, .border-md-c-90-negro-h:hover, .border-md-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+	.border-md-c-80-negro, .border-md-c-80-negro-h:hover, .border-md-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+	.border-md-c-70-negro, .border-md-c-70-negro-h:hover, .border-md-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+	.border-md-c-60-negro, .border-md-c-60-negro-h:hover, .border-md-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+	.border-md-c-50-negro, .border-md-c-50-negro-h:hover, .border-md-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+	.border-md-c-40-negro, .border-md-c-40-negro-h:hover, .border-md-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+	.border-md-c-30-negro, .border-md-c-30-negro-h:hover, .border-md-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+	.border-md-c-20-negro, .border-md-c-20-negro-h:hover, .border-md-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+	.border-md-c-10-negro, .border-md-c-10-negro-h:hover, .border-md-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+	.border-md-c-blanco, .border-md-c-blanco-h:hover, .border-md-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+	.border-md-c-azul, .border-md-c-azul-h:hover, .border-md-c-azul-a:active { border-color: rgb(0, 0, 255); }
+	.border-md-c-cian, .border-md-c-cian-h:hover, .border-md-c-cian-a:active { border-color: rgb(0, 255, 255); }
+	.border-md-c-verde, .border-md-c-verde-h:hover, .border-md-c-verde-a:active { border-color: rgb(0, 255, 0); }
+	.border-md-c-amarillo, .border-md-c-amarillo-h:hover, .border-md-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+	.border-md-c-rojo, .border-md-c-rojo-h:hover, .border-md-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+	.border-md-c-magenta, .border-md-c-magenta-h:hover, .border-md-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+	.border-md-c-morado, .border-md-c-morado-h:hover, .border-md-c-morado-a:active { border-color: rgb(153, 0, 204); }
+	.border-md-c-naranja, .border-md-c-naranja-h:hover, .border-md-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+	.border-md-c-rosa, .border-md-c-rosa-h:hover, .border-md-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+	.border-md-c-marron-oscuro, .border-md-c-marron-oscuro-h:hover, .border-md-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+	.border-md-c-malva,.border-md-c-malva-h:hover, .border-md-c-malva-a:active { border-color: rgb(204, 204, 255); }
+	.border-md-c-azul-pastel, .border-md-c-azul-pastel-h:hover, .border-md-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+	.border-md-c-azul-infantil, .border-md-c-azul-infantil-h:hover, .border-md-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+	.border-md-c-azul-electrico, .border-md-c-azul-electrico-h:hover, .border-md-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+	.border-md-c-azul-crepusculo, .border-md-c-azul-crepusculo-h:hover, .border-md-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+	.border-md-c-azul-marino, .border-md-c-azul-marino-h:hover, .border-md-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+	.border-md-c-azul-marino-oscuro, .border-md-c-azul-marino-oscuro-h:hover, .border-md-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+	.border-md-c-azul-desierto, .border-md-c-azul-desierto-h:hover, .border-md-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+	.border-md-c-azul-celeste, .border-md-c-azul-celeste-h:hover, .border-md-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+	.border-md-c-azul-hielo, .border-md-c-azul-hielo-h:hover, .border-md-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+	.border-md-c-verde-azulado-claro, .border-md-c-verde-azulado-claro-h:hover, .border-md-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+	.border-md-c-verde-oceano, .border-md-c-verde-oceano-h:hover, .border-md-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+	.border-md-c-verde-musgo, .border-md-c-verde-musgo-h:hover, .border-md-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+	.border-md-c-verde-oscuro, .border-md-c-verde-oscuro-h:hover, .border-md-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+	.border-md-c-verde-bosque, .border-md-c-verde-bosque-h:hover, .border-md-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+	.border-md-c-verde-hierba, .border-md-c-verde-hierba-h:hover, .border-md-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+	.border-md-c-verde-kentucky, .border-md-c-verde-kentucky-h:hover, .border-md-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+	.border-md-c-verde-claro, .border-md-c-verde-claro-h:hover, .border-md-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+	.border-md-c-verde-primavera, .border-md-c-verde-primavera-h:hover, .border-md-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+	.border-md-c-turquesa, .border-md-c-turquesa-h:hover, .border-md-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+	.border-md-c-verde-mar, .border-md-c-verde-mar-h:hover, .border-md-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+	.border-md-c-verde-apagado, .border-md-c-verde-apagado-h:hover, .border-md-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+	.border-md-c-verde-fantamda, .border-md-c-verde-fantamda-h:hover, .border-md-c-verde-fantamda-a:active { border-color: rgb(204, 255, 204); }
+	.border-md-c-verde-menta, .border-md-c-verde-menta-h:hover, .border-md-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+	.border-md-c-verde-ejercito, .border-md-c-verde-ejercito-h:hover, .border-md-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+	.border-md-c-verde-aguacate, .border-md-c-verde-aguacate-h:hover, .border-md-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+	.border-md-c-verde-marciano, .border-md-c-verde-marciano-h:hover, .border-md-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+	.border-md-c-verde-opaco, .border-md-c-verde-opaco-h:hover, .border-md-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+	.border-md-c-chartreuse, .border-md-c-chartreuse-h:hover, .border-md-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+	.border-md-c-verde-luna, .border-md-c-verde-luna-h:hover, .border-md-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+	.border-md-c-verde-lobrego, .border-md-c-verde-lobrego-h:hover, .border-md-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+	.border-md-c-pardo-aceituna, .border-md-c-pardo-aceituna-h:hover, .border-md-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+	.border-md-c-kaki, .border-md-c-kaki-h:hover, .border-md-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+	.border-md-c-oliva, .border-md-c-oliva-h:hover, .border-md-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+	.border-md-c-amarillo-platano, .border-md-c-amarillo-platano-h:hover, .border-md-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+	.border-md-c-amarillo-claro, .border-md-c-amarillo-claro-h:hover, .border-md-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+	.border-md-c-amarillo-verdosa, .border-md-c-amarillo-verdosa-h:hover, .border-md-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+	.border-md-c-amarillo-palido, .border-md-c-amarillo-palido-h:hover, .border-md-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+	.border-md-c-marron, .border-md-c-marron-h:hover, .border-md-c-marron-a:active { border-color: rgb(153, 102, 51); }
+	.border-md-c-marron-rojiso, .border-md-c-marron-rojiso-h:hover, .border-md-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+	.border-md-c-dorado, .border-md-c-dorado-h:hover, .border-md-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+	.border-md-c-naranja-otonal, .border-md-c-naranja-otonal-h:hover, .border-md-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+	.border-md-c-naranja-claro, .border-md-c-naranja-claro-h:hover, .border-md-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+	.border-md-c-melocoton, .border-md-c-melocoton-h:hover, .border-md-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+	.border-md-c-amarillo-fuerte, .border-md-c-amarillo-fuerte-h:hover, .border-md-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+	.border-md-c-arena, .border-md-c-arena-h:hover, .border-md-c-arena-a:active { border-color: rgb(255, 204, 153); }
+	.border-md-c-avellana, .border-md-c-avellana-h:hover, .border-md-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+	.border-md-c-rojo-rubi, .border-md-c-rojo-rubi-h:hover, .border-md-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+	.border-md-c-rojo-ladrillo, .border-md-c-rojo-ladrillo-h:hover, .border-md-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+	.border-md-c-rosa-tropical, .border-md-c-rosa-tropical-h:hover, .border-md-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+	.border-md-c-rosa-palido, .border-md-c-rosa-palido-h:hover, .border-md-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+	.border-md-c-rosa-apagado, .border-md-c-rosa-apagado-h:hover, .border-md-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+	.border-md-c-granate, .border-md-c-granate-h:hover, .border-md-c-granate-a:active { border-color: rgb(153, 51, 102); }
+	.border-md-c-rojo-legal, .border-md-c-rojo-legal-h:hover, .border-md-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+	.border-md-c-rojo-intenso, .border-md-c-rojo-intenso-h:hover, .border-md-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+	.border-md-c-rojo-fluorecente, .border-md-c-rojo-fluorecente-h:hover, .border-md-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+	.border-md-c-rosa-fuerte, .border-md-c-rosa-fuerte-h:hover, .border-md-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+	.border-md-c-rosa-fresa, .border-md-c-rosa-fresa-h:hover, .border-md-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+	.border-md-c-rosa-azulado, .border-md-c-rosa-azulado-h:hover, .border-md-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+	.border-md-c-ciruela, .border-md-c-ciruela-h:hover, .border-md-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+	.border-md-c-violeta-oscuro, .border-md-c-violeta-oscuro-h:hover, .border-md-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+	.border-md-c-violeta-claro, .border-md-c-violeta-claro-h:hover, .border-md-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+	.border-md-c-violeta, .border-md-c-violeta-h:hover, .border-md-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+	.border-md-c-ciruela-azulado, .border-md-c-ciruela-azulado-h:hover, .border-md-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+	.border-md-c-morado-palido, .border-md-c-morado-palido-h:hover, .border-md-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+	.border-md-c-morado-majestic, .border-md-c-morado-majestic-h:hover, .border-md-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+	.border-md-c-morado-fluorecente, .border-md-c-morado-fluorecente-h:hover, .border-md-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+	.border-md-c-morado-claro, .border-md-c-morado-claro-h:hover, .border-md-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+	.border-md-c-violeta-azulado, .border-md-c-violeta-azulado-h:hover, .border-md-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+	.border-md-c-morado-pascua, .border-md-c-morado-pascua-h:hover, .border-md-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+	.border-md-c-morado-fuerte, .border-md-c-morado-fuerte-h:hover, .border-md-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+	.border-md-c-uva, .border-md-c-uva-h:hover, .border-md-c-uva-a:active { border-color: rgb(102, 51, 153); }
+	.border-md-c-violeta-azul, .border-md-c-violeta-azul-h:hover, .border-md-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+	.border-md-c-morado-azulado, .border-md-c-morado-azulado-h:hover, .border-md-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+	.border-md-c-rio-intenso, .border-md-c-rio-intenso-h:hover, .border-md-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+	.border-md-c-anil-intenso, .border-md-c-anil-intenso-h:hover, .border-md-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+	.border-md-c-azul-tormenta, .border-md-c-azul-tormenta-h:hover, .border-md-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+	.border-md-c-azul-intenso, .border-md-c-azul-intenso-h:hover, .border-md-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	
+	/* ningun borde */
+	.border-lg-none, .border-lg-none-h:hover, .border-lg-none-a:active { border: none; }
+	.border-lg-bottom-none, .border-lg-bottom-none-h:hover, .border-lg-bottom-none-a:active { border-bottom: none; }
+	.border-lg-left-none, .border-lg-left-none-h:hover, .border-lg-left-none-a:active { border-left: none; }
+	.border-lg-right-none, .border-lg-right-none-h:hover, .border-lg-right-none-a:active { border-right: none; }
+	.border-lg-top-none, .border-lg-top-none-h:hover, .border-lg-top-none-a:active { border-top: none; }
+
+	/* estilo de la linea */
+	.border-lg-s-dashed, .border-lg-s-dashed-h:hover, .border-lg-s-dashed-a:active { border-style: dashed; }
+	.border-lg-s-dotted, .border-lg-s-dotted-h:hover, .border-lg-s-dotted-a:active { border-style: dotted; }
+	.border-lg-s-double, .border-lg-s-double-h:hover, .border-lg-s-double-a:active { border-style: double; }
+	.border-lg-s-solid, .border-lg-s-solid-h:hover, .border-lg-s-solid-a:active { border-style: solid; }
+
+	/* ancho de la linea */
+	.border-lg-w-1, .border-lg-w-1-h:hover, .border-lg-w-1-a:active { border-width: 1px; }
+	.border-lg-w-2, .border-lg-w-2-h:hover, .border-lg-w-2-a:active { border-width: 2px; }
+	.border-lg-w-3, .border-lg-w-3-h:hover, .border-lg-w-3-a:active { border-width: 3px; }
+	.border-lg-w-4, .border-lg-w-4-h:hover, .border-lg-w-4-a:active { border-width: 4px; }
+	.border-lg-w-5, .border-lg-w-5-h:hover, .border-lg-w-5-a:active { border-width: 5px; }
+	.border-lg-w-6, .border-lg-w-6-h:hover, .border-lg-w-6-a:active { border-width: 6px; }
+	.border-lg-w-7, .border-lg-w-7-h:hover, .border-lg-w-7-a:active { border-width: 7px; }
+	.border-lg-w-8, .border-lg-w-8-h:hover, .border-lg-w-8-a:active { border-width: 8px; }
+	.border-lg-w-9, .border-lg-w-9-h:hover, .border-lg-w-9-a:active { border-width: 9px; }
+	.border-lg-w-10, .border-lg-w-10-h:hover, .border-lg-w-10-a:active { border-width: 10px; }
+	.border-lg-w-11, .border-lg-w-11-h:hover, .border-lg-w-11-a:active { border-width: 11px; }
+	.border-lg-w-12, .border-lg-w-12-h:hover, .border-lg-w-12-a:active { border-width: 12px; }
+	.border-lg-w-13, .border-lg-w-13-h:hover, .border-lg-w-13-a:active { border-width: 13px; }
+	.border-lg-w-14, .border-lg-w-14-h:hover, .border-lg-w-14-a:active { border-width: 14px; }
+	.border-lg-w-15, .border-lg-w-15-h:hover, .border-lg-w-15-a:active { border-width: 15px; }
+
+	/* color de la linea */
+	.border-lg-c-negro, .border-lg-c-negro-h:hover, .border-lg-c-negro-a:active { border-color: rgb(0, 0, 0); }
+	.border-lg-c-90-negro, .border-lg-c-90-negro-h:hover, .border-lg-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+	.border-lg-c-80-negro, .border-lg-c-80-negro-h:hover, .border-lg-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+	.border-lg-c-70-negro, .border-lg-c-70-negro-h:hover, .border-lg-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+	.border-lg-c-60-negro, .border-lg-c-60-negro-h:hover, .border-lg-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+	.border-lg-c-50-negro, .border-lg-c-50-negro-h:hover, .border-lg-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+	.border-lg-c-40-negro, .border-lg-c-40-negro-h:hover, .border-lg-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+	.border-lg-c-30-negro, .border-lg-c-30-negro-h:hover, .border-lg-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+	.border-lg-c-20-negro, .border-lg-c-20-negro-h:hover, .border-lg-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+	.border-lg-c-10-negro, .border-lg-c-10-negro-h:hover, .border-lg-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+	.border-lg-c-blanco, .border-lg-c-blanco-h:hover, .border-lg-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+	.border-lg-c-azul, .border-lg-c-azul-h:hover, .border-lg-c-azul-a:active { border-color: rgb(0, 0, 255); }
+	.border-lg-c-cian, .border-lg-c-cian-h:hover, .border-lg-c-cian-a:active { border-color: rgb(0, 255, 255); }
+	.border-lg-c-verde, .border-lg-c-verde-h:hover, .border-lg-c-verde-a:active { border-color: rgb(0, 255, 0); }
+	.border-lg-c-amarillo, .border-lg-c-amarillo-h:hover, .border-lg-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+	.border-lg-c-rojo, .border-lg-c-rojo-h:hover, .border-lg-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+	.border-lg-c-magenta, .border-lg-c-magenta-h:hover, .border-lg-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+	.border-lg-c-morado, .border-lg-c-morado-h:hover, .border-lg-c-morado-a:active { border-color: rgb(153, 0, 204); }
+	.border-lg-c-naranja, .border-lg-c-naranja-h:hover, .border-lg-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+	.border-lg-c-rosa, .border-lg-c-rosa-h:hover, .border-lg-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+	.border-lg-c-marron-oscuro, .border-lg-c-marron-oscuro-h:hover, .border-lg-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+	.border-lg-c-malva,.border-lg-c-malva-h:hover, .border-lg-c-malva-a:active { border-color: rgb(204, 204, 255); }
+	.border-lg-c-azul-pastel, .border-lg-c-azul-pastel-h:hover, .border-lg-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+	.border-lg-c-azul-infantil, .border-lg-c-azul-infantil-h:hover, .border-lg-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+	.border-lg-c-azul-electrico, .border-lg-c-azul-electrico-h:hover, .border-lg-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+	.border-lg-c-azul-crepusculo, .border-lg-c-azul-crepusculo-h:hover, .border-lg-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+	.border-lg-c-azul-marino, .border-lg-c-azul-marino-h:hover, .border-lg-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+	.border-lg-c-azul-marino-oscuro, .border-lg-c-azul-marino-oscuro-h:hover, .border-lg-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+	.border-lg-c-azul-desierto, .border-lg-c-azul-desierto-h:hover, .border-lg-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+	.border-lg-c-azul-celeste, .border-lg-c-azul-celeste-h:hover, .border-lg-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+	.border-lg-c-azul-hielo, .border-lg-c-azul-hielo-h:hover, .border-lg-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+	.border-lg-c-verde-azulado-claro, .border-lg-c-verde-azulado-claro-h:hover, .border-lg-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+	.border-lg-c-verde-oceano, .border-lg-c-verde-oceano-h:hover, .border-lg-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+	.border-lg-c-verde-musgo, .border-lg-c-verde-musgo-h:hover, .border-lg-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+	.border-lg-c-verde-oscuro, .border-lg-c-verde-oscuro-h:hover, .border-lg-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+	.border-lg-c-verde-bosque, .border-lg-c-verde-bosque-h:hover, .border-lg-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+	.border-lg-c-verde-hierba, .border-lg-c-verde-hierba-h:hover, .border-lg-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+	.border-lg-c-verde-kentucky, .border-lg-c-verde-kentucky-h:hover, .border-lg-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+	.border-lg-c-verde-claro, .border-lg-c-verde-claro-h:hover, .border-lg-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+	.border-lg-c-verde-primavera, .border-lg-c-verde-primavera-h:hover, .border-lg-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+	.border-lg-c-turquesa, .border-lg-c-turquesa-h:hover, .border-lg-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+	.border-lg-c-verde-mar, .border-lg-c-verde-mar-h:hover, .border-lg-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+	.border-lg-c-verde-apagado, .border-lg-c-verde-apagado-h:hover, .border-lg-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+	.border-lg-c-verde-fantalga, .border-lg-c-verde-fantalga-h:hover, .border-lg-c-verde-fantalga-a:active { border-color: rgb(204, 255, 204); }
+	.border-lg-c-verde-menta, .border-lg-c-verde-menta-h:hover, .border-lg-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+	.border-lg-c-verde-ejercito, .border-lg-c-verde-ejercito-h:hover, .border-lg-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+	.border-lg-c-verde-aguacate, .border-lg-c-verde-aguacate-h:hover, .border-lg-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+	.border-lg-c-verde-marciano, .border-lg-c-verde-marciano-h:hover, .border-lg-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+	.border-lg-c-verde-opaco, .border-lg-c-verde-opaco-h:hover, .border-lg-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+	.border-lg-c-chartreuse, .border-lg-c-chartreuse-h:hover, .border-lg-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+	.border-lg-c-verde-luna, .border-lg-c-verde-luna-h:hover, .border-lg-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+	.border-lg-c-verde-lobrego, .border-lg-c-verde-lobrego-h:hover, .border-lg-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+	.border-lg-c-pardo-aceituna, .border-lg-c-pardo-aceituna-h:hover, .border-lg-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+	.border-lg-c-kaki, .border-lg-c-kaki-h:hover, .border-lg-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+	.border-lg-c-oliva, .border-lg-c-oliva-h:hover, .border-lg-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+	.border-lg-c-amarillo-platano, .border-lg-c-amarillo-platano-h:hover, .border-lg-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+	.border-lg-c-amarillo-claro, .border-lg-c-amarillo-claro-h:hover, .border-lg-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+	.border-lg-c-amarillo-verdosa, .border-lg-c-amarillo-verdosa-h:hover, .border-lg-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+	.border-lg-c-amarillo-palido, .border-lg-c-amarillo-palido-h:hover, .border-lg-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+	.border-lg-c-marron, .border-lg-c-marron-h:hover, .border-lg-c-marron-a:active { border-color: rgb(153, 102, 51); }
+	.border-lg-c-marron-rojiso, .border-lg-c-marron-rojiso-h:hover, .border-lg-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+	.border-lg-c-dorado, .border-lg-c-dorado-h:hover, .border-lg-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+	.border-lg-c-naranja-otonal, .border-lg-c-naranja-otonal-h:hover, .border-lg-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+	.border-lg-c-naranja-claro, .border-lg-c-naranja-claro-h:hover, .border-lg-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+	.border-lg-c-melocoton, .border-lg-c-melocoton-h:hover, .border-lg-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+	.border-lg-c-amarillo-fuerte, .border-lg-c-amarillo-fuerte-h:hover, .border-lg-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+	.border-lg-c-arena, .border-lg-c-arena-h:hover, .border-lg-c-arena-a:active { border-color: rgb(255, 204, 153); }
+	.border-lg-c-avellana, .border-lg-c-avellana-h:hover, .border-lg-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+	.border-lg-c-rojo-rubi, .border-lg-c-rojo-rubi-h:hover, .border-lg-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+	.border-lg-c-rojo-ladrillo, .border-lg-c-rojo-ladrillo-h:hover, .border-lg-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+	.border-lg-c-rosa-tropical, .border-lg-c-rosa-tropical-h:hover, .border-lg-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+	.border-lg-c-rosa-palido, .border-lg-c-rosa-palido-h:hover, .border-lg-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+	.border-lg-c-rosa-apagado, .border-lg-c-rosa-apagado-h:hover, .border-lg-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+	.border-lg-c-granate, .border-lg-c-granate-h:hover, .border-lg-c-granate-a:active { border-color: rgb(153, 51, 102); }
+	.border-lg-c-rojo-legal, .border-lg-c-rojo-legal-h:hover, .border-lg-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+	.border-lg-c-rojo-intenso, .border-lg-c-rojo-intenso-h:hover, .border-lg-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+	.border-lg-c-rojo-fluorecente, .border-lg-c-rojo-fluorecente-h:hover, .border-lg-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+	.border-lg-c-rosa-fuerte, .border-lg-c-rosa-fuerte-h:hover, .border-lg-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+	.border-lg-c-rosa-fresa, .border-lg-c-rosa-fresa-h:hover, .border-lg-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+	.border-lg-c-rosa-azulado, .border-lg-c-rosa-azulado-h:hover, .border-lg-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+	.border-lg-c-ciruela, .border-lg-c-ciruela-h:hover, .border-lg-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+	.border-lg-c-violeta-oscuro, .border-lg-c-violeta-oscuro-h:hover, .border-lg-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+	.border-lg-c-violeta-claro, .border-lg-c-violeta-claro-h:hover, .border-lg-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+	.border-lg-c-violeta, .border-lg-c-violeta-h:hover, .border-lg-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+	.border-lg-c-ciruela-azulado, .border-lg-c-ciruela-azulado-h:hover, .border-lg-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+	.border-lg-c-morado-palido, .border-lg-c-morado-palido-h:hover, .border-lg-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+	.border-lg-c-morado-majestic, .border-lg-c-morado-majestic-h:hover, .border-lg-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+	.border-lg-c-morado-fluorecente, .border-lg-c-morado-fluorecente-h:hover, .border-lg-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+	.border-lg-c-morado-claro, .border-lg-c-morado-claro-h:hover, .border-lg-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+	.border-lg-c-violeta-azulado, .border-lg-c-violeta-azulado-h:hover, .border-lg-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+	.border-lg-c-morado-pascua, .border-lg-c-morado-pascua-h:hover, .border-lg-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+	.border-lg-c-morado-fuerte, .border-lg-c-morado-fuerte-h:hover, .border-lg-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+	.border-lg-c-uva, .border-lg-c-uva-h:hover, .border-lg-c-uva-a:active { border-color: rgb(102, 51, 153); }
+	.border-lg-c-violeta-azul, .border-lg-c-violeta-azul-h:hover, .border-lg-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+	.border-lg-c-morado-azulado, .border-lg-c-morado-azulado-h:hover, .border-lg-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+	.border-lg-c-rio-intenso, .border-lg-c-rio-intenso-h:hover, .border-lg-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+	.border-lg-c-anil-intenso, .border-lg-c-anil-intenso-h:hover, .border-lg-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+	.border-lg-c-azul-tormenta, .border-lg-c-azul-tormenta-h:hover, .border-lg-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+	.border-lg-c-azul-intenso, .border-lg-c-azul-intenso-h:hover, .border-lg-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+	/* ningun borde */
+	.border-xl-none, .border-xl-none-h:hover, .border-xl-none-a:active { border: none; }
+	.border-xl-bottom-none, .border-xl-bottom-none-h:hover, .border-xl-bottom-none-a:active { border-bottom: none; }
+	.border-xl-left-none, .border-xl-left-none-h:hover, .border-xl-left-none-a:active { border-left: none; }
+	.border-xl-right-none, .border-xl-right-none-h:hover, .border-xl-right-none-a:active { border-right: none; }
+	.border-xl-top-none, .border-xl-top-none-h:hover, .border-xl-top-none-a:active { border-top: none; }
+
+	/* estilo de la linea */
+	.border-xl-s-dashed, .border-xl-s-dashed-h:hover, .border-xl-s-dashed-a:active { border-style: dashed; }
+	.border-xl-s-dotted, .border-xl-s-dotted-h:hover, .border-xl-s-dotted-a:active { border-style: dotted; }
+	.border-xl-s-double, .border-xl-s-double-h:hover, .border-xl-s-double-a:active { border-style: double; }
+	.border-xl-s-solid, .border-xl-s-solid-h:hover, .border-xl-s-solid-a:active { border-style: solid; }
+
+	/* ancho de la linea */
+	.border-xl-w-1, .border-xl-w-1-h:hover, .border-xl-w-1-a:active { border-width: 1px; }
+	.border-xl-w-2, .border-xl-w-2-h:hover, .border-xl-w-2-a:active { border-width: 2px; }
+	.border-xl-w-3, .border-xl-w-3-h:hover, .border-xl-w-3-a:active { border-width: 3px; }
+	.border-xl-w-4, .border-xl-w-4-h:hover, .border-xl-w-4-a:active { border-width: 4px; }
+	.border-xl-w-5, .border-xl-w-5-h:hover, .border-xl-w-5-a:active { border-width: 5px; }
+	.border-xl-w-6, .border-xl-w-6-h:hover, .border-xl-w-6-a:active { border-width: 6px; }
+	.border-xl-w-7, .border-xl-w-7-h:hover, .border-xl-w-7-a:active { border-width: 7px; }
+	.border-xl-w-8, .border-xl-w-8-h:hover, .border-xl-w-8-a:active { border-width: 8px; }
+	.border-xl-w-9, .border-xl-w-9-h:hover, .border-xl-w-9-a:active { border-width: 9px; }
+	.border-xl-w-10, .border-xl-w-10-h:hover, .border-xl-w-10-a:active { border-width: 10px; }
+	.border-xl-w-11, .border-xl-w-11-h:hover, .border-xl-w-11-a:active { border-width: 11px; }
+	.border-xl-w-12, .border-xl-w-12-h:hover, .border-xl-w-12-a:active { border-width: 12px; }
+	.border-xl-w-13, .border-xl-w-13-h:hover, .border-xl-w-13-a:active { border-width: 13px; }
+	.border-xl-w-14, .border-xl-w-14-h:hover, .border-xl-w-14-a:active { border-width: 14px; }
+	.border-xl-w-15, .border-xl-w-15-h:hover, .border-xl-w-15-a:active { border-width: 15px; }
+
+	/* color de la linea */
+	.border-xl-c-negro, .border-xl-c-negro-h:hover, .border-xl-c-negro-a:active { border-color: rgb(0, 0, 0); }
+	.border-xl-c-90-negro, .border-xl-c-90-negro-h:hover, .border-xl-c-90-negro-a:active { border-color: rgb(26, 26, 26); }
+	.border-xl-c-80-negro, .border-xl-c-80-negro-h:hover, .border-xl-c-80-negro-a:active { border-color: rgb(51, 51, 51); }
+	.border-xl-c-70-negro, .border-xl-c-70-negro-h:hover, .border-xl-c-70-negro-a:active { border-color: rgb(77, 77, 77); }
+	.border-xl-c-60-negro, .border-xl-c-60-negro-h:hover, .border-xl-c-60-negro-a:active { border-color: rgb(102, 102, 102); }
+	.border-xl-c-50-negro, .border-xl-c-50-negro-h:hover, .border-xl-c-50-negro-a:active { border-color: rgb(128, 128, 128); }
+	.border-xl-c-40-negro, .border-xl-c-40-negro-h:hover, .border-xl-c-40-negro-a:active { border-color: rgb(153, 153, 153); }
+	.border-xl-c-30-negro, .border-xl-c-30-negro-h:hover, .border-xl-c-30-negro-a:active { border-color: rgb(179, 179, 179); }
+	.border-xl-c-20-negro, .border-xl-c-20-negro-h:hover, .border-xl-c-20-negro-a:active { border-color: rgb(204, 204, 204); }
+	.border-xl-c-10-negro, .border-xl-c-10-negro-h:hover, .border-xl-c-10-negro-a:active { border-color: rgb(230, 230, 230); }
+	.border-xl-c-blanco, .border-xl-c-blanco-h:hover, .border-xl-c-blanco-a:active { border-color: rgb(255, 255, 255); }
+	.border-xl-c-azul, .border-xl-c-azul-h:hover, .border-xl-c-azul-a:active { border-color: rgb(0, 0, 255); }
+	.border-xl-c-cian, .border-xl-c-cian-h:hover, .border-xl-c-cian-a:active { border-color: rgb(0, 255, 255); }
+	.border-xl-c-verde, .border-xl-c-verde-h:hover, .border-xl-c-verde-a:active { border-color: rgb(0, 255, 0); }
+	.border-xl-c-amarillo, .border-xl-c-amarillo-h:hover, .border-xl-c-amarillo-a:active { border-color: rgb(255, 255, 0); }
+	.border-xl-c-rojo, .border-xl-c-rojo-h:hover, .border-xl-c-rojo-a:active { border-color: rgb(255, 0, 0); }
+	.border-xl-c-magenta, .border-xl-c-magenta-h:hover, .border-xl-c-magenta-a:active { border-color: rgb(255, 0, 255); }
+	.border-xl-c-morado, .border-xl-c-morado-h:hover, .border-xl-c-morado-a:active { border-color: rgb(153, 0, 204); }
+	.border-xl-c-naranja, .border-xl-c-naranja-h:hover, .border-xl-c-naranja-a:active { border-color: rgb(255, 102, 0); }
+	.border-xl-c-rosa, .border-xl-c-rosa-h:hover, .border-xl-c-rosa-a:active { border-color: rgb(255, 153, 204); }
+	.border-xl-c-marron-oscuro, .border-xl-c-marron-oscuro-h:hover, .border-xl-c-marron-oscuro-a:active { border-color: rgb(102, 51, 51); }
+	.border-xl-c-malva,.border-xl-c-malva-h:hover, .border-xl-c-malva-a:active { border-color: rgb(204, 204, 255); }
+	.border-xl-c-azul-pastel, .border-xl-c-azul-pastel-h:hover, .border-xl-c-azul-pastel-a:active { border-color: rgb(153, 153, 255); }
+	.border-xl-c-azul-infantil, .border-xl-c-azul-infantil-h:hover, .border-xl-c-azul-infantil-a:active { border-color: rgb(102, 153, 255); }
+	.border-xl-c-azul-electrico, .border-xl-c-azul-electrico-h:hover, .border-xl-c-azul-electrico-a:active { border-color: rgb(102, 102, 255); }
+	.border-xl-c-azul-crepusculo, .border-xl-c-azul-crepusculo-h:hover, .border-xl-c-azul-crepusculo-a:active { border-color: rgb(102, 102, 204); }
+	.border-xl-c-azul-marino, .border-xl-c-azul-marino-h:hover, .border-xl-c-azul-marino-a:active { border-color: rgb(0, 51, 153); }
+	.border-xl-c-azul-marino-oscuro, .border-xl-c-azul-marino-oscuro-h:hover, .border-xl-c-azul-marino-oscuro-a:active { border-color: rgb(0, 0, 102); }
+	.border-xl-c-azul-desierto, .border-xl-c-azul-desierto-h:hover, .border-xl-c-azul-desierto-a:active { border-color: rgb(51, 102, 153); }
+	.border-xl-c-azul-celeste, .border-xl-c-azul-celeste-h:hover, .border-xl-c-azul-celeste-a:active { border-color: rgb(0, 204, 255); }
+	.border-xl-c-azul-hielo, .border-xl-c-azul-hielo-h:hover, .border-xl-c-azul-hielo-a:active { border-color: rgb(153, 255, 255); }
+	.border-xl-c-verde-azulado-claro, .border-xl-c-verde-azulado-claro-h:hover, .border-xl-c-verde-azulado-claro-a:active { border-color: rgb(153, 204, 204); }
+	.border-xl-c-verde-oceano, .border-xl-c-verde-oceano-h:hover, .border-xl-c-verde-oceano-a:active { border-color: rgb(102, 153, 153); }
+	.border-xl-c-verde-musgo, .border-xl-c-verde-musgo-h:hover, .border-xl-c-verde-musgo-a:active { border-color: rgb(51, 102, 102); }
+	.border-xl-c-verde-oscuro, .border-xl-c-verde-oscuro-h:hover, .border-xl-c-verde-oscuro-a:active { border-color: rgb(0, 51, 51); }
+	.border-xl-c-verde-bosque, .border-xl-c-verde-bosque-h:hover, .border-xl-c-verde-bosque-a:active { border-color: rgb(0, 102, 51); }
+	.border-xl-c-verde-hierba, .border-xl-c-verde-hierba-h:hover, .border-xl-c-verde-hierba-a:active { border-color: rgb(0, 153, 51); }
+	.border-xl-c-verde-kentucky, .border-xl-c-verde-kentucky-h:hover, .border-xl-c-verde-kentucky-a:active { border-color: rgb(51, 153, 102); }
+	.border-xl-c-verde-claro, .border-xl-c-verde-claro-h:hover, .border-xl-c-verde-claro-a:active { border-color: rgb(51, 204, 102); }
+	.border-xl-c-verde-primavera, .border-xl-c-verde-primavera-h:hover, .border-xl-c-verde-primavera-a:active { border-color: rgb(51, 204, 51); }
+	.border-xl-c-turquesa, .border-xl-c-turquesa-h:hover, .border-xl-c-turquesa-a:active { border-color: rgb(102, 255, 204); }
+	.border-xl-c-verde-mar, .border-xl-c-verde-mar-h:hover, .border-xl-c-verde-mar-a:active { border-color: rgb(51, 204, 153); }
+	.border-xl-c-verde-apagado, .border-xl-c-verde-apagado-h:hover, .border-xl-c-verde-apagado-a:active { border-color: rgb(153, 204, 153); }
+	.border-xl-c-verde-fantaxla, .border-xl-c-verde-fantaxla-h:hover, .border-xl-c-verde-fantaxla-a:active { border-color: rgb(204, 255, 204); }
+	.border-xl-c-verde-menta, .border-xl-c-verde-menta-h:hover, .border-xl-c-verde-menta-a:active { border-color: rgb(153, 255, 153); }
+	.border-xl-c-verde-ejercito, .border-xl-c-verde-ejercito-h:hover, .border-xl-c-verde-ejercito-a:active { border-color: rgb(102, 153, 102); }
+	.border-xl-c-verde-aguacate, .border-xl-c-verde-aguacate-h:hover, .border-xl-c-verde-aguacate-a:active { border-color: rgb(102, 153, 51); }
+	.border-xl-c-verde-marciano, .border-xl-c-verde-marciano-h:hover, .border-xl-c-verde-marciano-a:active { border-color: rgb(153, 204, 51); }
+	.border-xl-c-verde-opaco, .border-xl-c-verde-opaco-h:hover, .border-xl-c-verde-opaco-a:active { border-color: rgb(153, 204, 102); }
+	.border-xl-c-chartreuse, .border-xl-c-chartreuse-h:hover, .border-xl-c-chartreuse-a:active { border-color: rgb(153, 255, 0); }
+	.border-xl-c-verde-luna, .border-xl-c-verde-luna-h:hover, .border-xl-c-verde-luna-a:active { border-color: rgb(204, 255, 102); }
+	.border-xl-c-verde-lobrego, .border-xl-c-verde-lobrego-h:hover, .border-xl-c-verde-lobrego-a:active { border-color: rgb(51, 51, 0); }
+	.border-xl-c-pardo-aceituna, .border-xl-c-pardo-aceituna-h:hover, .border-xl-c-pardo-aceituna-a:active { border-color: rgb(102, 102, 51); }
+	.border-xl-c-kaki, .border-xl-c-kaki-h:hover, .border-xl-c-kaki-a:active { border-color: rgb(153, 153, 102); }
+	.border-xl-c-oliva, .border-xl-c-oliva-h:hover, .border-xl-c-oliva-a:active { border-color: rgb(153, 153, 51); }
+	.border-xl-c-amarillo-platano, .border-xl-c-amarillo-platano-h:hover, .border-xl-c-amarillo-platano-a:active { border-color: rgb(204, 204, 51); }
+	.border-xl-c-amarillo-claro, .border-xl-c-amarillo-claro-h:hover, .border-xl-c-amarillo-claro-a:active { border-color: rgb(255, 255, 102); }
+	.border-xl-c-amarillo-verdosa, .border-xl-c-amarillo-verdosa-h:hover, .border-xl-c-amarillo-verdosa-a:active { border-color: rgb(255, 255, 153); }
+	.border-xl-c-amarillo-palido, .border-xl-c-amarillo-palido-h:hover, .border-xl-c-amarillo-palido-a:active { border-color: rgb(255, 255, 204); }
+	.border-xl-c-marron, .border-xl-c-marron-h:hover, .border-xl-c-marron-a:active { border-color: rgb(153, 102, 51); }
+	.border-xl-c-marron-rojiso, .border-xl-c-marron-rojiso-h:hover, .border-xl-c-marron-rojiso-a:active { border-color: rgb(204, 102, 51); }
+	.border-xl-c-dorado, .border-xl-c-dorado-h:hover, .border-xl-c-dorado-a:active { border-color: rgb(204, 153, 51); }
+	.border-xl-c-naranja-otonal, .border-xl-c-naranja-otonal-h:hover, .border-xl-c-naranja-otonal-a:active { border-color: rgb(255, 102, 51); }
+	.border-xl-c-naranja-claro, .border-xl-c-naranja-claro-h:hover, .border-xl-c-naranja-claro-a:active { border-color: rgb(255, 153, 51); }
+	.border-xl-c-melocoton, .border-xl-c-melocoton-h:hover, .border-xl-c-melocoton-a:active { border-color: rgb(255, 153, 102); }
+	.border-xl-c-amarillo-fuerte, .border-xl-c-amarillo-fuerte-h:hover, .border-xl-c-amarillo-fuerte-a:active { border-color: rgb(255, 204, 0); }
+	.border-xl-c-arena, .border-xl-c-arena-h:hover, .border-xl-c-arena-a:active { border-color: rgb(255, 204, 153); }
+	.border-xl-c-avellana, .border-xl-c-avellana-h:hover, .border-xl-c-avellana-a:active { border-color: rgb(102, 51, 0); }
+	.border-xl-c-rojo-rubi, .border-xl-c-rojo-rubi-h:hover, .border-xl-c-rojo-rubi-a:active { border-color: rgb(153, 0, 0); }
+	.border-xl-c-rojo-ladrillo, .border-xl-c-rojo-ladrillo-h:hover, .border-xl-c-rojo-ladrillo-a:active { border-color: rgb(204, 51, 0); }
+	.border-xl-c-rosa-tropical, .border-xl-c-rosa-tropical-h:hover, .border-xl-c-rosa-tropical-a:active { border-color: rgb(255, 102, 102); }
+	.border-xl-c-rosa-palido, .border-xl-c-rosa-palido-h:hover, .border-xl-c-rosa-palido-a:active { border-color: rgb(255, 153, 153); }
+	.border-xl-c-rosa-apagado, .border-xl-c-rosa-apagado-h:hover, .border-xl-c-rosa-apagado-a:active { border-color: rgb(255, 204, 204); }
+	.border-xl-c-granate, .border-xl-c-granate-h:hover, .border-xl-c-granate-a:active { border-color: rgb(153, 51, 102); }
+	.border-xl-c-rojo-legal, .border-xl-c-rojo-legal-h:hover, .border-xl-c-rojo-legal-a:active { border-color: rgb(204, 51, 102); }
+	.border-xl-c-rojo-intenso, .border-xl-c-rojo-intenso-h:hover, .border-xl-c-rojo-intenso-a:active { border-color: rgb(204, 51, 153); }
+	.border-xl-c-rojo-fluorecente, .border-xl-c-rojo-fluorecente-h:hover, .border-xl-c-rojo-fluorecente-a:active { border-color: rgb(255, 0, 102); }
+	.border-xl-c-rosa-fuerte, .border-xl-c-rosa-fuerte-h:hover, .border-xl-c-rosa-fuerte-a:active { border-color: rgb(255, 102, 153); }
+	.border-xl-c-rosa-fresa, .border-xl-c-rosa-fresa-h:hover, .border-xl-c-rosa-fresa-a:active { border-color: rgb(255, 51, 153); }
+	.border-xl-c-rosa-azulado, .border-xl-c-rosa-azulado-h:hover, .border-xl-c-rosa-azulado-a:active { border-color: rgb(204, 102, 153); }
+	.border-xl-c-ciruela, .border-xl-c-ciruela-h:hover, .border-xl-c-ciruela-a:active { border-color: rgb(102, 0, 102); }
+	.border-xl-c-violeta-oscuro, .border-xl-c-violeta-oscuro-h:hover, .border-xl-c-violeta-oscuro-a:active { border-color: rgb(153, 0, 153); }
+	.border-xl-c-violeta-claro, .border-xl-c-violeta-claro-h:hover, .border-xl-c-violeta-claro-a:active { border-color: rgb(255, 153, 255); }
+	.border-xl-c-violeta, .border-xl-c-violeta-h:hover, .border-xl-c-violeta-a:active { border-color: rgb(204, 102, 204); }
+	.border-xl-c-ciruela-azulado, .border-xl-c-ciruela-azulado-h:hover, .border-xl-c-ciruela-azulado-a:active { border-color: rgb(153, 102, 153); }
+	.border-xl-c-morado-palido, .border-xl-c-morado-palido-h:hover, .border-xl-c-morado-palido-a:active { border-color: rgb(204, 153, 204); }
+	.border-xl-c-morado-majestic, .border-xl-c-morado-majestic-h:hover, .border-xl-c-morado-majestic-a:active { border-color: rgb(153, 51, 204); }
+	.border-xl-c-morado-fluorecente, .border-xl-c-morado-fluorecente-h:hover, .border-xl-c-morado-fluorecente-a:active { border-color: rgb(204, 51, 255); }
+	.border-xl-c-morado-claro, .border-xl-c-morado-claro-h:hover, .border-xl-c-morado-claro-a:active { border-color: rgb(204, 102, 255); }
+	.border-xl-c-violeta-azulado, .border-xl-c-violeta-azulado-h:hover, .border-xl-c-violeta-azulado-a:active { border-color: rgb(153, 102, 204); }
+	.border-xl-c-morado-pascua, .border-xl-c-morado-pascua-h:hover, .border-xl-c-morado-pascua-a:active { border-color: rgb(204, 153, 255); }
+	.border-xl-c-morado-fuerte, .border-xl-c-morado-fuerte-h:hover, .border-xl-c-morado-fuerte-a:active { border-color: rgb(51, 0, 102); }
+	.border-xl-c-uva, .border-xl-c-uva-h:hover, .border-xl-c-uva-a:active { border-color: rgb(102, 51, 153); }
+	.border-xl-c-violeta-azul, .border-xl-c-violeta-azul-h:hover, .border-xl-c-violeta-azul-a:active { border-color: rgb(153, 102, 255); }
+	.border-xl-c-morado-azulado, .border-xl-c-morado-azulado-h:hover, .border-xl-c-morado-azulado-a:active { border-color: rgb(153, 0, 255); }
+	.border-xl-c-rio-intenso, .border-xl-c-rio-intenso-h:hover, .border-xl-c-rio-intenso-a:active { border-color: rgb(102, 0, 204); }
+	.border-xl-c-anil-intenso, .border-xl-c-anil-intenso-h:hover, .border-xl-c-anil-intenso-a:active { border-color: rgb(102, 51, 255); }
+	.border-xl-c-azul-tormenta, .border-xl-c-azul-tormenta-h:hover, .border-xl-c-azul-tormenta-a:active { border-color: rgb(51, 0, 153); }
+	.border-xl-c-azul-intenso, .border-xl-c-azul-intenso-h:hover, .border-xl-c-azul-intenso-a:active { border-color: rgb(51, 0, 204); }
+
+}

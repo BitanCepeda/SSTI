@@ -1,0 +1,238 @@
+/*
+	Quieres aprender más sobre cada una de las propiedades, puedes leer en:
+	https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	Esto es tomado con base a esta página
+ */
+/* flex container */
+	/* display para los contenedores */
+	.display-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction-column-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-flex-start{ justify-content: flex-start; }
+	.justify-content-flex-end{ justify-content: flex-end; }
+	.justify-content-center{ justify-content: center; }
+	.justify-content-space-between{ justify-content: space-between; }
+	.justify-content-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-center{ -ms-align-items: center; align-items: center; }
+	.align-items-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-flex-start{ align-content: flex-start; }
+	.align-content-flex-end{ align-content: flex-end; }
+	.align-content-center{ align-content: center; }
+	.align-content-space-between{ align-content: space-between; }
+	.align-content-space-around{ align-content: space-around; }
+
+/* flex item aún no implementado */
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+	/* display para los contenedores */
+	.display-xs-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-xs-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-xs-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-xs-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-xs-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction--xscolumn-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-xs-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-xs-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-xs-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-xs-flex-start{ justify-content: flex-start; }
+	.justify-content-xs-flex-end{ justify-content: flex-end; }
+	.justify-content-xs-center{ justify-content: center; }
+	.justify-content-xs-space-between{ justify-content: space-between; }
+	.justify-content-xs-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-xs-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-xs-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-xs-center{ -ms-align-items: center; align-items: center; }
+	.align-items-xs-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-xs-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-xs-flex-start{ align-content: flex-start; }
+	.align-content-xs-flex-end{ align-content: flex-end; }
+	.align-content-xs-center{ align-content: center; }
+	.align-content-xs-space-between{ align-content: space-between; }
+	.align-content-xs-space-around{ align-content: space-around; }
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	/* display para los contenedores */
+	.display-sm-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-sm-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-sm-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-sm-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-sm-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction--smcolumn-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-sm-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-sm-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-sm-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-sm-flex-start{ justify-content: flex-start; }
+	.justify-content-sm-flex-end{ justify-content: flex-end; }
+	.justify-content-sm-center{ justify-content: center; }
+	.justify-content-sm-space-between{ justify-content: space-between; }
+	.justify-content-sm-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-sm-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-sm-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-sm-center{ -ms-align-items: center; align-items: center; }
+	.align-items-sm-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-sm-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-sm-flex-start{ align-content: flex-start; }
+	.align-content-sm-flex-end{ align-content: flex-end; }
+	.align-content-sm-center{ align-content: center; }
+	.align-content-sm-space-between{ align-content: space-between; }
+	.align-content-sm-space-around{ align-content: space-around; }
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+	/* display para los contenedores */
+	.display-md-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-md-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-md-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-md-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-md-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction--mdcolumn-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-md-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-md-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-md-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-md-flex-start{ justify-content: flex-start; }
+	.justify-content-md-flex-end{ justify-content: flex-end; }
+	.justify-content-md-center{ justify-content: center; }
+	.justify-content-md-space-between{ justify-content: space-between; }
+	.justify-content-md-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-md-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-md-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-md-center{ -ms-align-items: center; align-items: center; }
+	.align-items-md-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-md-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-md-flex-start{ align-content: flex-start; }
+	.align-content-md-flex-end{ align-content: flex-end; }
+	.align-content-md-center{ align-content: center; }
+	.align-content-md-space-between{ align-content: space-between; }
+	.align-content-md-space-around{ align-content: space-around; }
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	/* display para los contenedores */
+	.display-lg-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-lg-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-lg-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-lg-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-lg-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction--lgcolumn-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-lg-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-lg-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-lg-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-lg-flex-start{ justify-content: flex-start; }
+	.justify-content-lg-flex-end{ justify-content: flex-end; }
+	.justify-content-lg-center{ justify-content: center; }
+	.justify-content-lg-space-between{ justify-content: space-between; }
+	.justify-content-lg-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-lg-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-lg-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-lg-center{ -ms-align-items: center; align-items: center; }
+	.align-items-lg-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-lg-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-lg-flex-start{ align-content: flex-start; }
+	.align-content-lg-flex-end{ align-content: flex-end; }
+	.align-content-lg-center{ align-content: center; }
+	.align-content-lg-space-between{ align-content: space-between; }
+	.align-content-lg-space-around{ align-content: space-around; }
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	/* display para los contenedores */
+	.display-xl-flex{ display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; }
+	.display-xl-inline-flex{ display: -webkit-inline-flex; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: inline-flex; }
+
+	/* direccion del contenido del contenedor */
+	.flex-direction-xl-row{ -webkit-flex-direction: row; -moz-flex-direction: row; -ms-flex-direction: row; -o-flex-direction: row; flex-direction: row;  }
+	.flex-direction-xl-row-reverse{ -webkit-flex-direction: row-reverse; -moz-flex-direction: row-reverse; -ms-flex-direction: row-reverse; -o-flex-direction: row-reverse; flex-direction: row-reverse; }
+	.flex-direction-xl-column{ -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; -o-flex-direction: column; flex-direction: column; }
+	.flex-direction--xlcolumn-reverse{ -webkit-flex-direction: column-reverse; -moz-flex-direction: column-reverse; -ms-flex-direction: column-reverse; -o-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+	/* propiedad para que los items entren en una sola linea o que ocupen el espacio necesario */
+	.flex-wrap-xl-wrap{ -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; -o-flex-wrap: wrap; flex-wrap: wrap; }
+	.flex-wrap-xl-nowrap{ -webkit-flex-wrap: nowrap; -moz-flex-wrap: nowrap; -ms-flex-wrap: nowrap; -o-flex-wrap: nowrap; flex-wrap: nowrap; }
+	.flex-wrap-xl-wrap-reverse{ -webkit-flex-wrap: wrap-reverse; -moz-flex-wrap: wrap-reverse; -ms-flex-wrap: wrap-reverse; -o-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+	/* estilos para justify-content */
+	.justify-content-xl-flex-start{ justify-content: flex-start; }
+	.justify-content-xl-flex-end{ justify-content: flex-end; }
+	.justify-content-xl-center{ justify-content: center; }
+	.justify-content-xl-space-between{ justify-content: space-between; }
+	.justify-content-xl-space-around{ justify-content: space-around; }
+
+	/* como colocar los items al eje flexible */
+	.align-items-xl-flex-start{ -ms-align-items: flex-start; align-items: flex-start; }
+	.align-items-xl-flex-end{ -ms-align-items: flex-end; align-items: flex-end; }
+	.align-items-xl-center{ -ms-align-items: center; align-items: center; }
+	.align-items-xl-baseline{ -ms-align-items: baseline; align-items: baseline; }
+	.align-items-xl-stretch{ -ms-align-items: stretch; align-items: stretch; }
+
+	/* alinear las lineas de un contenedor cuando existe espacio disponible */
+	.align-content-xl-flex-start{ align-content: flex-start; }
+	.align-content-xl-flex-end{ align-content: flex-end; }
+	.align-content-xl-center{ align-content: center; }
+	.align-content-xl-space-between{ align-content: space-between; }
+	.align-content-xl-space-around{ align-content: space-around; }
+}

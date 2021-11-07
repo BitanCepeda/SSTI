@@ -1,0 +1,289 @@
+/* altura en vh */
+.line-height-5 { line-height: 5vh; }
+.line-height-10 { line-height: 10vh; }
+.line-height-15 { line-height: 15vh; }
+.line-height-20 { line-height: 20vh; }
+.line-height-25 { line-height: 25vh; }
+.line-height-30 { line-height: 30vh; }
+.line-height-35 { line-height: 35vh; }
+.line-height-40 { line-height: 40vh; }
+.line-height-45 { line-height: 45vh; }
+.line-height-50 { line-height: 50vh; }
+.line-height-55 { line-height: 55vh; }
+.line-height-60 { line-height: 60vh; }
+.line-height-65 { line-height: 65vh; }
+.line-height-70 { line-height: 70vh; }
+.line-height-75 { line-height: 75vh; }
+.line-height-80 { line-height: 80vh; }
+.line-height-85 { line-height: 85vh; }
+.line-height-90 { line-height: 90vh; }
+.line-height-95 { line-height: 95vh; }
+.line-height-100 { line-height: 100vh; }
+
+/* altura en px */
+.line-height-5-px { line-height: 5px; }
+.line-height-10-px { line-height: 10px; }
+.line-height-15-px { line-height: 15px; }
+.line-height-20-px { line-height: 20px; }
+.line-height-25-px { line-height: 25px; }
+.line-height-30-px { line-height: 30px; }
+.line-height-35-px { line-height: 35px; }
+.line-height-40-px { line-height: 40px; }
+.line-height-45-px { line-height: 45px; }
+.line-height-50-px { line-height: 50px; }
+.line-height-55-px { line-height: 55px; }
+.line-height-60-px { line-height: 60px; }
+.line-height-65-px { line-height: 65px; }
+.line-height-70-px { line-height: 70px; }
+.line-height-75-px { line-height: 75px; }
+.line-height-80-px { line-height: 80px; }
+.line-height-85-px { line-height: 85px; }
+.line-height-90-px { line-height: 90px; }
+.line-height-95-px { line-height: 95px; }
+.line-height-100-px { line-height: 100px; }
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+		
+	/* altura en vh */
+	.line-height-xs-5 { line-height: 5vh; }
+	.line-height-xs-10 { line-height: 10vh; }
+	.line-height-xs-15 { line-height: 15vh; }
+	.line-height-xs-20 { line-height: 20vh; }
+	.line-height-xs-25 { line-height: 25vh; }
+	.line-height-xs-30 { line-height: 30vh; }
+	.line-height-xs-35 { line-height: 35vh; }
+	.line-height-xs-40 { line-height: 40vh; }
+	.line-height-xs-45 { line-height: 45vh; }
+	.line-height-xs-50 { line-height: 50vh; }
+	.line-height-xs-55 { line-height: 55vh; }
+	.line-height-xs-60 { line-height: 60vh; }
+	.line-height-xs-65 { line-height: 65vh; }
+	.line-height-xs-70 { line-height: 70vh; }
+	.line-height-xs-75 { line-height: 75vh; }
+	.line-height-xs-80 { line-height: 80vh; }
+	.line-height-xs-85 { line-height: 85vh; }
+	.line-height-xs-90 { line-height: 90vh; }
+	.line-height-xs-95 { line-height: 95vh; }
+	.line-height-xs-100 { line-height: 100vh; }
+
+	/* altura en px */
+	.line-height-xs-5-px { line-height: 5px; }
+	.line-height-xs-10-px { line-height: 10px; }
+	.line-height-xs-15-px { line-height: 15px; }
+	.line-height-xs-20-px { line-height: 20px; }
+	.line-height-xs-25-px { line-height: 25px; }
+	.line-height-xs-30-px { line-height: 30px; }
+	.line-height-xs-35-px { line-height: 35px; }
+	.line-height-xs-40-px { line-height: 40px; }
+	.line-height-xs-45-px { line-height: 45px; }
+	.line-height-xs-50-px { line-height: 50px; }
+	.line-height-xs-55-px { line-height: 55px; }
+	.line-height-xs-60-px { line-height: 60px; }
+	.line-height-xs-65-px { line-height: 65px; }
+	.line-height-xs-70-px { line-height: 70px; }
+	.line-height-xs-75-px { line-height: 75px; }
+	.line-height-xs-80-px { line-height: 80px; }
+	.line-height-xs-85-px { line-height: 85px; }
+	.line-height-xs-90-px { line-height: 90px; }
+	.line-height-xs-95-px { line-height: 95px; }
+	.line-height-xs-100-px { line-height: 100px; }
+	
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	
+	/* altura en vh */
+	.line-height-sm-5 { line-height: 5vh; }
+	.line-height-sm-10 { line-height: 10vh; }
+	.line-height-sm-15 { line-height: 15vh; }
+	.line-height-sm-20 { line-height: 20vh; }
+	.line-height-sm-25 { line-height: 25vh; }
+	.line-height-sm-30 { line-height: 30vh; }
+	.line-height-sm-35 { line-height: 35vh; }
+	.line-height-sm-40 { line-height: 40vh; }
+	.line-height-sm-45 { line-height: 45vh; }
+	.line-height-sm-50 { line-height: 50vh; }
+	.line-height-sm-55 { line-height: 55vh; }
+	.line-height-sm-60 { line-height: 60vh; }
+	.line-height-sm-65 { line-height: 65vh; }
+	.line-height-sm-70 { line-height: 70vh; }
+	.line-height-sm-75 { line-height: 75vh; }
+	.line-height-sm-80 { line-height: 80vh; }
+	.line-height-sm-85 { line-height: 85vh; }
+	.line-height-sm-90 { line-height: 90vh; }
+	.line-height-sm-95 { line-height: 95vh; }
+	.line-height-sm-100 { line-height: 100vh; }
+
+	/* altura en px */
+	.line-height-sm-5-px { line-height: 5px; }
+	.line-height-sm-10-px { line-height: 10px; }
+	.line-height-sm-15-px { line-height: 15px; }
+	.line-height-sm-20-px { line-height: 20px; }
+	.line-height-sm-25-px { line-height: 25px; }
+	.line-height-sm-30-px { line-height: 30px; }
+	.line-height-sm-35-px { line-height: 35px; }
+	.line-height-sm-40-px { line-height: 40px; }
+	.line-height-sm-45-px { line-height: 45px; }
+	.line-height-sm-50-px { line-height: 50px; }
+	.line-height-sm-55-px { line-height: 55px; }
+	.line-height-sm-60-px { line-height: 60px; }
+	.line-height-sm-65-px { line-height: 65px; }
+	.line-height-sm-70-px { line-height: 70px; }
+	.line-height-sm-75-px { line-height: 75px; }
+	.line-height-sm-80-px { line-height: 80px; }
+	.line-height-sm-85-px { line-height: 85px; }
+	.line-height-sm-90-px { line-height: 90px; }
+	.line-height-sm-95-px { line-height: 95px; }
+	.line-height-sm-100-px { line-height: 100px; }
+
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+
+	/* altura en vh */
+	.line-height-md-5 { line-height: 5vh; }
+	.line-height-md-10 { line-height: 10vh; }
+	.line-height-md-15 { line-height: 15vh; }
+	.line-height-md-20 { line-height: 20vh; }
+	.line-height-md-25 { line-height: 25vh; }
+	.line-height-md-30 { line-height: 30vh; }
+	.line-height-md-35 { line-height: 35vh; }
+	.line-height-md-40 { line-height: 40vh; }
+	.line-height-md-45 { line-height: 45vh; }
+	.line-height-md-50 { line-height: 50vh; }
+	.line-height-md-55 { line-height: 55vh; }
+	.line-height-md-60 { line-height: 60vh; }
+	.line-height-md-65 { line-height: 65vh; }
+	.line-height-md-70 { line-height: 70vh; }
+	.line-height-md-75 { line-height: 75vh; }
+	.line-height-md-80 { line-height: 80vh; }
+	.line-height-md-85 { line-height: 85vh; }
+	.line-height-md-90 { line-height: 90vh; }
+	.line-height-md-95 { line-height: 95vh; }
+	.line-height-md-100 { line-height: 100vh; }
+
+	/* altura en px */
+	.line-height-md-5-px { line-height: 5px; }
+	.line-height-md-10-px { line-height: 10px; }
+	.line-height-md-15-px { line-height: 15px; }
+	.line-height-md-20-px { line-height: 20px; }
+	.line-height-md-25-px { line-height: 25px; }
+	.line-height-md-30-px { line-height: 30px; }
+	.line-height-md-35-px { line-height: 35px; }
+	.line-height-md-40-px { line-height: 40px; }
+	.line-height-md-45-px { line-height: 45px; }
+	.line-height-md-50-px { line-height: 50px; }
+	.line-height-md-55-px { line-height: 55px; }
+	.line-height-md-60-px { line-height: 60px; }
+	.line-height-md-65-px { line-height: 65px; }
+	.line-height-md-70-px { line-height: 70px; }
+	.line-height-md-75-px { line-height: 75px; }
+	.line-height-md-80-px { line-height: 80px; }
+	.line-height-md-85-px { line-height: 85px; }
+	.line-height-md-90-px { line-height: 90px; }
+	.line-height-md-95-px { line-height: 95px; }
+	.line-height-md-100-px { line-height: 100px; }
+
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	
+	/* altura en vh */
+	.line-height-lg-5 { line-height: 5vh; }
+	.line-height-lg-10 { line-height: 10vh; }
+	.line-height-lg-15 { line-height: 15vh; }
+	.line-height-lg-20 { line-height: 20vh; }
+	.line-height-lg-25 { line-height: 25vh; }
+	.line-height-lg-30 { line-height: 30vh; }
+	.line-height-lg-35 { line-height: 35vh; }
+	.line-height-lg-40 { line-height: 40vh; }
+	.line-height-lg-45 { line-height: 45vh; }
+	.line-height-lg-50 { line-height: 50vh; }
+	.line-height-lg-55 { line-height: 55vh; }
+	.line-height-lg-60 { line-height: 60vh; }
+	.line-height-lg-65 { line-height: 65vh; }
+	.line-height-lg-70 { line-height: 70vh; }
+	.line-height-lg-75 { line-height: 75vh; }
+	.line-height-lg-80 { line-height: 80vh; }
+	.line-height-lg-85 { line-height: 85vh; }
+	.line-height-lg-90 { line-height: 90vh; }
+	.line-height-lg-95 { line-height: 95vh; }
+	.line-height-lg-100 { line-height: 100vh; }
+
+	/* altura en px */
+	.line-height-lg-5-px { line-height: 5px; }
+	.line-height-lg-10-px { line-height: 10px; }
+	.line-height-lg-15-px { line-height: 15px; }
+	.line-height-lg-20-px { line-height: 20px; }
+	.line-height-lg-25-px { line-height: 25px; }
+	.line-height-lg-30-px { line-height: 30px; }
+	.line-height-lg-35-px { line-height: 35px; }
+	.line-height-lg-40-px { line-height: 40px; }
+	.line-height-lg-45-px { line-height: 45px; }
+	.line-height-lg-50-px { line-height: 50px; }
+	.line-height-lg-55-px { line-height: 55px; }
+	.line-height-lg-60-px { line-height: 60px; }
+	.line-height-lg-65-px { line-height: 65px; }
+	.line-height-lg-70-px { line-height: 70px; }
+	.line-height-lg-75-px { line-height: 75px; }
+	.line-height-lg-80-px { line-height: 80px; }
+	.line-height-lg-85-px { line-height: 85px; }
+	.line-height-lg-90-px { line-height: 90px; }
+	.line-height-lg-95-px { line-height: 95px; }
+	.line-height-lg-100-px { line-height: 100px; }
+
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+	/* altura en vh */
+	.line-height-xl-5 { line-height: 5vh; }
+	.line-height-xl-10 { line-height: 10vh; }
+	.line-height-xl-15 { line-height: 15vh; }
+	.line-height-xl-20 { line-height: 20vh; }
+	.line-height-xl-25 { line-height: 25vh; }
+	.line-height-xl-30 { line-height: 30vh; }
+	.line-height-xl-35 { line-height: 35vh; }
+	.line-height-xl-40 { line-height: 40vh; }
+	.line-height-xl-45 { line-height: 45vh; }
+	.line-height-xl-50 { line-height: 50vh; }
+	.line-height-xl-55 { line-height: 55vh; }
+	.line-height-xl-60 { line-height: 60vh; }
+	.line-height-xl-65 { line-height: 65vh; }
+	.line-height-xl-70 { line-height: 70vh; }
+	.line-height-xl-75 { line-height: 75vh; }
+	.line-height-xl-80 { line-height: 80vh; }
+	.line-height-xl-85 { line-height: 85vh; }
+	.line-height-xl-90 { line-height: 90vh; }
+	.line-height-xl-95 { line-height: 95vh; }
+	.line-height-xl-100 { line-height: 100vh; }
+
+	/* altura en px */
+	.line-height-xl-5-px { line-height: 5px; }
+	.line-height-xl-10-px { line-height: 10px; }
+	.line-height-xl-15-px { line-height: 15px; }
+	.line-height-xl-20-px { line-height: 20px; }
+	.line-height-xl-25-px { line-height: 25px; }
+	.line-height-xl-30-px { line-height: 30px; }
+	.line-height-xl-35-px { line-height: 35px; }
+	.line-height-xl-40-px { line-height: 40px; }
+	.line-height-xl-45-px { line-height: 45px; }
+	.line-height-xl-50-px { line-height: 50px; }
+	.line-height-xl-55-px { line-height: 55px; }
+	.line-height-xl-60-px { line-height: 60px; }
+	.line-height-xl-65-px { line-height: 65px; }
+	.line-height-xl-70-px { line-height: 70px; }
+	.line-height-xl-75-px { line-height: 75px; }
+	.line-height-xl-80-px { line-height: 80px; }
+	.line-height-xl-85-px { line-height: 85px; }
+	.line-height-xl-90-px { line-height: 90px; }
+	.line-height-xl-95-px { line-height: 95px; }
+	.line-height-xl-100-px { line-height: 100px; }
+
+}

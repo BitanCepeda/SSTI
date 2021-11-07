@@ -1,0 +1,627 @@
+/* estilos para los 99 colores */
+.c-negro, .c-negro-h:hover, .c-negro-a:active { color: rgb(0, 0, 0); }
+.c-90-negro, .c-90-negro-h:hover, .c-90-negro-a:active { color: rgb(26, 26, 26); }
+.c-80-negro, .c-80-negro-h:hover, .c-80-negro-a:active { color: rgb(51, 51, 51); }
+.c-70-negro, .c-70-negro-h:hover, .c-70-negro-a:active { color: rgb(77, 77, 77); }
+.c-60-negro, .c-60-negro-h:hover, .c-60-negro-a:active { color: rgb(102, 102, 102); }
+.c-50-negro, .c-50-negro-h:hover, .c-50-negro-a:active { color: rgb(128, 128, 128); }
+.c-40-negro, .c-40-negro-h:hover, .c-40-negro-a:active { color: rgb(153, 153, 153); }
+.c-30-negro, .c-30-negro-h:hover, .c-30-negro-a:active { color: rgb(179, 179, 179); }
+.c-20-negro, .c-20-negro-h:hover, .c-20-negro-a:active { color: rgb(204, 204, 204); }
+.c-10-negro, .c-10-negro-h:hover, .c-10-negro-a:active { color: rgb(230, 230, 230); }
+.c-blanco, .c-blanco-h:hover, .c-blanco-a:active { color: rgb(255, 255, 255); }
+.c-azul, .c-azul-h:hover, .c-azul-a:active { color: rgb(0, 0, 255); }
+.c-cian, .c-cian-h:hover, .c-cian-a:active { color: rgb(0, 255, 255); }
+.c-verde, .c-verde-h:hover, .c-verde-a:active { color: rgb(0, 255, 0); }
+.c-amarillo, .c-amarillo-h:hover, .c-amarillo-a:active { color: rgb(255, 255, 0); }
+.c-rojo, .c-rojo-h:hover, .c-rojo-a:active { color: rgb(255, 0, 0); }
+.c-magenta, .c-magenta-h:hover, .c-magenta-a:active { color: rgb(255, 0, 255); }
+.c-morado, .c-morado-h:hover, .c-morado-a:active { color: rgb(153, 0, 204); }
+.c-naranja, .c-naranja-h:hover, .c-naranja-a:active { color: rgb(255, 102, 0); }
+.c-rosa, .c-rosa-h:hover, .c-rosa-a:active { color: rgb(255, 153, 204); }
+.c-marron-oscuro, .c-marron-oscuro-h:hover, .c-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+.c-malva,.c-malva-h:hover, .c-malva-a:active { color: rgb(204, 204, 255); }
+.c-azul-pastel, .c-azul-pastel-h:hover, .c-azul-pastel-a:active { color: rgb(153, 153, 255); }
+.c-azul-infantil, .c-azul-infantil-h:hover, .c-azul-infantil-a:active { color: rgb(102, 153, 255); }
+.c-azul-electrico, .c-azul-electrico-h:hover, .c-azul-electrico-a:active { color: rgb(102, 102, 255); }
+.c-azul-crepusculo, .c-azul-crepusculo-h:hover, .c-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+.c-azul-marino, .c-azul-marino-h:hover, .c-azul-marino-a:active { color: rgb(0, 51, 153); }
+.c-azul-marino-oscuro, .c-azul-marino-oscuro-h:hover, .c-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+.c-azul-desierto, .c-azul-desierto-h:hover, .c-azul-desierto-a:active { color: rgb(51, 102, 153); }
+.c-azul-celeste, .c-azul-celeste-h:hover, .c-azul-celeste-a:active { color: rgb(0, 204, 255); }
+.c-azul-hielo, .c-azul-hielo-h:hover, .c-azul-hielo-a:active { color: rgb(153, 255, 255); }
+.c-verde-azulado-claro, .c-verde-azulado-claro-h:hover, .c-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+.c-verde-oceano, .c-verde-oceano-h:hover, .c-verde-oceano-a:active { color: rgb(102, 153, 153); }
+.c-verde-musgo, .c-verde-musgo-h:hover, .c-verde-musgo-a:active { color: rgb(51, 102, 102); }
+.c-verde-oscuro, .c-verde-oscuro-h:hover, .c-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+.c-verde-bosque, .c-verde-bosque-h:hover, .c-verde-bosque-a:active { color: rgb(0, 102, 51); }
+.c-verde-hierba, .c-verde-hierba-h:hover, .c-verde-hierba-a:active { color: rgb(0, 153, 51); }
+.c-verde-kentucky, .c-verde-kentucky-h:hover, .c-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+.c-verde-claro, .c-verde-claro-h:hover, .c-verde-claro-a:active { color: rgb(51, 204, 102); }
+.c-verde-primavera, .c-verde-primavera-h:hover, .c-verde-primavera-a:active { color: rgb(51, 204, 51); }
+.c-turquesa, .c-turquesa-h:hover, .c-turquesa-a:active { color: rgb(102, 255, 204); }
+.c-verde-mar, .c-verde-mar-h:hover, .c-verde-mar-a:active { color: rgb(51, 204, 153); }
+.c-verde-apagado, .c-verde-apagado-h:hover, .c-verde-apagado-a:active { color: rgb(153, 204, 153); }
+.c-verde-fantasma, .c-verde-fantasma-h:hover, .c-verde-fantasma-a:active { color: rgb(204, 255, 204); }
+.c-verde-menta, .c-verde-menta-h:hover, .c-verde-menta-a:active { color: rgb(153, 255, 153); }
+.c-verde-ejercito, .c-verde-ejercito-h:hover, .c-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+.c-verde-aguacate, .c-verde-aguacate-h:hover, .c-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+.c-verde-marciano, .c-verde-marciano-h:hover, .c-verde-marciano-a:active { color: rgb(153, 204, 51); }
+.c-verde-opaco, .c-verde-opaco-h:hover, .c-verde-opaco-a:active { color: rgb(153, 204, 102); }
+.c-chartreuse, .c-chartreuse-h:hover, .c-chartreuse-a:active { color: rgb(153, 255, 0); }
+.c-verde-luna, .c-verde-luna-h:hover, .c-verde-luna-a:active { color: rgb(204, 255, 102); }
+.c-verde-lobrego, .c-verde-lobrego-h:hover, .c-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+.c-pardo-aceituna, .c-pardo-aceituna-h:hover, .c-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+.c-kaki, .c-kaki-h:hover, .c-kaki-a:active { color: rgb(153, 153, 102); }
+.c-oliva, .c-oliva-h:hover, .c-oliva-a:active { color: rgb(153, 153, 51); }
+.c-amarillo-platano, .c-amarillo-platano-h:hover, .c-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+.c-amarillo-claro, .c-amarillo-claro-h:hover, .c-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+.c-amarillo-verdosa, .c-amarillo-verdosa-h:hover, .c-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+.c-amarillo-palido, .c-amarillo-palido-h:hover, .c-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+.c-marron, .c-marron-h:hover, .c-marron-a:active { color: rgb(153, 102, 51); }
+.c-marron-rojiso, .c-marron-rojiso-h:hover, .c-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+.c-dorado, .c-dorado-h:hover, .c-dorado-a:active { color: rgb(204, 153, 51); }
+.c-naranja-otonal, .c-naranja-otonal-h:hover, .c-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+.c-naranja-claro, .c-naranja-claro-h:hover, .c-naranja-claro-a:active { color: rgb(255, 153, 51); }
+.c-melocoton, .c-melocoton-h:hover, .c-melocoton-a:active { color: rgb(255, 153, 102); }
+.c-amarillo-fuerte, .c-amarillo-fuerte-h:hover, .c-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+.c-arena, .c-arena-h:hover, .c-arena-a:active { color: rgb(255, 204, 153); }
+.c-avellana, .c-avellana-h:hover, .c-avellana-a:active { color: rgb(102, 51, 0); }
+.c-rojo-rubi, .c-rojo-rubi-h:hover, .c-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+.c-rojo-ladrillo, .c-rojo-ladrillo-h:hover, .c-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+.c-rosa-tropical, .c-rosa-tropical-h:hover, .c-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+.c-rosa-palido, .c-rosa-palido-h:hover, .c-rosa-palido-a:active { color: rgb(255, 153, 153); }
+.c-rosa-apagado, .c-rosa-apagado-h:hover, .c-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+.c-granate, .c-granate-h:hover, .c-granate-a:active { color: rgb(153, 51, 102); }
+.c-rojo-legal, .c-rojo-legal-h:hover, .c-rojo-legal-a:active { color: rgb(204, 51, 102); }
+.c-rojo-intenso, .c-rojo-intenso-h:hover, .c-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+.c-rojo-fluorecente, .c-rojo-fluorecente-h:hover, .c-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+.c-rosa-fuerte, .c-rosa-fuerte-h:hover, .c-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+.c-rosa-fresa, .c-rosa-fresa-h:hover, .c-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+.c-rosa-azulado, .c-rosa-azulado-h:hover, .c-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+.c-ciruela, .c-ciruela-h:hover, .c-ciruela-a:active { color: rgb(102, 0, 102); }
+.c-violeta-oscuro, .c-violeta-oscuro-h:hover, .c-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+.c-violeta-claro, .c-violeta-claro-h:hover, .c-violeta-claro-a:active { color: rgb(255, 153, 255); }
+.c-violeta, .c-violeta-h:hover, .c-violeta-a:active { color: rgb(204, 102, 204); }
+.c-ciruela-azulado, .c-ciruela-azulado-h:hover, .c-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+.c-morado-palido, .c-morado-palido-h:hover, .c-morado-palido-a:active { color: rgb(204, 153, 204); }
+.c-morado-majestic, .c-morado-majestic-h:hover, .c-morado-majestic-a:active { color: rgb(153, 51, 204); }
+.c-morado-fluorecente, .c-morado-fluorecente-h:hover, .c-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+.c-morado-claro, .c-morado-claro-h:hover, .c-morado-claro-a:active { color: rgb(204, 102, 255); }
+.c-violeta-azulado, .c-violeta-azulado-h:hover, .c-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+.c-morado-pascua, .c-morado-pascua-h:hover, .c-morado-pascua-a:active { color: rgb(204, 153, 255); }
+.c-morado-fuerte, .c-morado-fuerte-h:hover, .c-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+.c-uva, .c-uva-h:hover, .c-uva-a:active { color: rgb(102, 51, 153); }
+.c-violeta-azul, .c-violeta-azul-h:hover, .c-violeta-azul-a:active { color: rgb(153, 102, 255); }
+.c-morado-azulado, .c-morado-azulado-h:hover, .c-morado-azulado-a:active { color: rgb(153, 0, 255); }
+.c-rio-intenso, .c-rio-intenso-h:hover, .c-rio-intenso-a:active { color: rgb(102, 0, 204); }
+.c-anil-intenso, .c-anil-intenso-h:hover, .c-anil-intenso-a:active { color: rgb(102, 51, 255); }
+.c-azul-tormenta, .c-azul-tormenta-h:hover, .c-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+.c-azul-intenso, .c-azul-intenso-h:hover, .c-azul-intenso-a:active { color: rgb(51, 0, 204); }
+
+
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+	
+	.c-xs-negro, .c-xs-negro-h:hover, .c-xs-negro-a:active { color: rgb(0, 0, 0); }
+	.c-xs-90-negro, .c-xs-90-negro-h:hover, .c-xs-90-negro-a:active { color: rgb(26, 26, 26); }
+	.c-xs-80-negro, .c-xs-80-negro-h:hover, .c-xs-80-negro-a:active { color: rgb(51, 51, 51); }
+	.c-xs-70-negro, .c-xs-70-negro-h:hover, .c-xs-70-negro-a:active { color: rgb(77, 77, 77); }
+	.c-xs-60-negro, .c-xs-60-negro-h:hover, .c-xs-60-negro-a:active { color: rgb(102, 102, 102); }
+	.c-xs-50-negro, .c-xs-50-negro-h:hover, .c-xs-50-negro-a:active { color: rgb(128, 128, 128); }
+	.c-xs-40-negro, .c-xs-40-negro-h:hover, .c-xs-40-negro-a:active { color: rgb(153, 153, 153); }
+	.c-xs-30-negro, .c-xs-30-negro-h:hover, .c-xs-30-negro-a:active { color: rgb(179, 179, 179); }
+	.c-xs-20-negro, .c-xs-20-negro-h:hover, .c-xs-20-negro-a:active { color: rgb(204, 204, 204); }
+	.c-xs-10-negro, .c-xs-10-negro-h:hover, .c-xs-10-negro-a:active { color: rgb(230, 230, 230); }
+	.c-xs-blanco, .c-xs-blanco-h:hover, .c-xs-blanco-a:active { color: rgb(255, 255, 255); }
+	.c-xs-azul, .c-xs-azul-h:hover, .c-xs-azul-a:active { color: rgb(0, 0, 255); }
+	.c-xs-cian, .c-xs-cian-h:hover, .c-xs-cian-a:active { color: rgb(0, 255, 255); }
+	.c-xs-verde, .c-xs-verde-h:hover, .c-xs-verde-a:active { color: rgb(0, 255, 0); }
+	.c-xs-amarillo, .c-xs-amarillo-h:hover, .c-xs-amarillo-a:active { color: rgb(255, 255, 0); }
+	.c-xs-rojo, .c-xs-rojo-h:hover, .c-xs-rojo-a:active { color: rgb(255, 0, 0); }
+	.c-xs-magenta, .c-xs-magenta-h:hover, .c-xs-magenta-a:active { color: rgb(255, 0, 255); }
+	.c-xs-morado, .c-xs-morado-h:hover, .c-xs-morado-a:active { color: rgb(153, 0, 204); }
+	.c-xs-naranja, .c-xs-naranja-h:hover, .c-xs-naranja-a:active { color: rgb(255, 102, 0); }
+	.c-xs-rosa, .c-xs-rosa-h:hover, .c-xs-rosa-a:active { color: rgb(255, 153, 204); }
+	.c-xs-marron-oscuro, .c-xs-marron-oscuro-h:hover, .c-xs-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+	.c-xs-malva,.c-xs-malva-h:hover, .c-xs-malva-a:active { color: rgb(204, 204, 255); }
+	.c-xs-azul-pastel, .c-xs-azul-pastel-h:hover, .c-xs-azul-pastel-a:active { color: rgb(153, 153, 255); }
+	.c-xs-azul-infantil, .c-xs-azul-infantil-h:hover, .c-xs-azul-infantil-a:active { color: rgb(102, 153, 255); }
+	.c-xs-azul-electrico, .c-xs-azul-electrico-h:hover, .c-xs-azul-electrico-a:active { color: rgb(102, 102, 255); }
+	.c-xs-azul-crepusculo, .c-xs-azul-crepusculo-h:hover, .c-xs-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+	.c-xs-azul-marino, .c-xs-azul-marino-h:hover, .c-xs-azul-marino-a:active { color: rgb(0, 51, 153); }
+	.c-xs-azul-marino-oscuro, .c-xs-azul-marino-oscuro-h:hover, .c-xs-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+	.c-xs-azul-desierto, .c-xs-azul-desierto-h:hover, .c-xs-azul-desierto-a:active { color: rgb(51, 102, 153); }
+	.c-xs-azul-celeste, .c-xs-azul-celeste-h:hover, .c-xs-azul-celeste-a:active { color: rgb(0, 204, 255); }
+	.c-xs-azul-hielo, .c-xs-azul-hielo-h:hover, .c-xs-azul-hielo-a:active { color: rgb(153, 255, 255); }
+	.c-xs-verde-azulado-claro, .c-xs-verde-azulado-claro-h:hover, .c-xs-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+	.c-xs-verde-oceano, .c-xs-verde-oceano-h:hover, .c-xs-verde-oceano-a:active { color: rgb(102, 153, 153); }
+	.c-xs-verde-musgo, .c-xs-verde-musgo-h:hover, .c-xs-verde-musgo-a:active { color: rgb(51, 102, 102); }
+	.c-xs-verde-oscuro, .c-xs-verde-oscuro-h:hover, .c-xs-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+	.c-xs-verde-bosque, .c-xs-verde-bosque-h:hover, .c-xs-verde-bosque-a:active { color: rgb(0, 102, 51); }
+	.c-xs-verde-hierba, .c-xs-verde-hierba-h:hover, .c-xs-verde-hierba-a:active { color: rgb(0, 153, 51); }
+	.c-xs-verde-kentucky, .c-xs-verde-kentucky-h:hover, .c-xs-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+	.c-xs-verde-claro, .c-xs-verde-claro-h:hover, .c-xs-verde-claro-a:active { color: rgb(51, 204, 102); }
+	.c-xs-verde-primavera, .c-xs-verde-primavera-h:hover, .c-xs-verde-primavera-a:active { color: rgb(51, 204, 51); }
+	.c-xs-turquesa, .c-xs-turquesa-h:hover, .c-xs-turquesa-a:active { color: rgb(102, 255, 204); }
+	.c-xs-verde-mar, .c-xs-verde-mar-h:hover, .c-xs-verde-mar-a:active { color: rgb(51, 204, 153); }
+	.c-xs-verde-apagado, .c-xs-verde-apagado-h:hover, .c-xs-verde-apagado-a:active { color: rgb(153, 204, 153); }
+	.c-xs-verde-fantasma, .c-xs-verde-fantasma-h:hover, .c-xs-verde-fantasma-a:active { color: rgb(204, 255, 204); }
+	.c-xs-verde-menta, .c-xs-verde-menta-h:hover, .c-xs-verde-menta-a:active { color: rgb(153, 255, 153); }
+	.c-xs-verde-ejercito, .c-xs-verde-ejercito-h:hover, .c-xs-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+	.c-xs-verde-aguacate, .c-xs-verde-aguacate-h:hover, .c-xs-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+	.c-xs-verde-marciano, .c-xs-verde-marciano-h:hover, .c-xs-verde-marciano-a:active { color: rgb(153, 204, 51); }
+	.c-xs-verde-opaco, .c-xs-verde-opaco-h:hover, .c-xs-verde-opaco-a:active { color: rgb(153, 204, 102); }
+	.c-xs-chartreuse, .c-xs-chartreuse-h:hover, .c-xs-chartreuse-a:active { color: rgb(153, 255, 0); }
+	.c-xs-verde-luna, .c-xs-verde-luna-h:hover, .c-xs-verde-luna-a:active { color: rgb(204, 255, 102); }
+	.c-xs-verde-lobrego, .c-xs-verde-lobrego-h:hover, .c-xs-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+	.c-xs-pardo-aceituna, .c-xs-pardo-aceituna-h:hover, .c-xs-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+	.c-xs-kaki, .c-xs-kaki-h:hover, .c-xs-kaki-a:active { color: rgb(153, 153, 102); }
+	.c-xs-oliva, .c-xs-oliva-h:hover, .c-xs-oliva-a:active { color: rgb(153, 153, 51); }
+	.c-xs-amarillo-platano, .c-xs-amarillo-platano-h:hover, .c-xs-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+	.c-xs-amarillo-claro, .c-xs-amarillo-claro-h:hover, .c-xs-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+	.c-xs-amarillo-verdosa, .c-xs-amarillo-verdosa-h:hover, .c-xs-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+	.c-xs-amarillo-palido, .c-xs-amarillo-palido-h:hover, .c-xs-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+	.c-xs-marron, .c-xs-marron-h:hover, .c-xs-marron-a:active { color: rgb(153, 102, 51); }
+	.c-xs-marron-rojiso, .c-xs-marron-rojiso-h:hover, .c-xs-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+	.c-xs-dorado, .c-xs-dorado-h:hover, .c-xs-dorado-a:active { color: rgb(204, 153, 51); }
+	.c-xs-naranja-otonal, .c-xs-naranja-otonal-h:hover, .c-xs-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+	.c-xs-naranja-claro, .c-xs-naranja-claro-h:hover, .c-xs-naranja-claro-a:active { color: rgb(255, 153, 51); }
+	.c-xs-melocoton, .c-xs-melocoton-h:hover, .c-xs-melocoton-a:active { color: rgb(255, 153, 102); }
+	.c-xs-amarillo-fuerte, .c-xs-amarillo-fuerte-h:hover, .c-xs-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+	.c-xs-arena, .c-xs-arena-h:hover, .c-xs-arena-a:active { color: rgb(255, 204, 153); }
+	.c-xs-avellana, .c-xs-avellana-h:hover, .c-xs-avellana-a:active { color: rgb(102, 51, 0); }
+	.c-xs-rojo-rubi, .c-xs-rojo-rubi-h:hover, .c-xs-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+	.c-xs-rojo-ladrillo, .c-xs-rojo-ladrillo-h:hover, .c-xs-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+	.c-xs-rosa-tropical, .c-xs-rosa-tropical-h:hover, .c-xs-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+	.c-xs-rosa-palido, .c-xs-rosa-palido-h:hover, .c-xs-rosa-palido-a:active { color: rgb(255, 153, 153); }
+	.c-xs-rosa-apagado, .c-xs-rosa-apagado-h:hover, .c-xs-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+	.c-xs-granate, .c-xs-granate-h:hover, .c-xs-granate-a:active { color: rgb(153, 51, 102); }
+	.c-xs-rojo-legal, .c-xs-rojo-legal-h:hover, .c-xs-rojo-legal-a:active { color: rgb(204, 51, 102); }
+	.c-xs-rojo-intenso, .c-xs-rojo-intenso-h:hover, .c-xs-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+	.c-xs-rojo-fluorecente, .c-xs-rojo-fluorecente-h:hover, .c-xs-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+	.c-xs-rosa-fuerte, .c-xs-rosa-fuerte-h:hover, .c-xs-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+	.c-xs-rosa-fresa, .c-xs-rosa-fresa-h:hover, .c-xs-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+	.c-xs-rosa-azulado, .c-xs-rosa-azulado-h:hover, .c-xs-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+	.c-xs-ciruela, .c-xs-ciruela-h:hover, .c-xs-ciruela-a:active { color: rgb(102, 0, 102); }
+	.c-xs-violeta-oscuro, .c-xs-violeta-oscuro-h:hover, .c-xs-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+	.c-xs-violeta-claro, .c-xs-violeta-claro-h:hover, .c-xs-violeta-claro-a:active { color: rgb(255, 153, 255); }
+	.c-xs-violeta, .c-xs-violeta-h:hover, .c-xs-violeta-a:active { color: rgb(204, 102, 204); }
+	.c-xs-ciruela-azulado, .c-xs-ciruela-azulado-h:hover, .c-xs-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+	.c-xs-morado-palido, .c-xs-morado-palido-h:hover, .c-xs-morado-palido-a:active { color: rgb(204, 153, 204); }
+	.c-xs-morado-majestic, .c-xs-morado-majestic-h:hover, .c-xs-morado-majestic-a:active { color: rgb(153, 51, 204); }
+	.c-xs-morado-fluorecente, .c-xs-morado-fluorecente-h:hover, .c-xs-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+	.c-xs-morado-claro, .c-xs-morado-claro-h:hover, .c-xs-morado-claro-a:active { color: rgb(204, 102, 255); }
+	.c-xs-violeta-azulado, .c-xs-violeta-azulado-h:hover, .c-xs-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+	.c-xs-morado-pascua, .c-xs-morado-pascua-h:hover, .c-xs-morado-pascua-a:active { color: rgb(204, 153, 255); }
+	.c-xs-morado-fuerte, .c-xs-morado-fuerte-h:hover, .c-xs-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+	.c-xs-uva, .c-xs-uva-h:hover, .c-xs-uva-a:active { color: rgb(102, 51, 153); }
+	.c-xs-violeta-azul, .c-xs-violeta-azul-h:hover, .c-xs-violeta-azul-a:active { color: rgb(153, 102, 255); }
+	.c-xs-morado-azulado, .c-xs-morado-azulado-h:hover, .c-xs-morado-azulado-a:active { color: rgb(153, 0, 255); }
+	.c-xs-rio-intenso, .c-xs-rio-intenso-h:hover, .c-xs-rio-intenso-a:active { color: rgb(102, 0, 204); }
+	.c-xs-anil-intenso, .c-xs-anil-intenso-h:hover, .c-xs-anil-intenso-a:active { color: rgb(102, 51, 255); }
+	.c-xs-azul-tormenta, .c-xs-azul-tormenta-h:hover, .c-xs-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+	.c-xs-azul-intenso, .c-xs-azul-intenso-h:hover, .c-xs-azul-intenso-a:active { color: rgb(51, 0, 204); }
+
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	
+	.c-sm-negro, .c-sm-negro-h:hover, .c-sm-negro-a:active { color: rgb(0, 0, 0); }
+	.c-sm-90-negro, .c-sm-90-negro-h:hover, .c-sm-90-negro-a:active { color: rgb(26, 26, 26); }
+	.c-sm-80-negro, .c-sm-80-negro-h:hover, .c-sm-80-negro-a:active { color: rgb(51, 51, 51); }
+	.c-sm-70-negro, .c-sm-70-negro-h:hover, .c-sm-70-negro-a:active { color: rgb(77, 77, 77); }
+	.c-sm-60-negro, .c-sm-60-negro-h:hover, .c-sm-60-negro-a:active { color: rgb(102, 102, 102); }
+	.c-sm-50-negro, .c-sm-50-negro-h:hover, .c-sm-50-negro-a:active { color: rgb(128, 128, 128); }
+	.c-sm-40-negro, .c-sm-40-negro-h:hover, .c-sm-40-negro-a:active { color: rgb(153, 153, 153); }
+	.c-sm-30-negro, .c-sm-30-negro-h:hover, .c-sm-30-negro-a:active { color: rgb(179, 179, 179); }
+	.c-sm-20-negro, .c-sm-20-negro-h:hover, .c-sm-20-negro-a:active { color: rgb(204, 204, 204); }
+	.c-sm-10-negro, .c-sm-10-negro-h:hover, .c-sm-10-negro-a:active { color: rgb(230, 230, 230); }
+	.c-sm-blanco, .c-sm-blanco-h:hover, .c-sm-blanco-a:active { color: rgb(255, 255, 255); }
+	.c-sm-azul, .c-sm-azul-h:hover, .c-sm-azul-a:active { color: rgb(0, 0, 255); }
+	.c-sm-cian, .c-sm-cian-h:hover, .c-sm-cian-a:active { color: rgb(0, 255, 255); }
+	.c-sm-verde, .c-sm-verde-h:hover, .c-sm-verde-a:active { color: rgb(0, 255, 0); }
+	.c-sm-amarillo, .c-sm-amarillo-h:hover, .c-sm-amarillo-a:active { color: rgb(255, 255, 0); }
+	.c-sm-rojo, .c-sm-rojo-h:hover, .c-sm-rojo-a:active { color: rgb(255, 0, 0); }
+	.c-sm-magenta, .c-sm-magenta-h:hover, .c-sm-magenta-a:active { color: rgb(255, 0, 255); }
+	.c-sm-morado, .c-sm-morado-h:hover, .c-sm-morado-a:active { color: rgb(153, 0, 204); }
+	.c-sm-naranja, .c-sm-naranja-h:hover, .c-sm-naranja-a:active { color: rgb(255, 102, 0); }
+	.c-sm-rosa, .c-sm-rosa-h:hover, .c-sm-rosa-a:active { color: rgb(255, 153, 204); }
+	.c-sm-marron-oscuro, .c-sm-marron-oscuro-h:hover, .c-sm-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+	.c-sm-malva,.c-sm-malva-h:hover, .c-sm-malva-a:active { color: rgb(204, 204, 255); }
+	.c-sm-azul-pastel, .c-sm-azul-pastel-h:hover, .c-sm-azul-pastel-a:active { color: rgb(153, 153, 255); }
+	.c-sm-azul-infantil, .c-sm-azul-infantil-h:hover, .c-sm-azul-infantil-a:active { color: rgb(102, 153, 255); }
+	.c-sm-azul-electrico, .c-sm-azul-electrico-h:hover, .c-sm-azul-electrico-a:active { color: rgb(102, 102, 255); }
+	.c-sm-azul-crepusculo, .c-sm-azul-crepusculo-h:hover, .c-sm-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+	.c-sm-azul-marino, .c-sm-azul-marino-h:hover, .c-sm-azul-marino-a:active { color: rgb(0, 51, 153); }
+	.c-sm-azul-marino-oscuro, .c-sm-azul-marino-oscuro-h:hover, .c-sm-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+	.c-sm-azul-desierto, .c-sm-azul-desierto-h:hover, .c-sm-azul-desierto-a:active { color: rgb(51, 102, 153); }
+	.c-sm-azul-celeste, .c-sm-azul-celeste-h:hover, .c-sm-azul-celeste-a:active { color: rgb(0, 204, 255); }
+	.c-sm-azul-hielo, .c-sm-azul-hielo-h:hover, .c-sm-azul-hielo-a:active { color: rgb(153, 255, 255); }
+	.c-sm-verde-azulado-claro, .c-sm-verde-azulado-claro-h:hover, .c-sm-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+	.c-sm-verde-oceano, .c-sm-verde-oceano-h:hover, .c-sm-verde-oceano-a:active { color: rgb(102, 153, 153); }
+	.c-sm-verde-musgo, .c-sm-verde-musgo-h:hover, .c-sm-verde-musgo-a:active { color: rgb(51, 102, 102); }
+	.c-sm-verde-oscuro, .c-sm-verde-oscuro-h:hover, .c-sm-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+	.c-sm-verde-bosque, .c-sm-verde-bosque-h:hover, .c-sm-verde-bosque-a:active { color: rgb(0, 102, 51); }
+	.c-sm-verde-hierba, .c-sm-verde-hierba-h:hover, .c-sm-verde-hierba-a:active { color: rgb(0, 153, 51); }
+	.c-sm-verde-kentucky, .c-sm-verde-kentucky-h:hover, .c-sm-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+	.c-sm-verde-claro, .c-sm-verde-claro-h:hover, .c-sm-verde-claro-a:active { color: rgb(51, 204, 102); }
+	.c-sm-verde-primavera, .c-sm-verde-primavera-h:hover, .c-sm-verde-primavera-a:active { color: rgb(51, 204, 51); }
+	.c-sm-turquesa, .c-sm-turquesa-h:hover, .c-sm-turquesa-a:active { color: rgb(102, 255, 204); }
+	.c-sm-verde-mar, .c-sm-verde-mar-h:hover, .c-sm-verde-mar-a:active { color: rgb(51, 204, 153); }
+	.c-sm-verde-apagado, .c-sm-verde-apagado-h:hover, .c-sm-verde-apagado-a:active { color: rgb(153, 204, 153); }
+	.c-sm-verde-fantasma, .c-sm-verde-fantasma-h:hover, .c-sm-verde-fantasma-a:active { color: rgb(204, 255, 204); }
+	.c-sm-verde-menta, .c-sm-verde-menta-h:hover, .c-sm-verde-menta-a:active { color: rgb(153, 255, 153); }
+	.c-sm-verde-ejercito, .c-sm-verde-ejercito-h:hover, .c-sm-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+	.c-sm-verde-aguacate, .c-sm-verde-aguacate-h:hover, .c-sm-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+	.c-sm-verde-marciano, .c-sm-verde-marciano-h:hover, .c-sm-verde-marciano-a:active { color: rgb(153, 204, 51); }
+	.c-sm-verde-opaco, .c-sm-verde-opaco-h:hover, .c-sm-verde-opaco-a:active { color: rgb(153, 204, 102); }
+	.c-sm-chartreuse, .c-sm-chartreuse-h:hover, .c-sm-chartreuse-a:active { color: rgb(153, 255, 0); }
+	.c-sm-verde-luna, .c-sm-verde-luna-h:hover, .c-sm-verde-luna-a:active { color: rgb(204, 255, 102); }
+	.c-sm-verde-lobrego, .c-sm-verde-lobrego-h:hover, .c-sm-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+	.c-sm-pardo-aceituna, .c-sm-pardo-aceituna-h:hover, .c-sm-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+	.c-sm-kaki, .c-sm-kaki-h:hover, .c-sm-kaki-a:active { color: rgb(153, 153, 102); }
+	.c-sm-oliva, .c-sm-oliva-h:hover, .c-sm-oliva-a:active { color: rgb(153, 153, 51); }
+	.c-sm-amarillo-platano, .c-sm-amarillo-platano-h:hover, .c-sm-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+	.c-sm-amarillo-claro, .c-sm-amarillo-claro-h:hover, .c-sm-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+	.c-sm-amarillo-verdosa, .c-sm-amarillo-verdosa-h:hover, .c-sm-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+	.c-sm-amarillo-palido, .c-sm-amarillo-palido-h:hover, .c-sm-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+	.c-sm-marron, .c-sm-marron-h:hover, .c-sm-marron-a:active { color: rgb(153, 102, 51); }
+	.c-sm-marron-rojiso, .c-sm-marron-rojiso-h:hover, .c-sm-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+	.c-sm-dorado, .c-sm-dorado-h:hover, .c-sm-dorado-a:active { color: rgb(204, 153, 51); }
+	.c-sm-naranja-otonal, .c-sm-naranja-otonal-h:hover, .c-sm-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+	.c-sm-naranja-claro, .c-sm-naranja-claro-h:hover, .c-sm-naranja-claro-a:active { color: rgb(255, 153, 51); }
+	.c-sm-melocoton, .c-sm-melocoton-h:hover, .c-sm-melocoton-a:active { color: rgb(255, 153, 102); }
+	.c-sm-amarillo-fuerte, .c-sm-amarillo-fuerte-h:hover, .c-sm-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+	.c-sm-arena, .c-sm-arena-h:hover, .c-sm-arena-a:active { color: rgb(255, 204, 153); }
+	.c-sm-avellana, .c-sm-avellana-h:hover, .c-sm-avellana-a:active { color: rgb(102, 51, 0); }
+	.c-sm-rojo-rubi, .c-sm-rojo-rubi-h:hover, .c-sm-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+	.c-sm-rojo-ladrillo, .c-sm-rojo-ladrillo-h:hover, .c-sm-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+	.c-sm-rosa-tropical, .c-sm-rosa-tropical-h:hover, .c-sm-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+	.c-sm-rosa-palido, .c-sm-rosa-palido-h:hover, .c-sm-rosa-palido-a:active { color: rgb(255, 153, 153); }
+	.c-sm-rosa-apagado, .c-sm-rosa-apagado-h:hover, .c-sm-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+	.c-sm-granate, .c-sm-granate-h:hover, .c-sm-granate-a:active { color: rgb(153, 51, 102); }
+	.c-sm-rojo-legal, .c-sm-rojo-legal-h:hover, .c-sm-rojo-legal-a:active { color: rgb(204, 51, 102); }
+	.c-sm-rojo-intenso, .c-sm-rojo-intenso-h:hover, .c-sm-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+	.c-sm-rojo-fluorecente, .c-sm-rojo-fluorecente-h:hover, .c-sm-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+	.c-sm-rosa-fuerte, .c-sm-rosa-fuerte-h:hover, .c-sm-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+	.c-sm-rosa-fresa, .c-sm-rosa-fresa-h:hover, .c-sm-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+	.c-sm-rosa-azulado, .c-sm-rosa-azulado-h:hover, .c-sm-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+	.c-sm-ciruela, .c-sm-ciruela-h:hover, .c-sm-ciruela-a:active { color: rgb(102, 0, 102); }
+	.c-sm-violeta-oscuro, .c-sm-violeta-oscuro-h:hover, .c-sm-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+	.c-sm-violeta-claro, .c-sm-violeta-claro-h:hover, .c-sm-violeta-claro-a:active { color: rgb(255, 153, 255); }
+	.c-sm-violeta, .c-sm-violeta-h:hover, .c-sm-violeta-a:active { color: rgb(204, 102, 204); }
+	.c-sm-ciruela-azulado, .c-sm-ciruela-azulado-h:hover, .c-sm-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+	.c-sm-morado-palido, .c-sm-morado-palido-h:hover, .c-sm-morado-palido-a:active { color: rgb(204, 153, 204); }
+	.c-sm-morado-majestic, .c-sm-morado-majestic-h:hover, .c-sm-morado-majestic-a:active { color: rgb(153, 51, 204); }
+	.c-sm-morado-fluorecente, .c-sm-morado-fluorecente-h:hover, .c-sm-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+	.c-sm-morado-claro, .c-sm-morado-claro-h:hover, .c-sm-morado-claro-a:active { color: rgb(204, 102, 255); }
+	.c-sm-violeta-azulado, .c-sm-violeta-azulado-h:hover, .c-sm-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+	.c-sm-morado-pascua, .c-sm-morado-pascua-h:hover, .c-sm-morado-pascua-a:active { color: rgb(204, 153, 255); }
+	.c-sm-morado-fuerte, .c-sm-morado-fuerte-h:hover, .c-sm-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+	.c-sm-uva, .c-sm-uva-h:hover, .c-sm-uva-a:active { color: rgb(102, 51, 153); }
+	.c-sm-violeta-azul, .c-sm-violeta-azul-h:hover, .c-sm-violeta-azul-a:active { color: rgb(153, 102, 255); }
+	.c-sm-morado-azulado, .c-sm-morado-azulado-h:hover, .c-sm-morado-azulado-a:active { color: rgb(153, 0, 255); }
+	.c-sm-rio-intenso, .c-sm-rio-intenso-h:hover, .c-sm-rio-intenso-a:active { color: rgb(102, 0, 204); }
+	.c-sm-anil-intenso, .c-sm-anil-intenso-h:hover, .c-sm-anil-intenso-a:active { color: rgb(102, 51, 255); }
+	.c-sm-azul-tormenta, .c-sm-azul-tormenta-h:hover, .c-sm-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+	.c-sm-azul-intenso, .c-sm-azul-intenso-h:hover, .c-sm-azul-intenso-a:active { color: rgb(51, 0, 204); }	
+
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+	
+	.c-md-negro, .c-md-negro-h:hover, .c-md-negro-a:active { color: rgb(0, 0, 0); }
+	.c-md-90-negro, .c-md-90-negro-h:hover, .c-md-90-negro-a:active { color: rgb(26, 26, 26); }
+	.c-md-80-negro, .c-md-80-negro-h:hover, .c-md-80-negro-a:active { color: rgb(51, 51, 51); }
+	.c-md-70-negro, .c-md-70-negro-h:hover, .c-md-70-negro-a:active { color: rgb(77, 77, 77); }
+	.c-md-60-negro, .c-md-60-negro-h:hover, .c-md-60-negro-a:active { color: rgb(102, 102, 102); }
+	.c-md-50-negro, .c-md-50-negro-h:hover, .c-md-50-negro-a:active { color: rgb(128, 128, 128); }
+	.c-md-40-negro, .c-md-40-negro-h:hover, .c-md-40-negro-a:active { color: rgb(153, 153, 153); }
+	.c-md-30-negro, .c-md-30-negro-h:hover, .c-md-30-negro-a:active { color: rgb(179, 179, 179); }
+	.c-md-20-negro, .c-md-20-negro-h:hover, .c-md-20-negro-a:active { color: rgb(204, 204, 204); }
+	.c-md-10-negro, .c-md-10-negro-h:hover, .c-md-10-negro-a:active { color: rgb(230, 230, 230); }
+	.c-md-blanco, .c-md-blanco-h:hover, .c-md-blanco-a:active { color: rgb(255, 255, 255); }
+	.c-md-azul, .c-md-azul-h:hover, .c-md-azul-a:active { color: rgb(0, 0, 255); }
+	.c-md-cian, .c-md-cian-h:hover, .c-md-cian-a:active { color: rgb(0, 255, 255); }
+	.c-md-verde, .c-md-verde-h:hover, .c-md-verde-a:active { color: rgb(0, 255, 0); }
+	.c-md-amarillo, .c-md-amarillo-h:hover, .c-md-amarillo-a:active { color: rgb(255, 255, 0); }
+	.c-md-rojo, .c-md-rojo-h:hover, .c-md-rojo-a:active { color: rgb(255, 0, 0); }
+	.c-md-magenta, .c-md-magenta-h:hover, .c-md-magenta-a:active { color: rgb(255, 0, 255); }
+	.c-md-morado, .c-md-morado-h:hover, .c-md-morado-a:active { color: rgb(153, 0, 204); }
+	.c-md-naranja, .c-md-naranja-h:hover, .c-md-naranja-a:active { color: rgb(255, 102, 0); }
+	.c-md-rosa, .c-md-rosa-h:hover, .c-md-rosa-a:active { color: rgb(255, 153, 204); }
+	.c-md-marron-oscuro, .c-md-marron-oscuro-h:hover, .c-md-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+	.c-md-malva,.c-md-malva-h:hover, .c-md-malva-a:active { color: rgb(204, 204, 255); }
+	.c-md-azul-pastel, .c-md-azul-pastel-h:hover, .c-md-azul-pastel-a:active { color: rgb(153, 153, 255); }
+	.c-md-azul-infantil, .c-md-azul-infantil-h:hover, .c-md-azul-infantil-a:active { color: rgb(102, 153, 255); }
+	.c-md-azul-electrico, .c-md-azul-electrico-h:hover, .c-md-azul-electrico-a:active { color: rgb(102, 102, 255); }
+	.c-md-azul-crepusculo, .c-md-azul-crepusculo-h:hover, .c-md-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+	.c-md-azul-marino, .c-md-azul-marino-h:hover, .c-md-azul-marino-a:active { color: rgb(0, 51, 153); }
+	.c-md-azul-marino-oscuro, .c-md-azul-marino-oscuro-h:hover, .c-md-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+	.c-md-azul-desierto, .c-md-azul-desierto-h:hover, .c-md-azul-desierto-a:active { color: rgb(51, 102, 153); }
+	.c-md-azul-celeste, .c-md-azul-celeste-h:hover, .c-md-azul-celeste-a:active { color: rgb(0, 204, 255); }
+	.c-md-azul-hielo, .c-md-azul-hielo-h:hover, .c-md-azul-hielo-a:active { color: rgb(153, 255, 255); }
+	.c-md-verde-azulado-claro, .c-md-verde-azulado-claro-h:hover, .c-md-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+	.c-md-verde-oceano, .c-md-verde-oceano-h:hover, .c-md-verde-oceano-a:active { color: rgb(102, 153, 153); }
+	.c-md-verde-musgo, .c-md-verde-musgo-h:hover, .c-md-verde-musgo-a:active { color: rgb(51, 102, 102); }
+	.c-md-verde-oscuro, .c-md-verde-oscuro-h:hover, .c-md-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+	.c-md-verde-bosque, .c-md-verde-bosque-h:hover, .c-md-verde-bosque-a:active { color: rgb(0, 102, 51); }
+	.c-md-verde-hierba, .c-md-verde-hierba-h:hover, .c-md-verde-hierba-a:active { color: rgb(0, 153, 51); }
+	.c-md-verde-kentucky, .c-md-verde-kentucky-h:hover, .c-md-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+	.c-md-verde-claro, .c-md-verde-claro-h:hover, .c-md-verde-claro-a:active { color: rgb(51, 204, 102); }
+	.c-md-verde-primavera, .c-md-verde-primavera-h:hover, .c-md-verde-primavera-a:active { color: rgb(51, 204, 51); }
+	.c-md-turquesa, .c-md-turquesa-h:hover, .c-md-turquesa-a:active { color: rgb(102, 255, 204); }
+	.c-md-verde-mar, .c-md-verde-mar-h:hover, .c-md-verde-mar-a:active { color: rgb(51, 204, 153); }
+	.c-md-verde-apagado, .c-md-verde-apagado-h:hover, .c-md-verde-apagado-a:active { color: rgb(153, 204, 153); }
+	.c-md-verde-fantamda, .c-md-verde-fantamda-h:hover, .c-md-verde-fantamda-a:active { color: rgb(204, 255, 204); }
+	.c-md-verde-menta, .c-md-verde-menta-h:hover, .c-md-verde-menta-a:active { color: rgb(153, 255, 153); }
+	.c-md-verde-ejercito, .c-md-verde-ejercito-h:hover, .c-md-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+	.c-md-verde-aguacate, .c-md-verde-aguacate-h:hover, .c-md-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+	.c-md-verde-marciano, .c-md-verde-marciano-h:hover, .c-md-verde-marciano-a:active { color: rgb(153, 204, 51); }
+	.c-md-verde-opaco, .c-md-verde-opaco-h:hover, .c-md-verde-opaco-a:active { color: rgb(153, 204, 102); }
+	.c-md-chartreuse, .c-md-chartreuse-h:hover, .c-md-chartreuse-a:active { color: rgb(153, 255, 0); }
+	.c-md-verde-luna, .c-md-verde-luna-h:hover, .c-md-verde-luna-a:active { color: rgb(204, 255, 102); }
+	.c-md-verde-lobrego, .c-md-verde-lobrego-h:hover, .c-md-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+	.c-md-pardo-aceituna, .c-md-pardo-aceituna-h:hover, .c-md-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+	.c-md-kaki, .c-md-kaki-h:hover, .c-md-kaki-a:active { color: rgb(153, 153, 102); }
+	.c-md-oliva, .c-md-oliva-h:hover, .c-md-oliva-a:active { color: rgb(153, 153, 51); }
+	.c-md-amarillo-platano, .c-md-amarillo-platano-h:hover, .c-md-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+	.c-md-amarillo-claro, .c-md-amarillo-claro-h:hover, .c-md-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+	.c-md-amarillo-verdosa, .c-md-amarillo-verdosa-h:hover, .c-md-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+	.c-md-amarillo-palido, .c-md-amarillo-palido-h:hover, .c-md-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+	.c-md-marron, .c-md-marron-h:hover, .c-md-marron-a:active { color: rgb(153, 102, 51); }
+	.c-md-marron-rojiso, .c-md-marron-rojiso-h:hover, .c-md-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+	.c-md-dorado, .c-md-dorado-h:hover, .c-md-dorado-a:active { color: rgb(204, 153, 51); }
+	.c-md-naranja-otonal, .c-md-naranja-otonal-h:hover, .c-md-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+	.c-md-naranja-claro, .c-md-naranja-claro-h:hover, .c-md-naranja-claro-a:active { color: rgb(255, 153, 51); }
+	.c-md-melocoton, .c-md-melocoton-h:hover, .c-md-melocoton-a:active { color: rgb(255, 153, 102); }
+	.c-md-amarillo-fuerte, .c-md-amarillo-fuerte-h:hover, .c-md-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+	.c-md-arena, .c-md-arena-h:hover, .c-md-arena-a:active { color: rgb(255, 204, 153); }
+	.c-md-avellana, .c-md-avellana-h:hover, .c-md-avellana-a:active { color: rgb(102, 51, 0); }
+	.c-md-rojo-rubi, .c-md-rojo-rubi-h:hover, .c-md-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+	.c-md-rojo-ladrillo, .c-md-rojo-ladrillo-h:hover, .c-md-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+	.c-md-rosa-tropical, .c-md-rosa-tropical-h:hover, .c-md-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+	.c-md-rosa-palido, .c-md-rosa-palido-h:hover, .c-md-rosa-palido-a:active { color: rgb(255, 153, 153); }
+	.c-md-rosa-apagado, .c-md-rosa-apagado-h:hover, .c-md-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+	.c-md-granate, .c-md-granate-h:hover, .c-md-granate-a:active { color: rgb(153, 51, 102); }
+	.c-md-rojo-legal, .c-md-rojo-legal-h:hover, .c-md-rojo-legal-a:active { color: rgb(204, 51, 102); }
+	.c-md-rojo-intenso, .c-md-rojo-intenso-h:hover, .c-md-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+	.c-md-rojo-fluorecente, .c-md-rojo-fluorecente-h:hover, .c-md-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+	.c-md-rosa-fuerte, .c-md-rosa-fuerte-h:hover, .c-md-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+	.c-md-rosa-fresa, .c-md-rosa-fresa-h:hover, .c-md-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+	.c-md-rosa-azulado, .c-md-rosa-azulado-h:hover, .c-md-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+	.c-md-ciruela, .c-md-ciruela-h:hover, .c-md-ciruela-a:active { color: rgb(102, 0, 102); }
+	.c-md-violeta-oscuro, .c-md-violeta-oscuro-h:hover, .c-md-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+	.c-md-violeta-claro, .c-md-violeta-claro-h:hover, .c-md-violeta-claro-a:active { color: rgb(255, 153, 255); }
+	.c-md-violeta, .c-md-violeta-h:hover, .c-md-violeta-a:active { color: rgb(204, 102, 204); }
+	.c-md-ciruela-azulado, .c-md-ciruela-azulado-h:hover, .c-md-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+	.c-md-morado-palido, .c-md-morado-palido-h:hover, .c-md-morado-palido-a:active { color: rgb(204, 153, 204); }
+	.c-md-morado-majestic, .c-md-morado-majestic-h:hover, .c-md-morado-majestic-a:active { color: rgb(153, 51, 204); }
+	.c-md-morado-fluorecente, .c-md-morado-fluorecente-h:hover, .c-md-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+	.c-md-morado-claro, .c-md-morado-claro-h:hover, .c-md-morado-claro-a:active { color: rgb(204, 102, 255); }
+	.c-md-violeta-azulado, .c-md-violeta-azulado-h:hover, .c-md-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+	.c-md-morado-pascua, .c-md-morado-pascua-h:hover, .c-md-morado-pascua-a:active { color: rgb(204, 153, 255); }
+	.c-md-morado-fuerte, .c-md-morado-fuerte-h:hover, .c-md-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+	.c-md-uva, .c-md-uva-h:hover, .c-md-uva-a:active { color: rgb(102, 51, 153); }
+	.c-md-violeta-azul, .c-md-violeta-azul-h:hover, .c-md-violeta-azul-a:active { color: rgb(153, 102, 255); }
+	.c-md-morado-azulado, .c-md-morado-azulado-h:hover, .c-md-morado-azulado-a:active { color: rgb(153, 0, 255); }
+	.c-md-rio-intenso, .c-md-rio-intenso-h:hover, .c-md-rio-intenso-a:active { color: rgb(102, 0, 204); }
+	.c-md-anil-intenso, .c-md-anil-intenso-h:hover, .c-md-anil-intenso-a:active { color: rgb(102, 51, 255); }
+	.c-md-azul-tormenta, .c-md-azul-tormenta-h:hover, .c-md-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+	.c-md-azul-intenso, .c-md-azul-intenso-h:hover, .c-md-azul-intenso-a:active { color: rgb(51, 0, 204); }
+
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	
+	.c-lg-negro, .c-lg-negro-h:hover, .c-lg-negro-a:active { color: rgb(0, 0, 0); }
+	.c-lg-90-negro, .c-lg-90-negro-h:hover, .c-lg-90-negro-a:active { color: rgb(26, 26, 26); }
+	.c-lg-80-negro, .c-lg-80-negro-h:hover, .c-lg-80-negro-a:active { color: rgb(51, 51, 51); }
+	.c-lg-70-negro, .c-lg-70-negro-h:hover, .c-lg-70-negro-a:active { color: rgb(77, 77, 77); }
+	.c-lg-60-negro, .c-lg-60-negro-h:hover, .c-lg-60-negro-a:active { color: rgb(102, 102, 102); }
+	.c-lg-50-negro, .c-lg-50-negro-h:hover, .c-lg-50-negro-a:active { color: rgb(128, 128, 128); }
+	.c-lg-40-negro, .c-lg-40-negro-h:hover, .c-lg-40-negro-a:active { color: rgb(153, 153, 153); }
+	.c-lg-30-negro, .c-lg-30-negro-h:hover, .c-lg-30-negro-a:active { color: rgb(179, 179, 179); }
+	.c-lg-20-negro, .c-lg-20-negro-h:hover, .c-lg-20-negro-a:active { color: rgb(204, 204, 204); }
+	.c-lg-10-negro, .c-lg-10-negro-h:hover, .c-lg-10-negro-a:active { color: rgb(230, 230, 230); }
+	.c-lg-blanco, .c-lg-blanco-h:hover, .c-lg-blanco-a:active { color: rgb(255, 255, 255); }
+	.c-lg-azul, .c-lg-azul-h:hover, .c-lg-azul-a:active { color: rgb(0, 0, 255); }
+	.c-lg-cian, .c-lg-cian-h:hover, .c-lg-cian-a:active { color: rgb(0, 255, 255); }
+	.c-lg-verde, .c-lg-verde-h:hover, .c-lg-verde-a:active { color: rgb(0, 255, 0); }
+	.c-lg-amarillo, .c-lg-amarillo-h:hover, .c-lg-amarillo-a:active { color: rgb(255, 255, 0); }
+	.c-lg-rojo, .c-lg-rojo-h:hover, .c-lg-rojo-a:active { color: rgb(255, 0, 0); }
+	.c-lg-magenta, .c-lg-magenta-h:hover, .c-lg-magenta-a:active { color: rgb(255, 0, 255); }
+	.c-lg-morado, .c-lg-morado-h:hover, .c-lg-morado-a:active { color: rgb(153, 0, 204); }
+	.c-lg-naranja, .c-lg-naranja-h:hover, .c-lg-naranja-a:active { color: rgb(255, 102, 0); }
+	.c-lg-rosa, .c-lg-rosa-h:hover, .c-lg-rosa-a:active { color: rgb(255, 153, 204); }
+	.c-lg-marron-oscuro, .c-lg-marron-oscuro-h:hover, .c-lg-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+	.c-lg-malva,.c-lg-malva-h:hover, .c-lg-malva-a:active { color: rgb(204, 204, 255); }
+	.c-lg-azul-pastel, .c-lg-azul-pastel-h:hover, .c-lg-azul-pastel-a:active { color: rgb(153, 153, 255); }
+	.c-lg-azul-infantil, .c-lg-azul-infantil-h:hover, .c-lg-azul-infantil-a:active { color: rgb(102, 153, 255); }
+	.c-lg-azul-electrico, .c-lg-azul-electrico-h:hover, .c-lg-azul-electrico-a:active { color: rgb(102, 102, 255); }
+	.c-lg-azul-crepusculo, .c-lg-azul-crepusculo-h:hover, .c-lg-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+	.c-lg-azul-marino, .c-lg-azul-marino-h:hover, .c-lg-azul-marino-a:active { color: rgb(0, 51, 153); }
+	.c-lg-azul-marino-oscuro, .c-lg-azul-marino-oscuro-h:hover, .c-lg-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+	.c-lg-azul-desierto, .c-lg-azul-desierto-h:hover, .c-lg-azul-desierto-a:active { color: rgb(51, 102, 153); }
+	.c-lg-azul-celeste, .c-lg-azul-celeste-h:hover, .c-lg-azul-celeste-a:active { color: rgb(0, 204, 255); }
+	.c-lg-azul-hielo, .c-lg-azul-hielo-h:hover, .c-lg-azul-hielo-a:active { color: rgb(153, 255, 255); }
+	.c-lg-verde-azulado-claro, .c-lg-verde-azulado-claro-h:hover, .c-lg-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+	.c-lg-verde-oceano, .c-lg-verde-oceano-h:hover, .c-lg-verde-oceano-a:active { color: rgb(102, 153, 153); }
+	.c-lg-verde-musgo, .c-lg-verde-musgo-h:hover, .c-lg-verde-musgo-a:active { color: rgb(51, 102, 102); }
+	.c-lg-verde-oscuro, .c-lg-verde-oscuro-h:hover, .c-lg-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+	.c-lg-verde-bosque, .c-lg-verde-bosque-h:hover, .c-lg-verde-bosque-a:active { color: rgb(0, 102, 51); }
+	.c-lg-verde-hierba, .c-lg-verde-hierba-h:hover, .c-lg-verde-hierba-a:active { color: rgb(0, 153, 51); }
+	.c-lg-verde-kentucky, .c-lg-verde-kentucky-h:hover, .c-lg-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+	.c-lg-verde-claro, .c-lg-verde-claro-h:hover, .c-lg-verde-claro-a:active { color: rgb(51, 204, 102); }
+	.c-lg-verde-primavera, .c-lg-verde-primavera-h:hover, .c-lg-verde-primavera-a:active { color: rgb(51, 204, 51); }
+	.c-lg-turquesa, .c-lg-turquesa-h:hover, .c-lg-turquesa-a:active { color: rgb(102, 255, 204); }
+	.c-lg-verde-mar, .c-lg-verde-mar-h:hover, .c-lg-verde-mar-a:active { color: rgb(51, 204, 153); }
+	.c-lg-verde-apagado, .c-lg-verde-apagado-h:hover, .c-lg-verde-apagado-a:active { color: rgb(153, 204, 153); }
+	.c-lg-verde-fantalga, .c-lg-verde-fantalga-h:hover, .c-lg-verde-fantalga-a:active { color: rgb(204, 255, 204); }
+	.c-lg-verde-menta, .c-lg-verde-menta-h:hover, .c-lg-verde-menta-a:active { color: rgb(153, 255, 153); }
+	.c-lg-verde-ejercito, .c-lg-verde-ejercito-h:hover, .c-lg-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+	.c-lg-verde-aguacate, .c-lg-verde-aguacate-h:hover, .c-lg-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+	.c-lg-verde-marciano, .c-lg-verde-marciano-h:hover, .c-lg-verde-marciano-a:active { color: rgb(153, 204, 51); }
+	.c-lg-verde-opaco, .c-lg-verde-opaco-h:hover, .c-lg-verde-opaco-a:active { color: rgb(153, 204, 102); }
+	.c-lg-chartreuse, .c-lg-chartreuse-h:hover, .c-lg-chartreuse-a:active { color: rgb(153, 255, 0); }
+	.c-lg-verde-luna, .c-lg-verde-luna-h:hover, .c-lg-verde-luna-a:active { color: rgb(204, 255, 102); }
+	.c-lg-verde-lobrego, .c-lg-verde-lobrego-h:hover, .c-lg-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+	.c-lg-pardo-aceituna, .c-lg-pardo-aceituna-h:hover, .c-lg-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+	.c-lg-kaki, .c-lg-kaki-h:hover, .c-lg-kaki-a:active { color: rgb(153, 153, 102); }
+	.c-lg-oliva, .c-lg-oliva-h:hover, .c-lg-oliva-a:active { color: rgb(153, 153, 51); }
+	.c-lg-amarillo-platano, .c-lg-amarillo-platano-h:hover, .c-lg-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+	.c-lg-amarillo-claro, .c-lg-amarillo-claro-h:hover, .c-lg-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+	.c-lg-amarillo-verdosa, .c-lg-amarillo-verdosa-h:hover, .c-lg-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+	.c-lg-amarillo-palido, .c-lg-amarillo-palido-h:hover, .c-lg-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+	.c-lg-marron, .c-lg-marron-h:hover, .c-lg-marron-a:active { color: rgb(153, 102, 51); }
+	.c-lg-marron-rojiso, .c-lg-marron-rojiso-h:hover, .c-lg-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+	.c-lg-dorado, .c-lg-dorado-h:hover, .c-lg-dorado-a:active { color: rgb(204, 153, 51); }
+	.c-lg-naranja-otonal, .c-lg-naranja-otonal-h:hover, .c-lg-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+	.c-lg-naranja-claro, .c-lg-naranja-claro-h:hover, .c-lg-naranja-claro-a:active { color: rgb(255, 153, 51); }
+	.c-lg-melocoton, .c-lg-melocoton-h:hover, .c-lg-melocoton-a:active { color: rgb(255, 153, 102); }
+	.c-lg-amarillo-fuerte, .c-lg-amarillo-fuerte-h:hover, .c-lg-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+	.c-lg-arena, .c-lg-arena-h:hover, .c-lg-arena-a:active { color: rgb(255, 204, 153); }
+	.c-lg-avellana, .c-lg-avellana-h:hover, .c-lg-avellana-a:active { color: rgb(102, 51, 0); }
+	.c-lg-rojo-rubi, .c-lg-rojo-rubi-h:hover, .c-lg-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+	.c-lg-rojo-ladrillo, .c-lg-rojo-ladrillo-h:hover, .c-lg-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+	.c-lg-rosa-tropical, .c-lg-rosa-tropical-h:hover, .c-lg-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+	.c-lg-rosa-palido, .c-lg-rosa-palido-h:hover, .c-lg-rosa-palido-a:active { color: rgb(255, 153, 153); }
+	.c-lg-rosa-apagado, .c-lg-rosa-apagado-h:hover, .c-lg-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+	.c-lg-granate, .c-lg-granate-h:hover, .c-lg-granate-a:active { color: rgb(153, 51, 102); }
+	.c-lg-rojo-legal, .c-lg-rojo-legal-h:hover, .c-lg-rojo-legal-a:active { color: rgb(204, 51, 102); }
+	.c-lg-rojo-intenso, .c-lg-rojo-intenso-h:hover, .c-lg-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+	.c-lg-rojo-fluorecente, .c-lg-rojo-fluorecente-h:hover, .c-lg-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+	.c-lg-rosa-fuerte, .c-lg-rosa-fuerte-h:hover, .c-lg-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+	.c-lg-rosa-fresa, .c-lg-rosa-fresa-h:hover, .c-lg-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+	.c-lg-rosa-azulado, .c-lg-rosa-azulado-h:hover, .c-lg-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+	.c-lg-ciruela, .c-lg-ciruela-h:hover, .c-lg-ciruela-a:active { color: rgb(102, 0, 102); }
+	.c-lg-violeta-oscuro, .c-lg-violeta-oscuro-h:hover, .c-lg-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+	.c-lg-violeta-claro, .c-lg-violeta-claro-h:hover, .c-lg-violeta-claro-a:active { color: rgb(255, 153, 255); }
+	.c-lg-violeta, .c-lg-violeta-h:hover, .c-lg-violeta-a:active { color: rgb(204, 102, 204); }
+	.c-lg-ciruela-azulado, .c-lg-ciruela-azulado-h:hover, .c-lg-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+	.c-lg-morado-palido, .c-lg-morado-palido-h:hover, .c-lg-morado-palido-a:active { color: rgb(204, 153, 204); }
+	.c-lg-morado-majestic, .c-lg-morado-majestic-h:hover, .c-lg-morado-majestic-a:active { color: rgb(153, 51, 204); }
+	.c-lg-morado-fluorecente, .c-lg-morado-fluorecente-h:hover, .c-lg-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+	.c-lg-morado-claro, .c-lg-morado-claro-h:hover, .c-lg-morado-claro-a:active { color: rgb(204, 102, 255); }
+	.c-lg-violeta-azulado, .c-lg-violeta-azulado-h:hover, .c-lg-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+	.c-lg-morado-pascua, .c-lg-morado-pascua-h:hover, .c-lg-morado-pascua-a:active { color: rgb(204, 153, 255); }
+	.c-lg-morado-fuerte, .c-lg-morado-fuerte-h:hover, .c-lg-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+	.c-lg-uva, .c-lg-uva-h:hover, .c-lg-uva-a:active { color: rgb(102, 51, 153); }
+	.c-lg-violeta-azul, .c-lg-violeta-azul-h:hover, .c-lg-violeta-azul-a:active { color: rgb(153, 102, 255); }
+	.c-lg-morado-azulado, .c-lg-morado-azulado-h:hover, .c-lg-morado-azulado-a:active { color: rgb(153, 0, 255); }
+	.c-lg-rio-intenso, .c-lg-rio-intenso-h:hover, .c-lg-rio-intenso-a:active { color: rgb(102, 0, 204); }
+	.c-lg-anil-intenso, .c-lg-anil-intenso-h:hover, .c-lg-anil-intenso-a:active { color: rgb(102, 51, 255); }
+	.c-lg-azul-tormenta, .c-lg-azul-tormenta-h:hover, .c-lg-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+	.c-lg-azul-intenso, .c-lg-azul-intenso-h:hover, .c-lg-azul-intenso-a:active { color: rgb(51, 0, 204); }
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+	.c-xl-negro, .c-xl-negro-h:hover, .c-xl-negro-a:active { color: rgb(0, 0, 0); }
+	.c-xl-90-negro, .c-xl-90-negro-h:hover, .c-xl-90-negro-a:active { color: rgb(26, 26, 26); }
+	.c-xl-80-negro, .c-xl-80-negro-h:hover, .c-xl-80-negro-a:active { color: rgb(51, 51, 51); }
+	.c-xl-70-negro, .c-xl-70-negro-h:hover, .c-xl-70-negro-a:active { color: rgb(77, 77, 77); }
+	.c-xl-60-negro, .c-xl-60-negro-h:hover, .c-xl-60-negro-a:active { color: rgb(102, 102, 102); }
+	.c-xl-50-negro, .c-xl-50-negro-h:hover, .c-xl-50-negro-a:active { color: rgb(128, 128, 128); }
+	.c-xl-40-negro, .c-xl-40-negro-h:hover, .c-xl-40-negro-a:active { color: rgb(153, 153, 153); }
+	.c-xl-30-negro, .c-xl-30-negro-h:hover, .c-xl-30-negro-a:active { color: rgb(179, 179, 179); }
+	.c-xl-20-negro, .c-xl-20-negro-h:hover, .c-xl-20-negro-a:active { color: rgb(204, 204, 204); }
+	.c-xl-10-negro, .c-xl-10-negro-h:hover, .c-xl-10-negro-a:active { color: rgb(230, 230, 230); }
+	.c-xl-blanco, .c-xl-blanco-h:hover, .c-xl-blanco-a:active { color: rgb(255, 255, 255); }
+	.c-xl-azul, .c-xl-azul-h:hover, .c-xl-azul-a:active { color: rgb(0, 0, 255); }
+	.c-xl-cian, .c-xl-cian-h:hover, .c-xl-cian-a:active { color: rgb(0, 255, 255); }
+	.c-xl-verde, .c-xl-verde-h:hover, .c-xl-verde-a:active { color: rgb(0, 255, 0); }
+	.c-xl-amarillo, .c-xl-amarillo-h:hover, .c-xl-amarillo-a:active { color: rgb(255, 255, 0); }
+	.c-xl-rojo, .c-xl-rojo-h:hover, .c-xl-rojo-a:active { color: rgb(255, 0, 0); }
+	.c-xl-magenta, .c-xl-magenta-h:hover, .c-xl-magenta-a:active { color: rgb(255, 0, 255); }
+	.c-xl-morado, .c-xl-morado-h:hover, .c-xl-morado-a:active { color: rgb(153, 0, 204); }
+	.c-xl-naranja, .c-xl-naranja-h:hover, .c-xl-naranja-a:active { color: rgb(255, 102, 0); }
+	.c-xl-rosa, .c-xl-rosa-h:hover, .c-xl-rosa-a:active { color: rgb(255, 153, 204); }
+	.c-xl-marron-oscuro, .c-xl-marron-oscuro-h:hover, .c-xl-marron-oscuro-a:active { color: rgb(102, 51, 51); }
+	.c-xl-malva,.c-xl-malva-h:hover, .c-xl-malva-a:active { color: rgb(204, 204, 255); }
+	.c-xl-azul-pastel, .c-xl-azul-pastel-h:hover, .c-xl-azul-pastel-a:active { color: rgb(153, 153, 255); }
+	.c-xl-azul-infantil, .c-xl-azul-infantil-h:hover, .c-xl-azul-infantil-a:active { color: rgb(102, 153, 255); }
+	.c-xl-azul-electrico, .c-xl-azul-electrico-h:hover, .c-xl-azul-electrico-a:active { color: rgb(102, 102, 255); }
+	.c-xl-azul-crepusculo, .c-xl-azul-crepusculo-h:hover, .c-xl-azul-crepusculo-a:active { color: rgb(102, 102, 204); }
+	.c-xl-azul-marino, .c-xl-azul-marino-h:hover, .c-xl-azul-marino-a:active { color: rgb(0, 51, 153); }
+	.c-xl-azul-marino-oscuro, .c-xl-azul-marino-oscuro-h:hover, .c-xl-azul-marino-oscuro-a:active { color: rgb(0, 0, 102); }
+	.c-xl-azul-desierto, .c-xl-azul-desierto-h:hover, .c-xl-azul-desierto-a:active { color: rgb(51, 102, 153); }
+	.c-xl-azul-celeste, .c-xl-azul-celeste-h:hover, .c-xl-azul-celeste-a:active { color: rgb(0, 204, 255); }
+	.c-xl-azul-hielo, .c-xl-azul-hielo-h:hover, .c-xl-azul-hielo-a:active { color: rgb(153, 255, 255); }
+	.c-xl-verde-azulado-claro, .c-xl-verde-azulado-claro-h:hover, .c-xl-verde-azulado-claro-a:active { color: rgb(153, 204, 204); }
+	.c-xl-verde-oceano, .c-xl-verde-oceano-h:hover, .c-xl-verde-oceano-a:active { color: rgb(102, 153, 153); }
+	.c-xl-verde-musgo, .c-xl-verde-musgo-h:hover, .c-xl-verde-musgo-a:active { color: rgb(51, 102, 102); }
+	.c-xl-verde-oscuro, .c-xl-verde-oscuro-h:hover, .c-xl-verde-oscuro-a:active { color: rgb(0, 51, 51); }
+	.c-xl-verde-bosque, .c-xl-verde-bosque-h:hover, .c-xl-verde-bosque-a:active { color: rgb(0, 102, 51); }
+	.c-xl-verde-hierba, .c-xl-verde-hierba-h:hover, .c-xl-verde-hierba-a:active { color: rgb(0, 153, 51); }
+	.c-xl-verde-kentucky, .c-xl-verde-kentucky-h:hover, .c-xl-verde-kentucky-a:active { color: rgb(51, 153, 102); }
+	.c-xl-verde-claro, .c-xl-verde-claro-h:hover, .c-xl-verde-claro-a:active { color: rgb(51, 204, 102); }
+	.c-xl-verde-primavera, .c-xl-verde-primavera-h:hover, .c-xl-verde-primavera-a:active { color: rgb(51, 204, 51); }
+	.c-xl-turquesa, .c-xl-turquesa-h:hover, .c-xl-turquesa-a:active { color: rgb(102, 255, 204); }
+	.c-xl-verde-mar, .c-xl-verde-mar-h:hover, .c-xl-verde-mar-a:active { color: rgb(51, 204, 153); }
+	.c-xl-verde-apagado, .c-xl-verde-apagado-h:hover, .c-xl-verde-apagado-a:active { color: rgb(153, 204, 153); }
+	.c-xl-verde-fantaxla, .c-xl-verde-fantaxla-h:hover, .c-xl-verde-fantaxla-a:active { color: rgb(204, 255, 204); }
+	.c-xl-verde-menta, .c-xl-verde-menta-h:hover, .c-xl-verde-menta-a:active { color: rgb(153, 255, 153); }
+	.c-xl-verde-ejercito, .c-xl-verde-ejercito-h:hover, .c-xl-verde-ejercito-a:active { color: rgb(102, 153, 102); }
+	.c-xl-verde-aguacate, .c-xl-verde-aguacate-h:hover, .c-xl-verde-aguacate-a:active { color: rgb(102, 153, 51); }
+	.c-xl-verde-marciano, .c-xl-verde-marciano-h:hover, .c-xl-verde-marciano-a:active { color: rgb(153, 204, 51); }
+	.c-xl-verde-opaco, .c-xl-verde-opaco-h:hover, .c-xl-verde-opaco-a:active { color: rgb(153, 204, 102); }
+	.c-xl-chartreuse, .c-xl-chartreuse-h:hover, .c-xl-chartreuse-a:active { color: rgb(153, 255, 0); }
+	.c-xl-verde-luna, .c-xl-verde-luna-h:hover, .c-xl-verde-luna-a:active { color: rgb(204, 255, 102); }
+	.c-xl-verde-lobrego, .c-xl-verde-lobrego-h:hover, .c-xl-verde-lobrego-a:active { color: rgb(51, 51, 0); }
+	.c-xl-pardo-aceituna, .c-xl-pardo-aceituna-h:hover, .c-xl-pardo-aceituna-a:active { color: rgb(102, 102, 51); }
+	.c-xl-kaki, .c-xl-kaki-h:hover, .c-xl-kaki-a:active { color: rgb(153, 153, 102); }
+	.c-xl-oliva, .c-xl-oliva-h:hover, .c-xl-oliva-a:active { color: rgb(153, 153, 51); }
+	.c-xl-amarillo-platano, .c-xl-amarillo-platano-h:hover, .c-xl-amarillo-platano-a:active { color: rgb(204, 204, 51); }
+	.c-xl-amarillo-claro, .c-xl-amarillo-claro-h:hover, .c-xl-amarillo-claro-a:active { color: rgb(255, 255, 102); }
+	.c-xl-amarillo-verdosa, .c-xl-amarillo-verdosa-h:hover, .c-xl-amarillo-verdosa-a:active { color: rgb(255, 255, 153); }
+	.c-xl-amarillo-palido, .c-xl-amarillo-palido-h:hover, .c-xl-amarillo-palido-a:active { color: rgb(255, 255, 204); }
+	.c-xl-marron, .c-xl-marron-h:hover, .c-xl-marron-a:active { color: rgb(153, 102, 51); }
+	.c-xl-marron-rojiso, .c-xl-marron-rojiso-h:hover, .c-xl-marron-rojiso-a:active { color: rgb(204, 102, 51); }
+	.c-xl-dorado, .c-xl-dorado-h:hover, .c-xl-dorado-a:active { color: rgb(204, 153, 51); }
+	.c-xl-naranja-otonal, .c-xl-naranja-otonal-h:hover, .c-xl-naranja-otonal-a:active { color: rgb(255, 102, 51); }
+	.c-xl-naranja-claro, .c-xl-naranja-claro-h:hover, .c-xl-naranja-claro-a:active { color: rgb(255, 153, 51); }
+	.c-xl-melocoton, .c-xl-melocoton-h:hover, .c-xl-melocoton-a:active { color: rgb(255, 153, 102); }
+	.c-xl-amarillo-fuerte, .c-xl-amarillo-fuerte-h:hover, .c-xl-amarillo-fuerte-a:active { color: rgb(255, 204, 0); }
+	.c-xl-arena, .c-xl-arena-h:hover, .c-xl-arena-a:active { color: rgb(255, 204, 153); }
+	.c-xl-avellana, .c-xl-avellana-h:hover, .c-xl-avellana-a:active { color: rgb(102, 51, 0); }
+	.c-xl-rojo-rubi, .c-xl-rojo-rubi-h:hover, .c-xl-rojo-rubi-a:active { color: rgb(153, 0, 0); }
+	.c-xl-rojo-ladrillo, .c-xl-rojo-ladrillo-h:hover, .c-xl-rojo-ladrillo-a:active { color: rgb(204, 51, 0); }
+	.c-xl-rosa-tropical, .c-xl-rosa-tropical-h:hover, .c-xl-rosa-tropical-a:active { color: rgb(255, 102, 102); }
+	.c-xl-rosa-palido, .c-xl-rosa-palido-h:hover, .c-xl-rosa-palido-a:active { color: rgb(255, 153, 153); }
+	.c-xl-rosa-apagado, .c-xl-rosa-apagado-h:hover, .c-xl-rosa-apagado-a:active { color: rgb(255, 204, 204); }
+	.c-xl-granate, .c-xl-granate-h:hover, .c-xl-granate-a:active { color: rgb(153, 51, 102); }
+	.c-xl-rojo-legal, .c-xl-rojo-legal-h:hover, .c-xl-rojo-legal-a:active { color: rgb(204, 51, 102); }
+	.c-xl-rojo-intenso, .c-xl-rojo-intenso-h:hover, .c-xl-rojo-intenso-a:active { color: rgb(204, 51, 153); }
+	.c-xl-rojo-fluorecente, .c-xl-rojo-fluorecente-h:hover, .c-xl-rojo-fluorecente-a:active { color: rgb(255, 0, 102); }
+	.c-xl-rosa-fuerte, .c-xl-rosa-fuerte-h:hover, .c-xl-rosa-fuerte-a:active { color: rgb(255, 102, 153); }
+	.c-xl-rosa-fresa, .c-xl-rosa-fresa-h:hover, .c-xl-rosa-fresa-a:active { color: rgb(255, 51, 153); }
+	.c-xl-rosa-azulado, .c-xl-rosa-azulado-h:hover, .c-xl-rosa-azulado-a:active { color: rgb(204, 102, 153); }
+	.c-xl-ciruela, .c-xl-ciruela-h:hover, .c-xl-ciruela-a:active { color: rgb(102, 0, 102); }
+	.c-xl-violeta-oscuro, .c-xl-violeta-oscuro-h:hover, .c-xl-violeta-oscuro-a:active { color: rgb(153, 0, 153); }
+	.c-xl-violeta-claro, .c-xl-violeta-claro-h:hover, .c-xl-violeta-claro-a:active { color: rgb(255, 153, 255); }
+	.c-xl-violeta, .c-xl-violeta-h:hover, .c-xl-violeta-a:active { color: rgb(204, 102, 204); }
+	.c-xl-ciruela-azulado, .c-xl-ciruela-azulado-h:hover, .c-xl-ciruela-azulado-a:active { color: rgb(153, 102, 153); }
+	.c-xl-morado-palido, .c-xl-morado-palido-h:hover, .c-xl-morado-palido-a:active { color: rgb(204, 153, 204); }
+	.c-xl-morado-majestic, .c-xl-morado-majestic-h:hover, .c-xl-morado-majestic-a:active { color: rgb(153, 51, 204); }
+	.c-xl-morado-fluorecente, .c-xl-morado-fluorecente-h:hover, .c-xl-morado-fluorecente-a:active { color: rgb(204, 51, 255); }
+	.c-xl-morado-claro, .c-xl-morado-claro-h:hover, .c-xl-morado-claro-a:active { color: rgb(204, 102, 255); }
+	.c-xl-violeta-azulado, .c-xl-violeta-azulado-h:hover, .c-xl-violeta-azulado-a:active { color: rgb(153, 102, 204); }
+	.c-xl-morado-pascua, .c-xl-morado-pascua-h:hover, .c-xl-morado-pascua-a:active { color: rgb(204, 153, 255); }
+	.c-xl-morado-fuerte, .c-xl-morado-fuerte-h:hover, .c-xl-morado-fuerte-a:active { color: rgb(51, 0, 102); }
+	.c-xl-uva, .c-xl-uva-h:hover, .c-xl-uva-a:active { color: rgb(102, 51, 153); }
+	.c-xl-violeta-azul, .c-xl-violeta-azul-h:hover, .c-xl-violeta-azul-a:active { color: rgb(153, 102, 255); }
+	.c-xl-morado-azulado, .c-xl-morado-azulado-h:hover, .c-xl-morado-azulado-a:active { color: rgb(153, 0, 255); }
+	.c-xl-rio-intenso, .c-xl-rio-intenso-h:hover, .c-xl-rio-intenso-a:active { color: rgb(102, 0, 204); }
+	.c-xl-anil-intenso, .c-xl-anil-intenso-h:hover, .c-xl-anil-intenso-a:active { color: rgb(102, 51, 255); }
+	.c-xl-azul-tormenta, .c-xl-azul-tormenta-h:hover, .c-xl-azul-tormenta-a:active { color: rgb(51, 0, 153); }
+	.c-xl-azul-intenso, .c-xl-azul-intenso-h:hover, .c-xl-azul-intenso-a:active { color: rgb(51, 0, 204); }
+
+}

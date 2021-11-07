@@ -1,0 +1,289 @@
+/* altura en vh */
+.height-5 { height: 5vh; }
+.height-10 { height: 10vh; }
+.height-15 { height: 15vh; }
+.height-20 { height: 20vh; }
+.height-25 { height: 25vh; }
+.height-30 { height: 30vh; }
+.height-35 { height: 35vh; }
+.height-40 { height: 40vh; }
+.height-45 { height: 45vh; }
+.height-50 { height: 50vh; }
+.height-55 { height: 55vh; }
+.height-60 { height: 60vh; }
+.height-65 { height: 65vh; }
+.height-70 { height: 70vh; }
+.height-75 { height: 75vh; }
+.height-80 { height: 80vh; }
+.height-85 { height: 85vh; }
+.height-90 { height: 90vh; }
+.height-95 { height: 95vh; }
+.height-100 { height: 100vh; }
+
+/* altura en px */
+.height-5-px { height: 5px; }
+.height-10-px { height: 10px; }
+.height-15-px { height: 15px; }
+.height-20-px { height: 20px; }
+.height-25-px { height: 25px; }
+.height-30-px { height: 30px; }
+.height-35-px { height: 35px; }
+.height-40-px { height: 40px; }
+.height-45-px { height: 45px; }
+.height-50-px { height: 50px; }
+.height-55-px { height: 55px; }
+.height-60-px { height: 60px; }
+.height-65-px { height: 65px; }
+.height-70-px { height: 70px; }
+.height-75-px { height: 75px; }
+.height-80-px { height: 80px; }
+.height-85-px { height: 85px; }
+.height-90-px { height: 90px; }
+.height-95-px { height: 95px; }
+.height-100-px { height: 100px; }
+
+/* Custom, iPhone Retina (xs) */ 
+@media (min-width : 320px) {
+		
+	/* altura en vh */
+	.height-xs-5 { height: 5vh; }
+	.height-xs-10 { height: 10vh; }
+	.height-xs-15 { height: 15vh; }
+	.height-xs-20 { height: 20vh; }
+	.height-xs-25 { height: 25vh; }
+	.height-xs-30 { height: 30vh; }
+	.height-xs-35 { height: 35vh; }
+	.height-xs-40 { height: 40vh; }
+	.height-xs-45 { height: 45vh; }
+	.height-xs-50 { height: 50vh; }
+	.height-xs-55 { height: 55vh; }
+	.height-xs-60 { height: 60vh; }
+	.height-xs-65 { height: 65vh; }
+	.height-xs-70 { height: 70vh; }
+	.height-xs-75 { height: 75vh; }
+	.height-xs-80 { height: 80vh; }
+	.height-xs-85 { height: 85vh; }
+	.height-xs-90 { height: 90vh; }
+	.height-xs-95 { height: 95vh; }
+	.height-xs-100 { height: 100vh; }
+
+	/* altura en px */
+	.height-xs-5-px { height: 5px; }
+	.height-xs-10-px { height: 10px; }
+	.height-xs-15-px { height: 15px; }
+	.height-xs-20-px { height: 20px; }
+	.height-xs-25-px { height: 25px; }
+	.height-xs-30-px { height: 30px; }
+	.height-xs-35-px { height: 35px; }
+	.height-xs-40-px { height: 40px; }
+	.height-xs-45-px { height: 45px; }
+	.height-xs-50-px { height: 50px; }
+	.height-xs-55-px { height: 55px; }
+	.height-xs-60-px { height: 60px; }
+	.height-xs-65-px { height: 65px; }
+	.height-xs-70-px { height: 70px; }
+	.height-xs-75-px { height: 75px; }
+	.height-xs-80-px { height: 80px; }
+	.height-xs-85-px { height: 85px; }
+	.height-xs-90-px { height: 90px; }
+	.height-xs-95-px { height: 95px; }
+	.height-xs-100-px { height: 100px; }
+	
+}
+
+/* Extra Small Devices, Phones (sm) */ 
+@media (min-width : 480px) {
+	
+	/* altura en vh */
+	.height-sm-5 { height: 5vh; }
+	.height-sm-10 { height: 10vh; }
+	.height-sm-15 { height: 15vh; }
+	.height-sm-20 { height: 20vh; }
+	.height-sm-25 { height: 25vh; }
+	.height-sm-30 { height: 30vh; }
+	.height-sm-35 { height: 35vh; }
+	.height-sm-40 { height: 40vh; }
+	.height-sm-45 { height: 45vh; }
+	.height-sm-50 { height: 50vh; }
+	.height-sm-55 { height: 55vh; }
+	.height-sm-60 { height: 60vh; }
+	.height-sm-65 { height: 65vh; }
+	.height-sm-70 { height: 70vh; }
+	.height-sm-75 { height: 75vh; }
+	.height-sm-80 { height: 80vh; }
+	.height-sm-85 { height: 85vh; }
+	.height-sm-90 { height: 90vh; }
+	.height-sm-95 { height: 95vh; }
+	.height-sm-100 { height: 100vh; }
+
+	/* altura en px */
+	.height-sm-5-px { height: 5px; }
+	.height-sm-10-px { height: 10px; }
+	.height-sm-15-px { height: 15px; }
+	.height-sm-20-px { height: 20px; }
+	.height-sm-25-px { height: 25px; }
+	.height-sm-30-px { height: 30px; }
+	.height-sm-35-px { height: 35px; }
+	.height-sm-40-px { height: 40px; }
+	.height-sm-45-px { height: 45px; }
+	.height-sm-50-px { height: 50px; }
+	.height-sm-55-px { height: 55px; }
+	.height-sm-60-px { height: 60px; }
+	.height-sm-65-px { height: 65px; }
+	.height-sm-70-px { height: 70px; }
+	.height-sm-75-px { height: 75px; }
+	.height-sm-80-px { height: 80px; }
+	.height-sm-85-px { height: 85px; }
+	.height-sm-90-px { height: 90px; }
+	.height-sm-95-px { height: 95px; }
+	.height-sm-100-px { height: 100px; }
+
+}
+
+/* Small Devices, Tablets (md) */
+@media (min-width : 768px) {
+
+	/* altura en vh */
+	.height-md-5 { height: 5vh; }
+	.height-md-10 { height: 10vh; }
+	.height-md-15 { height: 15vh; }
+	.height-md-20 { height: 20vh; }
+	.height-md-25 { height: 25vh; }
+	.height-md-30 { height: 30vh; }
+	.height-md-35 { height: 35vh; }
+	.height-md-40 { height: 40vh; }
+	.height-md-45 { height: 45vh; }
+	.height-md-50 { height: 50vh; }
+	.height-md-55 { height: 55vh; }
+	.height-md-60 { height: 60vh; }
+	.height-md-65 { height: 65vh; }
+	.height-md-70 { height: 70vh; }
+	.height-md-75 { height: 75vh; }
+	.height-md-80 { height: 80vh; }
+	.height-md-85 { height: 85vh; }
+	.height-md-90 { height: 90vh; }
+	.height-md-95 { height: 95vh; }
+	.height-md-100 { height: 100vh; }
+
+	/* altura en px */
+	.height-md-5-px { height: 5px; }
+	.height-md-10-px { height: 10px; }
+	.height-md-15-px { height: 15px; }
+	.height-md-20-px { height: 20px; }
+	.height-md-25-px { height: 25px; }
+	.height-md-30-px { height: 30px; }
+	.height-md-35-px { height: 35px; }
+	.height-md-40-px { height: 40px; }
+	.height-md-45-px { height: 45px; }
+	.height-md-50-px { height: 50px; }
+	.height-md-55-px { height: 55px; }
+	.height-md-60-px { height: 60px; }
+	.height-md-65-px { height: 65px; }
+	.height-md-70-px { height: 70px; }
+	.height-md-75-px { height: 75px; }
+	.height-md-80-px { height: 80px; }
+	.height-md-85-px { height: 85px; }
+	.height-md-90-px { height: 90px; }
+	.height-md-95-px { height: 95px; }
+	.height-md-100-px { height: 100px; }
+
+}
+
+/* Medium Devices, Desktops (lg) */
+@media (min-width : 992px) {
+	
+	/* altura en vh */
+	.height-lg-5 { height: 5vh; }
+	.height-lg-10 { height: 10vh; }
+	.height-lg-15 { height: 15vh; }
+	.height-lg-20 { height: 20vh; }
+	.height-lg-25 { height: 25vh; }
+	.height-lg-30 { height: 30vh; }
+	.height-lg-35 { height: 35vh; }
+	.height-lg-40 { height: 40vh; }
+	.height-lg-45 { height: 45vh; }
+	.height-lg-50 { height: 50vh; }
+	.height-lg-55 { height: 55vh; }
+	.height-lg-60 { height: 60vh; }
+	.height-lg-65 { height: 65vh; }
+	.height-lg-70 { height: 70vh; }
+	.height-lg-75 { height: 75vh; }
+	.height-lg-80 { height: 80vh; }
+	.height-lg-85 { height: 85vh; }
+	.height-lg-90 { height: 90vh; }
+	.height-lg-95 { height: 95vh; }
+	.height-lg-100 { height: 100vh; }
+
+	/* altura en px */
+	.height-lg-5-px { height: 5px; }
+	.height-lg-10-px { height: 10px; }
+	.height-lg-15-px { height: 15px; }
+	.height-lg-20-px { height: 20px; }
+	.height-lg-25-px { height: 25px; }
+	.height-lg-30-px { height: 30px; }
+	.height-lg-35-px { height: 35px; }
+	.height-lg-40-px { height: 40px; }
+	.height-lg-45-px { height: 45px; }
+	.height-lg-50-px { height: 50px; }
+	.height-lg-55-px { height: 55px; }
+	.height-lg-60-px { height: 60px; }
+	.height-lg-65-px { height: 65px; }
+	.height-lg-70-px { height: 70px; }
+	.height-lg-75-px { height: 75px; }
+	.height-lg-80-px { height: 80px; }
+	.height-lg-85-px { height: 85px; }
+	.height-lg-90-px { height: 90px; }
+	.height-lg-95-px { height: 95px; }
+	.height-lg-100-px { height: 100px; }
+
+
+}
+
+/* Large Devices, Wide Screens (xl) */
+@media (min-width : 1200px) {
+	
+	/* altura en vh */
+	.height-xl-5 { height: 5vh; }
+	.height-xl-10 { height: 10vh; }
+	.height-xl-15 { height: 15vh; }
+	.height-xl-20 { height: 20vh; }
+	.height-xl-25 { height: 25vh; }
+	.height-xl-30 { height: 30vh; }
+	.height-xl-35 { height: 35vh; }
+	.height-xl-40 { height: 40vh; }
+	.height-xl-45 { height: 45vh; }
+	.height-xl-50 { height: 50vh; }
+	.height-xl-55 { height: 55vh; }
+	.height-xl-60 { height: 60vh; }
+	.height-xl-65 { height: 65vh; }
+	.height-xl-70 { height: 70vh; }
+	.height-xl-75 { height: 75vh; }
+	.height-xl-80 { height: 80vh; }
+	.height-xl-85 { height: 85vh; }
+	.height-xl-90 { height: 90vh; }
+	.height-xl-95 { height: 95vh; }
+	.height-xl-100 { height: 100vh; }
+
+	/* altura en px */
+	.height-xl-5-px { height: 5px; }
+	.height-xl-10-px { height: 10px; }
+	.height-xl-15-px { height: 15px; }
+	.height-xl-20-px { height: 20px; }
+	.height-xl-25-px { height: 25px; }
+	.height-xl-30-px { height: 30px; }
+	.height-xl-35-px { height: 35px; }
+	.height-xl-40-px { height: 40px; }
+	.height-xl-45-px { height: 45px; }
+	.height-xl-50-px { height: 50px; }
+	.height-xl-55-px { height: 55px; }
+	.height-xl-60-px { height: 60px; }
+	.height-xl-65-px { height: 65px; }
+	.height-xl-70-px { height: 70px; }
+	.height-xl-75-px { height: 75px; }
+	.height-xl-80-px { height: 80px; }
+	.height-xl-85-px { height: 85px; }
+	.height-xl-90-px { height: 90px; }
+	.height-xl-95-px { height: 95px; }
+	.height-xl-100-px { height: 100px; }
+
+}

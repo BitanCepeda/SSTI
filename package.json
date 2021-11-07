@@ -1,0 +1,17 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "Interfaz de interacción con el sistema Arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brayan Rivera Cepeda  Alejandro Ramírez Muñoz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serial": "0.0.9",
+    "serialport": "^8.0.7",
+    "socket.io": "^2.3.0"
+  }
+}

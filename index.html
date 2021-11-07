@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+<title>SSATI</title> <!-- Sistema de seguridad de acceso, temperatura e incendios -->
+<link rel="icon" type="image/png" href="public/img/favicon.png">
+<link rel="stylesheet" type="text/css" href="public/css/reset.css">
+<link rel="stylesheet" type="text/css" href="public/css/hyperlink-v1.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="http://cdn.socket.io/socket.io-1.4.0.js"></script>
+
+
+<script>
+$(document).ready(function(){
+    var cont = 0;
+	var socket = io.connect();
+	socket.on('news', function (data) {
+	
+	if(data.serial[0]==1)
+	{
+	cont = cont + 1;
+	$("#serial1").text(cont);
+	var cadena1 = String(data.serial);
+	cadena2 = cadena1.slice(2);
+	$("#serial4").text(cadena2);
+	location.href = "#miModal2";
+	}
+	
+	
+	if(data.serial[0]==2)
+	{
+	var cadena3 = String(data.serial);
+	cadena4 = cadena3.slice(2);
+	$("#serial2").text(cadena4);
+	}
+	
+	if(data.serial[0]==3)
+	{
+	var cadena5 = String(data.serial);
+	cadena6 = cadena5.slice(2);
+	$("#serial3").text(cadena6);
+	}
+	
+	var palabra = String(data.serial);
+	
+	if(palabra=="incendio")
+	{
+	location.href = "#miModal";
+	}
+	
+	if(palabra=="advertencia")
+	{
+	location.href = "#miModal1";
+	}
+	
+  
+  });
+});
+</script>
+</head> 
+
+
+
+
+<body  style="background: url(public/img/fondoscuro.png) no-repeat center center fixed; background-size: 100%;">
+	
+	
+	
+
+	<div style="position: fixed; left: 250px; top: 220px; z-index: ; font-weight:bold;" class="c-negro col-9 dxtrans3 grow1" align="center">
+		<div>
+			<img src="public/img/usuario.png" style="width: 80px">
+		</div>
+		<br>
+		<div class="font-size-20">Personal admitido</div>
+		<br>
+		<div id="serial1"></div>
+	</div>
+
+	<div style="position: fixed; left: 550px; top: 220px; z-index: ; font-weight:bold;" class="c-negro col-9 dxtrans3 grow1" align="center">
+		<div>
+			<img src="public/img/termometro.png" style="width: 80px">
+		</div>
+		<br>
+		<div class="font-size-20">Temperatura</div>
+		<br>
+		<div id="serial2"></div>
+	</div>
+
+	<div style="position: fixed; left: 850px; top: 220px; z-index: ; font-weight:bold;" class="c-negro col-9 dxtrans3 grow1" align="center">
+		<div>
+			<img src="public/img/ventilador.png" style="width: 80px">
+		</div>
+		<br>
+		<div class="font-size-20">Calidad del aire</div>
+		<br>
+		<div id="serial3"></div>
+	</div>
+
+	<div style="position: fixed; left: 280px; top: 540px; z-index: ; font-style: italic; font-weight:bold;" class="c-negro col-9 row" align="center">
+		<p class="font-size-50 c-blanco" align="center">
+			INTERFAZ DE CONTROL SSATI
+		</p>
+	</div>
+
+
+
+
+
+	<div id="miModal" class="modal">
+		<div class="modal-contenido">
+			<div class="margin-xs-left-100px-n margin-xs-top-50px-n font-size-50" align="right"><a href="#"><p class="c-blanco c-rojo-h" align="left">X</p></a></div>
+			<p class="font-size-40 c-blanco" align="center" style="font-weight: bold">
+				<br>
+				INCENDIO INMINENTE:<br><br><br>
+				<p class="font-size-40 c-blanco" align="center">Por favor evacuar las instalaciones
+					<br>
+				Siga las rutas de evacuación</p>
+				<br><br>
+			</p>
+		</div>  
+	</div>
+	
+
+	
+
+	<div id="miModal1" class="modal1">
+		<div class="modal1-contenido">
+			<div class="margin-xs-left-100px-n margin-xs-top-50px-n font-size-50" align="right"><a href="#"><p class="c-blanco c-rojo-h" align="left">X</p></a></div>
+			<p class="font-size-40 c-blanco" align="center" style="font-weight: bold">
+				<br>
+				POSIBLE INCENDIO:<br><br><br>
+				<p class="font-size-40 c-blanco" align="center">Por favor revise las instalaciones <br>
+				Niveles de ppm en el aire peligrosos</p>
+				<br><br>
+			</p>
+		</div>  
+	</div>
+
+	
+
+	<div id="miModal2" class="modal2">
+		<div class="modal2-contenido">
+			<div class="margin-xs-left-100px-n margin-xs-top-50px-n font-size-50" align="right"><a href="#"><p class="c-blanco c-rojo-h" align="left">X</p></a></div>
+			<p class="font-size-40 c-blanco" align="center" style="font-weight: bold">
+				<br>
+				Ingreso a las instalaciones:<br><br><br>
+				<p class="font-size-40 c-blanco" align="center" id="serial4"></p><br>
+				<p class="font-size-40 c-blanco" align="center">Acaba de ingresar</p>
+				<br><br>
+			</p>
+		</div>  
+	</div>
+
+</body>
+</html>
